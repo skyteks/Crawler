@@ -203,6 +203,9 @@ MonoBehaviour:
     m_Bits: 256
   roomsNumber: 100
   maxRetries: 10
+  maxGenerationLimitBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 200, y: 20, z: 200}
 --- !u!1001 &445054922
 PrefabInstance:
   m_ObjectHideFlags: 0

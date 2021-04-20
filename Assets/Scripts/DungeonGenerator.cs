@@ -22,11 +22,13 @@ public class DungeonGenerator : MonoBehaviour
     public LayerMask terrainMask;
     public int roomsNumber = 30;
     public int maxRetries = 5;
+    public Bounds maxGenerationLimitBounds = new Bounds(Vector3.zero, new Vector3(200f, 20f, 200f));
 
     private List<DungeonRoom> generatedRooms;
 
-    private Bounds dungeonBounds;
+    private Bounds currentDungeonBounds;
     private NavMeshSurface dungeonNavMesh;
+
     void Awake()
     {
         if (generateOnStart)
@@ -39,9 +41,9 @@ public class DungeonGenerator : MonoBehaviour
         }
     }
 
-    void OnDrawGizmosSelected()
+    void OnDrawGizmos()
     {
-        DungeonRoom.DrawBounds(dungeonBounds, Vector3.zero, Quaternion.identity, Color.red);
+        DungeonRoom.DrawBounds(maxGenerationLimitBounds, Vector3.zero, Quaternion.identity, Color.red);
     }
 
     [ContextMenu("Generate")]
@@ -89,20 +91,31 @@ public class DungeonGenerator : MonoBehaviour
                 a = RotateBounds90Steps(a, newRoom.transform.rotation.eulerAngles.y);
                 a.size *= 0.999f;
                 a.center += newRoom.transform.position;
-                foreach (var otherRoom in generatedRooms)
-                {
-                    Bounds b = otherRoom.bounds;
-                    b = RotateBounds90Steps(b, otherRoom.transform.rotation.eulerAngles.y);
-                    b.size *= 0.999f;
-                    b.center += otherRoom.transform.position;
 
-                    if (b.Intersects(a))
+                if (!maxGenerationLimitBounds.Contains(a))
+                {
+                    fits = false;
+                    roomInstance.transform.position = Vector3.one * 99999f;
+                    Delete(roomInstance);
+                    retries--;
+                }
+                else
+                {
+                    foreach (var otherRoom in generatedRooms)
                     {
-                        fits = false;
-                        roomInstance.transform.position = Vector3.one * 99999f;
-                        Delete(roomInstance);
-                        retries--;
-                        break;
+                        Bounds b = otherRoom.bounds;
+                        b = RotateBounds90Steps(b, otherRoom.transform.rotation.eulerAngles.y);
+                        b.size *= 0.999f;
+                        b.center += otherRoom.transform.position;
+
+                        if (a.Intersects(b))
+                        {
+                            fits = false;
+                            roomInstance.transform.position = Vector3.one * 99999f;
+                            Delete(roomInstance);
+                            retries--;
+                            break;
+                        }
                     }
                 }
             } while (!fits && retries > 0);
@@ -139,8 +152,8 @@ public class DungeonGenerator : MonoBehaviour
         }
 
         dungeonNavMesh.collectObjects = CollectObjects.Volume;
-        dungeonNavMesh.center = -transform.position + dungeonBounds.center;
-        dungeonNavMesh.size = dungeonBounds.size.ToWithY(20f);
+        dungeonNavMesh.center = -transform.position + currentDungeonBounds.center;
+        dungeonNavMesh.size = currentDungeonBounds.size.ToWithY(20f);
 
         dungeonNavMesh.layerMask = terrainMask;
         dungeonNavMesh.useGeometry = NavMeshCollectGeometry.PhysicsColliders;
@@ -188,7 +201,7 @@ public class DungeonGenerator : MonoBehaviour
             Bounds a = newRoom.bounds;
             a = RotateBounds90Steps(a, newRoom.transform.rotation.eulerAngles.y);
             a.center += newRoom.transform.position;
-            dungeonBounds.Encapsulate(a);
+            currentDungeonBounds.Encapsulate(a);
         }
 
         newRoom.transform.SetParent(transform, true);
@@ -213,7 +226,7 @@ public class DungeonGenerator : MonoBehaviour
     [ContextMenu("Clear")]
     private void Clear()
     {
-        dungeonBounds = new Bounds(Vector3.zero, Vector3.zero);
+        currentDungeonBounds = new Bounds(Vector3.zero, Vector3.zero);
         if (generatedRooms == null)
         {
             generatedRooms = new List<DungeonRoom>();
