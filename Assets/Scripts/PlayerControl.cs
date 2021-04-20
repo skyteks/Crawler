@@ -141,7 +141,8 @@ public class PlayerControl : MonoBehaviour
             target = ray.origin + ray.direction * hit;
         }
 
-        transform.rotation = Quaternion.LookRotation((target - transform.position).ToWithY(0f).normalized, Vector3.up);
+        Vector3 viewingVector = (target - transform.position).ToWithY(0f).normalized;
+        transform.rotation = viewingVector.sqrMagnitude != 0f ? Quaternion.LookRotation(viewingVector, Vector3.up) : Quaternion.identity;
     }
 
     public void SpawnOrDeleteEquippedItem(Item.EquipmentTypes slotType, Item item)
