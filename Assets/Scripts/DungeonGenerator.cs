@@ -18,11 +18,12 @@ public class DungeonGenerator : MonoBehaviour
     public DungeonRoom startingRoom;
 
     public bool generateOnStart;
+    public Bounds maxGenerationLimitBounds = new Bounds(Vector3.zero, new Vector3(200f, 20f, 200f));
     public bool addNavMesh;
     public LayerMask terrainMask;
     public int roomsNumber = 30;
-    public int maxRetries = 5;
-    public Bounds maxGenerationLimitBounds = new Bounds(Vector3.zero, new Vector3(200f, 20f, 200f));
+    public int maxRetriesForRooms = 10;
+    public int maxRetriesDungeon = 5;
 
     private List<DungeonRoom> generatedRooms;
 
@@ -33,11 +34,7 @@ public class DungeonGenerator : MonoBehaviour
     {
         if (generateOnStart)
         {
-            bool success = false;
-            for (int i = 0; i < maxRetries && !success; i++)
-            {
-                success = Generate();
-            }
+            Generate();
         }
     }
 
@@ -47,9 +44,24 @@ public class DungeonGenerator : MonoBehaviour
     }
 
     [ContextMenu("Generate")]
-    private bool Generate()
+    public void Generate()
+    {
+        Debug.Log("Start generating Dungeon.", this);
+        System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
+        stopwatch.Start();
+        bool success = false;
+        for (int i = 0; i < maxRetriesDungeon && !success; i++)
+        {
+            success = Regenerate();
+        }
+        stopwatch.Stop();
+        Debug.Log("Dungeon generation complete. Time: " + stopwatch.Elapsed, this);
+    }
+
+    private bool Regenerate()
     {
         Clear();
+        Debug.Log("Regenerate...", this);
         generatedRooms.Add(startingRoom);
         AddRoomBounds(startingRoom);
         List<RoomConnector> openConnections = new List<RoomConnector>();
@@ -72,7 +84,7 @@ public class DungeonGenerator : MonoBehaviour
             RoomConnector randomConnectorEnd;
             int openIndex;
             bool fits;
-            int retries = maxRetries;
+            int retries = maxRetriesForRooms;
             do
             {
                 fits = true;
@@ -143,6 +155,7 @@ public class DungeonGenerator : MonoBehaviour
         return true;
     }
 
+    [ContextMenu("Add NavMesh")]
     private void AddDungeonNavMesh()
     {
         dungeonNavMesh = GetComponent<NavMeshSurface>();
@@ -151,9 +164,10 @@ public class DungeonGenerator : MonoBehaviour
             dungeonNavMesh = gameObject.AddComponent<NavMeshSurface>();
         }
 
-        dungeonNavMesh.collectObjects = CollectObjects.Volume;
+        //dungeonNavMesh.collectObjects = CollectObjects.Children;
+        //dungeonNavMesh.collectObjects = CollectObjects.Volume;
         dungeonNavMesh.center = -transform.position + currentDungeonBounds.center;
-        dungeonNavMesh.size = currentDungeonBounds.size.ToWithY(20f);
+        dungeonNavMesh.size = currentDungeonBounds.size;
 
         dungeonNavMesh.layerMask = terrainMask;
         dungeonNavMesh.useGeometry = NavMeshCollectGeometry.PhysicsColliders;
@@ -224,7 +238,7 @@ public class DungeonGenerator : MonoBehaviour
     }
 
     [ContextMenu("Clear")]
-    private void Clear()
+    public void Clear()
     {
         currentDungeonBounds = new Bounds(Vector3.zero, Vector3.zero);
         if (generatedRooms == null)
@@ -249,7 +263,9 @@ public class DungeonGenerator : MonoBehaviour
 
         if (dungeonNavMesh != null)
         {
-            Delete(dungeonNavMesh);
+            //Delete(dungeonNavMesh);
+            Delete(dungeonNavMesh.navMeshData);
+            dungeonNavMesh.navMeshData = null;
         }
 
         MarkDirty();

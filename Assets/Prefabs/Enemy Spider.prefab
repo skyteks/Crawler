@@ -1575,6 +1575,21 @@ Transform:
   m_Father: {fileID: 7279645914199403600}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &717419905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6301146504561464291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6315abb96c40ee749b3cdc33202fadf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updatingInterval: 3
+  vel: {x: 0, y: 0, z: 0}
+  angularVel: {x: 0, y: 0, z: 0}
 --- !u!1 &6680327007375090235
 GameObject:
   m_ObjectHideFlags: 0
@@ -2318,21 +2333,6 @@ MonoBehaviour:
   followRotation: 1
   offset: {x: 0, y: 0, z: 0.25}
   offsetRelativeTo: 1
---- !u!114 &717419905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6301146504561464291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6315abb96c40ee749b3cdc33202fadf9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  updatingInterval: 3
-  vel: {x: 0, y: 0, z: 0}
-  angularVel: {x: 0, y: 0, z: 0}
 --- !u!1 &8751528102131227847
 GameObject:
   m_ObjectHideFlags: 0
@@ -2468,6 +2468,10 @@ PrefabInstance:
     - target: {fileID: 1399517824168593014, guid: 9f0b9e8804300d34883d4ec5cda510d5, type: 3}
       propertyPath: m_LocalPosition.z
       value: 3.5000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 1409544960852558103, guid: 9f0b9e8804300d34883d4ec5cda510d5, type: 3}
+      propertyPath: m_Radius
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2539871635856330131, guid: 9f0b9e8804300d34883d4ec5cda510d5, type: 3}
       propertyPath: m_LocalPosition.y
