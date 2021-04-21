@@ -12,6 +12,7 @@ public class PlayerControl : MonoBehaviour
     private MeeleWeapon meeleWeapon;
     private RangedWeapon rangedWeapon;
 
+    private float moveStart;
     private float lastFired;
     private float chargeStart;
 
@@ -116,6 +117,10 @@ public class PlayerControl : MonoBehaviour
         }
         else if (Input.GetButton("Fire1"))
         {
+            if (Input.GetButtonDown("Fire1"))
+            {
+                moveStart = Time.time;
+            }
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Plane plane = new Plane(Vector3.up, Vector3.zero);
 
@@ -125,7 +130,12 @@ public class PlayerControl : MonoBehaviour
                 Vector3 target = ray.origin + ray.direction * hit;
                 agent.SetDestination(target);
                 agent.isStopped = false;
+
             }
+        }
+        if (!agent.isStopped && Input.GetButtonUp("Fire1") && Time.time - moveStart < 0.2f)
+        {
+            MovementCursor.instance.AnimateOnPos(agent.destination, Color.green);
         }
     }
 
