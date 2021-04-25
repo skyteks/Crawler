@@ -164,8 +164,7 @@ public class DungeonGenerator : MonoBehaviour
             dungeonNavMesh = gameObject.AddComponent<NavMeshSurface>();
         }
 
-        //dungeonNavMesh.collectObjects = CollectObjects.Children;
-        //dungeonNavMesh.collectObjects = CollectObjects.Volume;
+        dungeonNavMesh.collectObjects = CollectObjects.Volume;
         dungeonNavMesh.center = -transform.position + currentDungeonBounds.center;
         dungeonNavMesh.size = currentDungeonBounds.size;
 
