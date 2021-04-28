@@ -9,8 +9,11 @@ public class PlayerManager : MonoBehaviour
     private CameraHandler cameraHandler;
     private PlayerLocomotion locomotion;
 
+    [Header("Flags")]
     public bool isInteracting;
     public bool isSprinting;
+    public bool isInAir;
+    public bool isGrounded;
 
     private int hashIsInteracting = Animator.StringToHash("isInteracting");
 
@@ -31,6 +34,7 @@ public class PlayerManager : MonoBehaviour
         inputHandler.TickInput(delta);
         locomotion.HandleMovement(delta);
         locomotion.HandleRollingAndSprinting(delta);
+        locomotion.HandleFalling(delta, locomotion.moveDirection);
     }
 
     void LateUpdate()
@@ -46,5 +50,10 @@ public class PlayerManager : MonoBehaviour
         inputHandler.rollFlag = false;
         inputHandler.sprintFlag = false;
         isSprinting = inputHandler.b_input;
+
+        if (isInAir)
+        {
+            locomotion.inAirTimer = locomotion.inAirTimer + Time.deltaTime;
+        }
     }
 }

@@ -5154,11 +5154,11 @@ MonoBehaviour:
   horizontal: 0
   vertical: 0
   moveAmount: 0
-  mouseX: 0
-  mouseY: 0
+  mouse: {x: 0, y: 0}
   b_input: 0
-  roll: 0
-  isInteracting: 0
+  rollFlag: 0
+  sprintFlag: 0
+  rollInputTimer: 0
 --- !u!114 &854616476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5171,12 +5171,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4551511a6601804fb09d68afdfa943e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveDirection: {x: 0, y: 0, z: 0}
   myTransform: {fileID: 0}
   animHandler: {fileID: 0}
   rigid: {fileID: 0}
   normalCamera: {fileID: 0}
+  groundDetectionRayStart: 0.5
+  minDistanceToBeginFall: 0.6
+  groundDirectionRayDistance: 0.2
+  inAirTimer: 0
   movementSpeed: 5
+  sprintSpeed: 7.5
   rotationSpeed: 5
+  fallingSpeed: 100
 --- !u!114 &6625938131804176299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5189,6 +5196,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b01bae437b25ab42a50a5edad029cc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInteracting: 0
+  isSprinting: 0
+  isInAir: 0
+  isGrounded: 0
 --- !u!1 &7723402187247964062
 GameObject:
   m_ObjectHideFlags: 0
