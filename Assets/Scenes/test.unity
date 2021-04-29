@@ -892,7 +892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c9bddb29a834a2c4980db6ee05833c27, type: 3}
       propertyPath: m_TagString
-      value: HIttable
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: c9bddb29a834a2c4980db6ee05833c27, type: 3}
       propertyPath: m_Controller

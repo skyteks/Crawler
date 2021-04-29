@@ -18,7 +18,6 @@ public class DamageCollider : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        print("hit " + other.gameObject);
         CharacterStats stats = other.GetComponent<CharacterStats>();
         if (stats != null)
         {
