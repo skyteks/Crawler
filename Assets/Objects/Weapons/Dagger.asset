@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 789110789273707439d2adedd4f76cf8, type: 3}
-  m_Name: Small Sword
+  m_Name: Dagger
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 959a04c604ce85f4ebcf587a4f26477d, type: 3}
-  prefab: {fileID: 5745375082588278626, guid: 822ce02074ef1f441a0ce8dd1266105a, type: 3}
+  icon: {fileID: 21300000, guid: d42481703d8d9b649bd193958360b46d, type: 3}
+  prefab: {fileID: 959191509195381388, guid: f58e83e75ae9ab1488d14f8ff81e1d99, type: 3}
   isUnarmed: 0
   rightHandIdle: Right Arm Idle
   leftHandIdle: Left Arm Idle

@@ -5817,7 +5817,7 @@ Light:
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.7e-43, y: 1.39e-43, z: 0, w: 16.01271}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -6161,14 +6161,6 @@ PrefabInstance:
     - target: {fileID: 750144384698331445, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
       propertyPath: m_Pivot.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750144384698331446, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
-      propertyPath: pauseUI
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 750144384698331446, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
-      propertyPath: healthToShow
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}

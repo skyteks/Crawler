@@ -4,11 +4,24 @@ using UnityEngine;
 
 public class ResetAnimatorBool : StateMachineBehaviour
 {
-    public string targetBool;
-    public bool status;
+    [System.Serializable]
+    public struct AnimatorBool
+    {
+        public string name;
+        public bool state;
+    }
+
+    public AnimatorBool[] targetBools;
 
     public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.SetBool(targetBool, status);
+        foreach (var targetBool in targetBools)
+        {
+            if (targetBool.name == null || targetBool.name.Length == 0)
+            {
+                throw new System.ArgumentNullException();
+            }
+            animator.SetBool(targetBool.name, targetBool.state);
+        }
     }
 }

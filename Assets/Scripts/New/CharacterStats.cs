@@ -30,11 +30,11 @@ public class CharacterStats : MonoBehaviour
         if (currentHealth <= 0)
         {
             currentHealth = 0;
-            anim.Play("Death 1");
+            anim.Play(AnimatorHandler.hashDeath1);
         }
         else
         {
-            anim.Play("Damage 1");
+            anim.Play(AnimatorHandler.hashDamage1);
         }
     }
 }

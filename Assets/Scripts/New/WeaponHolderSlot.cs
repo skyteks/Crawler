@@ -6,7 +6,7 @@ public class WeaponHolderSlot : MonoBehaviour
 {
     public enum SlotTypes
     {
-        nothing,
+        none,
         leftHand,
         rightHand,
     }
@@ -25,26 +25,24 @@ public class WeaponHolderSlot : MonoBehaviour
             {
                 Destroy(currentWeaponInstance);
             }
+            currentWeaponInstance = null;
         }
     }
 
     public void LoadWeaponPrefab(WeaponItem weaponItem)
     {
+        UnloadWeapon(true);
         if (weaponItem == null)
         {
-            UnloadWeapon();
             return;
         }
 
         GameObject instance = Instantiate(weaponItem.prefab) as GameObject;
 
-        if (instance != null)
-        {
-            instance.transform.parent = parentOverride != null ? parentOverride : transform;
-            instance.transform.localPosition = Vector3.zero;
-            instance.transform.localRotation = Quaternion.identity;
-            instance.transform.localScale = Vector3.one;
-        }
+        instance.transform.parent = parentOverride != null ? parentOverride : transform;
+        instance.transform.localPosition = Vector3.zero;
+        instance.transform.localRotation = Quaternion.identity;
+        instance.transform.localScale = Vector3.one;
 
         currentWeaponInstance = instance;
     }

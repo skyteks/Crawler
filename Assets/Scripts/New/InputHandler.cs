@@ -12,22 +12,29 @@ public class InputHandler : MonoBehaviour
     public bool b_input;
     public bool rb_input;
     public bool rt_input;
+    public bool d_pad_up;
+    public bool d_pad_down;
+    public bool d_pad_left;
+    public bool d_pad_right;
 
     public bool rollFlag;
     public bool sprintFlag;
+    public bool comboFlag;
     public float rollInputTimer;
 
     private PlayerControls inputActions;
     private PlayerAttacking attacking;
     private PlayerInventory inventory;
+    private PlayerManager playerManager;
 
     private Vector2 movementInput;
     private Vector2 cameraInput;
 
-    private void Awake()
+    void Awake()
     {
         attacking = GetComponent<PlayerAttacking>();
         inventory = GetComponent<PlayerInventory>();
+        playerManager = GetComponent<PlayerManager>();
     }
 
     void OnEnable()
@@ -52,6 +59,7 @@ public class InputHandler : MonoBehaviour
         MoveInput(delta);
         HandleRollInput(delta);
         HandleAttackInput(delta);
+        HandleQuickSlotInput();
     }
 
     private void MoveInput(float delta)
@@ -90,12 +98,44 @@ public class InputHandler : MonoBehaviour
 
         if (rb_input)
         {
-            attacking.HandleLightAttack(inventory.rightHandWeapon);
+            if (playerManager.canCombo)
+            {
+                comboFlag = true;
+                attacking.HandleWeaponCombo(inventory.rightHandWeapon);
+                comboFlag = false;
+            }
+            else
+            {
+                if (playerManager.isInteracting || playerManager.canCombo)
+                {
+                    return;
+                }
+                attacking.HandleLightAttack(inventory.rightHandWeapon);
+            }
         }
 
         if (rt_input)
         {
+            if (playerManager.isInteracting)
+            {
+                return;
+            }
             attacking.HandleHeavyAttack(inventory.rightHandWeapon);
+        }
+    }
+
+    private void HandleQuickSlotInput()
+    {
+        inputActions.PlayerQuickslotActions.DPadRight.performed += i => d_pad_right = true;
+        inputActions.PlayerQuickslotActions.DPadLeft.performed += i => d_pad_left = true;
+
+        if (d_pad_right)
+        {
+            inventory.ChangeRightHandWeapon();
+        }
+        else if (d_pad_left)
+        {
+            inventory.ChangeLeftHandWeapon();
         }
     }
 }

@@ -14,8 +14,7 @@ public class PlayerManager : MonoBehaviour
     public bool isSprinting;
     public bool isAirborne;
     public bool isGrounded;
-
-    private int hashIsInteracting = Animator.StringToHash("isInteracting");
+    public bool canCombo;
 
     void Awake()
     {
@@ -27,7 +26,8 @@ public class PlayerManager : MonoBehaviour
 
     void Update()
     {
-        isInteracting = anim.GetBool(hashIsInteracting);
+        isInteracting = anim.GetBool(AnimatorHandler.hashIsInteracting);
+        canCombo = anim.GetBool(AnimatorHandler.hashCanCombo);
 
         float delta = Time.deltaTime;
 
@@ -51,6 +51,10 @@ public class PlayerManager : MonoBehaviour
         inputHandler.sprintFlag = false;
         inputHandler.rb_input = false;
         inputHandler.rt_input = false;
+        inputHandler.d_pad_up = false;
+        inputHandler.d_pad_down = false;
+        inputHandler.d_pad_left = false;
+        inputHandler.d_pad_right = false;
 
         if (isAirborne)
         {

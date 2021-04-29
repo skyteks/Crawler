@@ -10,8 +10,14 @@ public class WeaponSlotManager : MonoBehaviour
     private DamageCollider leftHandDamageCollider;
     private DamageCollider rightHandDamageCollider;
 
+    private Animator anim;
+    private QuickSlotsUI quickSlotsUI;
+
     void Awake()
     {
+        anim = GetComponent<Animator>();
+        quickSlotsUI = FindObjectOfType<QuickSlotsUI>();
+
         WeaponHolderSlot[] weaponHolderSlots = GetComponentsInChildren<WeaponHolderSlot>();
         foreach (WeaponHolderSlot slot in weaponHolderSlots)
         {
@@ -35,13 +41,34 @@ public class WeaponSlotManager : MonoBehaviour
         {
             case WeaponHolderSlot.SlotTypes.leftHand:
                 leftHandSlot.LoadWeaponPrefab(weaponItem);
+
+                if (weaponItem != null)
+                {
+                    anim.CrossFade(weaponItem.leftHandIdle, 0.2f);
+                }
+                else
+                {
+                    anim.CrossFade(AnimatorHandler.hashLeftArmEmpty, 0.2f);
+                }
                 break;
             case WeaponHolderSlot.SlotTypes.rightHand:
                 rightHandSlot.LoadWeaponPrefab(weaponItem);
+
+                if (weaponItem != null)
+                {
+                    anim.CrossFade(weaponItem.rightHandIdle, 0.2f);
+                }
+                else
+                {
+                    anim.CrossFade(AnimatorHandler.hashRightArmEmpty, 0.2f);
+                }
                 break;
             default:
                 break;
         }
+
+        quickSlotsUI?.UpdateWeaponQuickslotsUI(slotType, weaponItem);
+
         LoadWeaponDamageCollider(slotType);
     }
 

@@ -130,7 +130,7 @@ public class PlayerLocomotion : MonoBehaviour
 
     public void HandleRollingAndSprinting(float delta)
     {
-        if (animHandler.isInteracting)
+        if (animHandler.animIsInteracting)
         {
             return;
         }
@@ -142,7 +142,7 @@ public class PlayerLocomotion : MonoBehaviour
 
             if (inputHandler.moveAmount > 0f)
             {
-                animHandler.PlayTargetAnimation("Roll", true);
+                animHandler.PlayTargetAnimation(AnimatorHandler.hashRoll, true);
 
                 moveDirection.y = 0f;
                 Quaternion rollRotation = Quaternion.LookRotation(moveDirection);
@@ -150,7 +150,7 @@ public class PlayerLocomotion : MonoBehaviour
             }
             else
             {
-                animHandler.PlayTargetAnimation("Backstep", true);
+                animHandler.PlayTargetAnimation(AnimatorHandler.hashBackstep, true);
             }
         }
     }
@@ -189,12 +189,12 @@ public class PlayerLocomotion : MonoBehaviour
                 if (inAirTimer > 0.5f)
                 {
                     Debug.Log("You were in the air for " + inAirTimer);
-                    animHandler.PlayTargetAnimation("Land", true);
+                    animHandler.PlayTargetAnimation(AnimatorHandler.hashLand, true);
                     inAirTimer = 0f;
                 }
                 else
                 {
-                    animHandler.PlayTargetAnimation("Empty", false);
+                    animHandler.PlayTargetAnimation(AnimatorHandler.hashEmpty, false);
                     inAirTimer = 0f;
                 }
 
@@ -212,7 +212,7 @@ public class PlayerLocomotion : MonoBehaviour
             {
                 if (!playerManager.isInteracting)
                 {
-                    animHandler.PlayTargetAnimation("Fall", true);
+                    animHandler.PlayTargetAnimation(AnimatorHandler.hashFall, true);
                 }
 
                 rigid.velocity = rigid.velocity.normalized * (movementSpeed / 2f);

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerStats : CharacterStats
 {
-
     public Healthbar healthbar;
 
     private AnimatorHandler animHandler;
@@ -34,12 +33,12 @@ public class PlayerStats : CharacterStats
         if (currentHealth <= 0)
         {
             currentHealth = 0;
-            animHandler.PlayTargetAnimation("Death 1", true);
+            animHandler.PlayTargetAnimation(AnimatorHandler.hashDeath1, true);
             //TODO: Handle player death
         }
         else
         {
-            animHandler.PlayTargetAnimation("Damage 1", true);
+            animHandler.PlayTargetAnimation(AnimatorHandler.hashDamage1, true);
         }
     }
 }
