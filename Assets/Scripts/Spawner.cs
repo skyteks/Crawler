@@ -2,6 +2,8 @@
 
 public class Spawner : MonoBehaviour
 {
+    public GameObject objectToTrigger;
+
     [SerializeField]
     private GameObject somethingToSpawn = null;
     [SerializeField]
@@ -20,7 +22,7 @@ public class Spawner : MonoBehaviour
 
     void Update()
     {
-        if (PlayerControl.player != null && Vector3.Distance(PlayerControl.player.transform.position, transform.position) < activeRange)
+        if (objectToTrigger != null && Vector3.Distance(objectToTrigger.transform.position, transform.position) < activeRange)
         {
             if (Time.time > lastSomethingSpawned + spawningCooldown && spawnCounter > 0)
             {

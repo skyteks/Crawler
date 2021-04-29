@@ -32,6 +32,8 @@ public class PlayerLocomotion : MonoBehaviour
     [SerializeField]
     private float movementSpeed = 5f;
     [SerializeField]
+    private float walkingSpeed = 3f;
+    [SerializeField]
     private float sprintSpeed = 7.5f;
     [SerializeField]
     private float rotationSpeed = 10f;
@@ -74,7 +76,7 @@ public class PlayerLocomotion : MonoBehaviour
 
         float speed = movementSpeed;
 
-        if (inputHandler.sprintFlag)
+        if (inputHandler.sprintFlag && inputHandler.moveAmount > 0.5f)
         {
             speed = sprintSpeed;
             playerManager.isSprinting = true;
@@ -82,7 +84,15 @@ public class PlayerLocomotion : MonoBehaviour
         }
         else
         {
-            moveDirection *= speed;
+            if (inputHandler.moveAmount < 0.5f)
+            {
+                moveDirection *= walkingSpeed;
+            }
+            else
+            {
+                moveDirection *= speed;
+            }
+            playerManager.isSprinting = false;
         }
 
         Vector3 projectedVelocity = Vector3.ProjectOnPlane(moveDirection, normalVector);
@@ -157,7 +167,7 @@ public class PlayerLocomotion : MonoBehaviour
             moveDir = Vector3.zero;
         }
 
-        if (playerManager.isInAir)
+        if (playerManager.isAirborne)
         {
             rigid.AddForce(Vector3.down * fallingSpeed);
             rigid.AddForce(moveDir * fallingSpeed / 10f);
@@ -174,7 +184,7 @@ public class PlayerLocomotion : MonoBehaviour
             playerManager.isGrounded = true;
             targetPosition.y = hit.point.y;
 
-            if (playerManager.isInAir)
+            if (playerManager.isAirborne)
             {
                 if (inAirTimer > 0.5f)
                 {
@@ -184,11 +194,11 @@ public class PlayerLocomotion : MonoBehaviour
                 }
                 else
                 {
-                    animHandler.PlayTargetAnimation("Locomotion", false);
+                    animHandler.PlayTargetAnimation("Empty", false);
                     inAirTimer = 0f;
                 }
 
-                playerManager.isInAir = false;
+                playerManager.isAirborne = false;
             }
         }
         else
@@ -198,7 +208,7 @@ public class PlayerLocomotion : MonoBehaviour
                 playerManager.isGrounded = false;
             }
 
-            if (!playerManager.isInAir)
+            if (!playerManager.isAirborne)
             {
                 if (!playerManager.isInteracting)
                 {
@@ -206,15 +216,15 @@ public class PlayerLocomotion : MonoBehaviour
                 }
 
                 rigid.velocity = rigid.velocity.normalized * (movementSpeed / 2f);
-                playerManager.isInAir = true;
+                playerManager.isAirborne = true;
             }
         }
 
-        if (playerManager.isGrounded)
+        //if (playerManager.isGrounded)
         {
             if (playerManager.isInteracting || inputHandler.moveAmount > 0)
             {
-                transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime);
+                transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime / 0.1f);
             }
             else
             {

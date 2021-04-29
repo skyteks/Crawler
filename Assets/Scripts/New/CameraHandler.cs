@@ -66,7 +66,7 @@ public class CameraHandler : Singleton<CameraHandler>
         Vector3 direction = cameraTransform.position - cameraPivotTransform.position;
         direction.Normalize();
 
-        if (Physics.SphereCast(cameraPivotTransform.position, cameraSphereRadius, direction, out hit, Mathf.Abs(targetPosition), ignoreLayers))
+        if (Physics.SphereCast(cameraPivotTransform.position, cameraSphereRadius, direction, out hit, Mathf.Abs(targetPosition), ignoreLayers, QueryTriggerInteraction.Ignore))
         {
             float distance = Vector3.Distance(cameraPivotTransform.position, hit.point);
             targetPosition = (distance - cameraCollisionOffset) * -1f;

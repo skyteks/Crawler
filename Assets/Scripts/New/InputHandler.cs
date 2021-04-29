@@ -10,16 +10,25 @@ public class InputHandler : MonoBehaviour
     public Vector2 mouse;
 
     public bool b_input;
+    public bool rb_input;
+    public bool rt_input;
 
     public bool rollFlag;
     public bool sprintFlag;
     public float rollInputTimer;
 
     private PlayerControls inputActions;
+    private PlayerAttacking attacking;
+    private PlayerInventory inventory;
 
     private Vector2 movementInput;
     private Vector2 cameraInput;
 
+    private void Awake()
+    {
+        attacking = GetComponent<PlayerAttacking>();
+        inventory = GetComponent<PlayerInventory>();
+    }
 
     void OnEnable()
     {
@@ -27,7 +36,7 @@ public class InputHandler : MonoBehaviour
         {
             inputActions = new PlayerControls();
             inputActions.PlayerMovement.Movement.performed += inputActions => movementInput = inputActions.ReadValue<Vector2>();
-            inputActions.PlayerMovement.Camera.performed += input => cameraInput = input.ReadValue<Vector2>();
+            inputActions.PlayerMovement.Camera.performed += i => cameraInput = i.ReadValue<Vector2>();
         }
 
         inputActions.Enable();
@@ -38,12 +47,11 @@ public class InputHandler : MonoBehaviour
         inputActions.Disable();
     }
 
-
-
     public void TickInput(float delta)
     {
         MoveInput(delta);
         HandleRollInput(delta);
+        HandleAttackInput(delta);
     }
 
     private void MoveInput(float delta)
@@ -72,6 +80,22 @@ public class InputHandler : MonoBehaviour
             }
 
             rollInputTimer = 0f;
+        }
+    }
+
+    private void HandleAttackInput(float delta)
+    {
+        inputActions.PlayerActions.RB.performed += i => rb_input = true;
+        inputActions.PlayerActions.RT.performed += i => rt_input = true;
+
+        if (rb_input)
+        {
+            attacking.HandleLightAttack(inventory.rightHandWeapon);
+        }
+
+        if (rt_input)
+        {
+            attacking.HandleHeavyAttack(inventory.rightHandWeapon);
         }
     }
 }

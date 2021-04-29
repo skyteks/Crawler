@@ -12,7 +12,7 @@ public class PlayerManager : MonoBehaviour
     [Header("Flags")]
     public bool isInteracting;
     public bool isSprinting;
-    public bool isInAir;
+    public bool isAirborne;
     public bool isGrounded;
 
     private int hashIsInteracting = Animator.StringToHash("isInteracting");
@@ -49,9 +49,10 @@ public class PlayerManager : MonoBehaviour
 
         inputHandler.rollFlag = false;
         inputHandler.sprintFlag = false;
-        isSprinting = inputHandler.b_input;
+        inputHandler.rb_input = false;
+        inputHandler.rt_input = false;
 
-        if (isInAir)
+        if (isAirborne)
         {
             locomotion.inAirTimer = locomotion.inAirTimer + Time.deltaTime;
         }
