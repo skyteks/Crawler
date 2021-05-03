@@ -130,7 +130,7 @@ public class PlayerLocomotion : MonoBehaviour
 
     public void HandleRollingAndSprinting(float delta)
     {
-        if (animHandler.animIsInteracting)
+        if (playerManager.isInteracting)
         {
             return;
         }
@@ -229,6 +229,27 @@ public class PlayerLocomotion : MonoBehaviour
             else
             {
                 transform.position = targetPosition;
+            }
+        }
+    }
+
+    public void HandleJumping()
+    {
+        if (playerManager.isInteracting)
+        {
+            return;
+        }
+
+        if (inputHandler.jump_input)
+        {
+            if (inputHandler.moveAmount > 0)
+            {
+                moveDirection = cameraObject.forward * inputHandler.vertical;
+                moveDirection += cameraObject.right * inputHandler.horizontal;
+                animHandler.PlayTargetAnimation(AnimatorHandler.hashJump, true);
+                moveDirection.y = 0f;
+                Quaternion jumpRotation = Quaternion.LookRotation(moveDirection);
+                transform.rotation = jumpRotation;
             }
         }
     }

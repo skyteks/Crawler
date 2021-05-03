@@ -5,6 +5,7 @@ using UnityEngine;
 public class CharacterStats : MonoBehaviour
 {
     public int maxHealth;
+    [SerializeField, ReadOnly]
     protected int currentHealth;
 
     private Animator anim;

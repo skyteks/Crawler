@@ -12,11 +12,15 @@ public class WeaponSlotManager : MonoBehaviour
 
     private Animator anim;
     private QuickSlotsUI quickSlotsUI;
+    private PlayerStats playerStats;
+
+    public WeaponItem attackingWeapon { private get; set; }
 
     void Awake()
     {
         anim = GetComponent<Animator>();
         quickSlotsUI = FindObjectOfType<QuickSlotsUI>();
+        playerStats = GetComponentInParent<PlayerStats>();
 
         WeaponHolderSlot[] weaponHolderSlots = GetComponentsInChildren<WeaponHolderSlot>();
         foreach (WeaponHolderSlot slot in weaponHolderSlots)
@@ -139,4 +143,16 @@ public class WeaponSlotManager : MonoBehaviour
 
         }
     }
+
+    #region Weapon StaminaDrainage
+    public void DrainStaminaLightAttack()
+    {
+        playerStats.TakeStamina(attackingWeapon.staminaCostLightAttack);
+    }
+
+    public void DrainStaminaHeavyAttack()
+    {
+        playerStats.TakeStamina(attackingWeapon.staminaCostHeavyAttack);
+    }
+    #endregion
 }

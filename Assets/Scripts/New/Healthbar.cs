@@ -2,16 +2,16 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Healthbar : MonoBehaviour
+public class Healthbar : ABarUI
 {
     public GameObject iconPrefab = null;
     public Transform iconHolder = null;
     public Vector3 iconOffset = Vector3.zero;
     private List<GameObject> iconInstances = new List<GameObject>();
 
-    public void SetHealth(int health)
+    public override void SetFill(float current, float max)
     {
-        UpdateHearthIconCount(health);
+        UpdateHearthIconCount(Mathf.FloorToInt(current));
     }
 
     private void UpdateHearthIconCount(int health)

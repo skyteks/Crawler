@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraHandler : Singleton<CameraHandler>
+public class CameraHandler : MonoBehaviour
 {
     public Transform targetTransform;
     public Transform cameraTransform;
     public Transform cameraPivotTransform;
     private Vector3 cameraTransformPosition;
-    private LayerMask ignoreLayers;
     private Vector3 cameraFollowVelocity = Vector3.zero;
+    public LayerMask ignoreLayers;
 
     public float lookSpeed = 0.1f;
     public float followSpeed = 0.1f;

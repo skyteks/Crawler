@@ -8,6 +8,10 @@ public class WeaponItem : Item
     public GameObject prefab;
     public bool isUnarmed;
 
+    [Header("Stamina Costs")]
+    public int staminaCostLightAttack;
+    public int staminaCostHeavyAttack;
+
     [Header("Idle Animations")]
     public string rightHandIdle;
     public string leftHandIdle;
@@ -15,6 +19,8 @@ public class WeaponItem : Item
     [Header("One Handed Attack Animations")]
     public string oneHandLightAttack1;
     public string oneHandLightAttack2;
+    public string oneHandLightAttack3;
+    [Space]
     public string oneHandHeavyAttack1;
 
 #if UNITY_EDITOR

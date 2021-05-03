@@ -6,6 +6,7 @@ public class PlayerAttacking : MonoBehaviour
 {
     private AnimatorHandler animHandler;
     private InputHandler inputHandler;
+    private WeaponSlotManager weaponSlotManager;
 
     private string lastAttack;
 
@@ -13,6 +14,7 @@ public class PlayerAttacking : MonoBehaviour
     {
         animHandler = GetComponentInChildren<AnimatorHandler>();
         inputHandler = GetComponent<InputHandler>();
+        weaponSlotManager = GetComponentInChildren<WeaponSlotManager>();
     }
 
     public void HandleWeaponCombo(WeaponItem weapon)
@@ -20,15 +22,29 @@ public class PlayerAttacking : MonoBehaviour
         if (inputHandler.comboFlag)
         {
             animHandler.SetAnimBool(AnimatorHandler.hashCanCombo, false);
+            string attack = null;
             if (lastAttack == weapon.oneHandLightAttack1)
             {
-                animHandler.PlayTargetAnimation(weapon.oneHandLightAttack2, true);
+                attack = weapon.oneHandLightAttack2;
             }
+            else if (lastAttack == weapon.oneHandLightAttack2)
+            {
+                attack = weapon.oneHandLightAttack3;
+            }
+
+            if (attack == null)
+            {
+                throw new System.NullReferenceException();
+            }
+            animHandler.PlayTargetAnimation(attack, true);
+            lastAttack = attack;
         }
     }
 
     public void HandleLightAttack(WeaponItem weapon)
     {
+        weaponSlotManager.attackingWeapon = weapon;
+
         string attack = weapon.oneHandLightAttack1;
         animHandler.PlayTargetAnimation(attack, true);
         lastAttack = attack;
@@ -36,6 +52,8 @@ public class PlayerAttacking : MonoBehaviour
 
     public void HandleHeavyAttack(WeaponItem weapon)
     {
+        weaponSlotManager.attackingWeapon = weapon;
+
         string attack = weapon.oneHandHeavyAttack1;
         animHandler.PlayTargetAnimation(attack, true);
         lastAttack = attack;

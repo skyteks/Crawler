@@ -8,6 +8,8 @@ public class PlayerManager : MonoBehaviour
     private Animator anim;
     private CameraHandler cameraHandler;
     private PlayerLocomotion locomotion;
+    private InteractableUI interactableUI;
+    public GameObject itemInteractableGO;
 
     [Header("Flags")]
     public bool isInteracting;
@@ -21,44 +23,83 @@ public class PlayerManager : MonoBehaviour
         inputHandler = GetComponent<InputHandler>();
         anim = GetComponentInChildren<Animator>();
         locomotion = GetComponent<PlayerLocomotion>();
-        cameraHandler = CameraHandler.instance;
+        cameraHandler = FindObjectOfType<CameraHandler>();
+        interactableUI = FindObjectOfType<InteractableUI>();
     }
 
     void Update()
     {
         isInteracting = anim.GetBool(AnimatorHandler.hashIsInteracting);
         canCombo = anim.GetBool(AnimatorHandler.hashCanCombo);
+        anim.SetBool(AnimatorHandler.hashIsAirborne, isAirborne);
 
         float delta = Time.deltaTime;
 
         inputHandler.TickInput(delta);
-        locomotion.HandleMovement(delta);
         locomotion.HandleRollingAndSprinting(delta);
+        locomotion.HandleJumping();
+
+        CheckForInteractableObject();
+    }
+
+    void FixedUpdate()
+    {
+        float delta = Time.fixedDeltaTime;
+        locomotion.HandleMovement(delta);
         locomotion.HandleFalling(delta, locomotion.moveDirection);
     }
 
     void LateUpdate()
     {
-        float delta = Time.deltaTime;
-
-        if (cameraHandler != null)
-        {
-            cameraHandler.FollowTarget(delta * 10f);
-            cameraHandler.HandleCameraRotation(delta * 10f, inputHandler.mouse);
-        }
-
         inputHandler.rollFlag = false;
-        inputHandler.sprintFlag = false;
         inputHandler.rb_input = false;
         inputHandler.rt_input = false;
         inputHandler.d_pad_up = false;
         inputHandler.d_pad_down = false;
         inputHandler.d_pad_left = false;
         inputHandler.d_pad_right = false;
+        inputHandler.a_input = false;
+        inputHandler.jump_input = false;
+        inputHandler.inventory_input = false;
+
+        if (cameraHandler != null)
+        {
+            float delta = Time.deltaTime;
+            cameraHandler.FollowTarget(delta);
+            cameraHandler.HandleCameraRotation(delta, inputHandler.mouse);
+        }
 
         if (isAirborne)
         {
             locomotion.inAirTimer = locomotion.inAirTimer + Time.deltaTime;
+        }
+    }
+
+    public void CheckForInteractableObject()
+    {
+        RaycastHit hit;
+        if (Physics.SphereCast(transform.position + Vector3.up, 0.3f, transform.forward, out hit, 1f, cameraHandler.ignoreLayers))
+        {
+            Interactable interactableObject = hit.collider.GetComponent<Interactable>();
+            if (interactableObject != null)
+            {
+                interactableUI.interactableText.text = interactableObject.interactText;
+                interactableUI.gameObject.SetActive(true);
+
+                if (inputHandler.a_input)
+                {
+                    interactableObject.Interact(this);
+                }
+            }
+        }
+        else
+        {
+            interactableUI.gameObject.SetActive(false);
+
+            if (itemInteractableGO != null && inputHandler.a_input)
+            {
+                itemInteractableGO.SetActive(false);
+            }
         }
     }
 }

@@ -48,7 +48,7 @@ public struct Range : IEquatable<Range>
             return false;
         }
         var other = (Range)obj;
-        return min == other.min && max == other.max; ;
+        return min == other.min && max == other.max;
     }
 
     bool IEquatable<Range>.Equals(Range other)

@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class PlayerStats : CharacterStats
 {
-    public Healthbar healthbar;
+    public ABarUI healthbar;
+    public ABarUI staminaBar;
 
     private AnimatorHandler animHandler;
+
+    public int maxStamina;
+    [SerializeField, ReadOnly]
+    private int currentStamina;
 
     void Awake()
     {
@@ -16,8 +21,10 @@ public class PlayerStats : CharacterStats
     protected override void Start()
     {
         base.Start();
+        currentStamina = maxStamina;
 
-        healthbar.SetHealth(currentHealth);
+        healthbar?.SetFill(currentHealth, maxHealth);
+        staminaBar?.SetFill(currentStamina, maxStamina);
     }
 
     public override void TakeDamage(int damage)
@@ -28,7 +35,7 @@ public class PlayerStats : CharacterStats
         }
         currentHealth = Mathf.Clamp(currentHealth - damage, 0, maxHealth);
 
-        healthbar.SetHealth(currentHealth);
+        healthbar?.SetFill(currentHealth, maxHealth);
 
         if (currentHealth <= 0)
         {
@@ -40,5 +47,12 @@ public class PlayerStats : CharacterStats
         {
             animHandler.PlayTargetAnimation(AnimatorHandler.hashDamage1, true);
         }
+    }
+
+    public void TakeStamina(int usage)
+    {
+        currentStamina = Mathf.Clamp(currentStamina - usage, 0, maxStamina);
+
+        staminaBar?.SetFill(currentStamina, maxStamina);
     }
 }
