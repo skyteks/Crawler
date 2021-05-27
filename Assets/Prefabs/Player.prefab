@@ -366,9 +366,9 @@ MonoBehaviour:
   animHandler: {fileID: 0}
   rigid: {fileID: 0}
   normalCamera: {fileID: 0}
-  groundDetectionRayStart: 0.5
+  groundDetectionRayStart: 0.26
   minDistanceToBeginFall: 0.6
-  groundDirectionRayDistance: 0.2
+  groundDirectionRayDistance: 0.29
   inAirTimer: 0
   movementSpeed: 5
   walkingSpeed: 3
@@ -405,11 +405,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36634ecc4284d89499e9eaf68aef7599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rightHandWeapon: {fileID: 11400000, guid: 87870a35da56f844d9ae79acac972f3d, type: 2}
-  leftHandWeapon: {fileID: 11400000, guid: 87870a35da56f844d9ae79acac972f3d, type: 2}
+  rightHandWeapon: {fileID: 0}
+  leftHandWeapon: {fileID: 0}
   unarmedWeapon: {fileID: 11400000, guid: 6b0ba8d258fc5a84793c516dc051fb97, type: 2}
   weaponsInRightHandSlots:
-  - {fileID: 11400000, guid: 87870a35da56f844d9ae79acac972f3d, type: 2}
+  - {fileID: 11400000, guid: 78457da053df61e408a74a2b48ba4834, type: 2}
   - {fileID: 11400000, guid: f3f97836b9dda5b41b4d7f2f589a388d, type: 2}
   weaponsInLeftHandSlots:
   - {fileID: 11400000, guid: 87870a35da56f844d9ae79acac972f3d, type: 2}

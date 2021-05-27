@@ -58,6 +58,12 @@ public class PlayerLocomotion : MonoBehaviour
         ignoreForGroundCheck = ~(1 << 8 | 1 << 11);
     }
 
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = playerManager != null && playerManager.isGrounded ? Color.blue : Color.red;
+        Gizmos.DrawRay(transform.position + transform.up * groundDetectionRayStart, transform.up * -1f * groundDirectionRayDistance);
+    }
+
     #region Movement
     private Vector3 normalVector = Vector3.zero;
     private Vector3 targetPosition;
@@ -194,8 +200,8 @@ public class PlayerLocomotion : MonoBehaviour
                 }
                 else
                 {
-                    animHandler.PlayTargetAnimation(AnimatorHandler.hashEmpty, false);
-                    inAirTimer = 0f;
+                    animHandler.PlayTargetAnimation(AnimatorHandler.hashLand, false);
+                    //inAirTimer = 0f;
                 }
 
                 playerManager.isAirborne = false;

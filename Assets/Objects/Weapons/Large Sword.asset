@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 789110789273707439d2adedd4f76cf8, type: 3}
+  m_Name: Large Sword
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 6eae20b9891183a40a37a074cc51b3ec, type: 3}
+  prefab: {fileID: 3456821269180683780, guid: f768d6ae903652c40878964b5fb96de4, type: 3}
+  isUnarmed: 0
+  staminaCostLightAttack: 10
+  staminaCostHeavyAttack: 35
+  rightHandIdle: Right Arm Idle
+  leftHandIdle: Left Arm Idle
+  twoHandedIdle: Both Arms Idle
+  oneHandLightAttack1: OneHanded Light Attack 1
+  oneHandLightAttack2: OneHanded Light Attack 2
+  oneHandLightAttack3: OneHanded Light Attack 3
+  oneHandHeavyAttack1: OneHanded Heavy Attack 1
+  twoHandLightAttack1: TwoHanded Light Attack 1
+  twoHandLightAttack2: TwoHanded Light Attack 2
