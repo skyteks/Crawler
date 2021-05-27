@@ -81,6 +81,53 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &48904303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 48904304}
+  - component: {fileID: 48904305}
+  m_Layer: 0
+  m_Name: Back Weapon Slot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &48904304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48904303}
+  m_LocalRotation: {x: -0.65257, y: -0.1908214, z: -0.17485557, w: 0.7121553}
+  m_LocalPosition: {x: -11.1, y: -13, z: -11.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6887795973213828281}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -85, y: -30, z: 0}
+--- !u!114 &48904305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48904303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3e32202540666b48809e84522821460, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentOverride: {fileID: 0}
+  slotType: 3
+  currentWeaponItem: {fileID: 0}
+  currentWeaponInstance: {fileID: 0}
 --- !u!1 &999603099
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,6 +204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentOverride: {fileID: 6888046400926756403}
   slotType: 2
+  currentWeaponItem: {fileID: 0}
   currentWeaponInstance: {fileID: 0}
 --- !u!114 &871482918
 MonoBehaviour:
@@ -172,6 +220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentOverride: {fileID: 999603100}
   slotType: 1
+  currentWeaponItem: {fileID: 0}
   currentWeaponInstance: {fileID: 0}
 --- !u!114 &149943215
 MonoBehaviour:
@@ -285,6 +334,7 @@ MonoBehaviour:
   mouse: {x: 0, y: 0}
   b_input: 0
   a_input: 0
+  y_input: 0
   rb_input: 0
   rt_input: 0
   jump_input: 0
@@ -294,6 +344,7 @@ MonoBehaviour:
   d_pad_right: 0
   inventory_input: 0
   rollFlag: 0
+  twoHandWieldFlag: 0
   sprintFlag: 0
   comboFlag: 0
   inventoryFlag: 0
@@ -3899,6 +3950,11 @@ GameObject:
 --- !u!4 &6887863753403106705 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4702628373399052872, guid: e1e3d007842204548b6d9010166ed7df, type: 3}
+  m_PrefabInstance: {fileID: 2221835923106965465}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6887795973213828281 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4702833272633725792, guid: e1e3d007842204548b6d9010166ed7df, type: 3}
   m_PrefabInstance: {fileID: 2221835923106965465}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &6889604608485218131 stripped

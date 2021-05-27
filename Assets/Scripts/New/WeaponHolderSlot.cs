@@ -9,11 +9,13 @@ public class WeaponHolderSlot : MonoBehaviour
         none,
         leftHand,
         rightHand,
+        carryOnBack,
     }
 
     public Transform parentOverride;
     public SlotTypes slotType;
 
+    public WeaponItem currentWeaponItem;
     public GameObject currentWeaponInstance;
 
     public void UnloadWeapon(bool destroy = false)

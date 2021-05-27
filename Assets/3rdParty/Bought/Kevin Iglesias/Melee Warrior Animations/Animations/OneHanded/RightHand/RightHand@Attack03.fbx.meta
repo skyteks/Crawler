@@ -459,15 +459,15 @@ ModelImporter:
       curves: []
       events:
       - time: 0.23741142
-        functionName: ToggleDamageCollider
-        data: R1
+        functionName: ToggleRightDamageCollider
+        data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
-        intParameter: 0
+        intParameter: 1
         messageOptions: 0
       - time: 0.34219864
-        functionName: ToggleDamageCollider
-        data: R0
+        functionName: ToggleRightDamageCollider
+        data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0

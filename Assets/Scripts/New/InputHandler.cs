@@ -11,6 +11,7 @@ public class InputHandler : MonoBehaviour
 
     public bool b_input;
     public bool a_input;
+    public bool y_input;
     public bool rb_input;
     public bool rt_input;
     public bool jump_input;
@@ -21,6 +22,7 @@ public class InputHandler : MonoBehaviour
     public bool inventory_input;
 
     public bool rollFlag;
+    public bool twoHandWieldFlag;
     public bool sprintFlag;
     public bool comboFlag;
     public bool inventoryFlag;
@@ -28,8 +30,9 @@ public class InputHandler : MonoBehaviour
 
     private PlayerControls inputActions;
     private PlayerAttacking attacking;
-    private PlayerInventory inventory;
+    private PlayerInventory playerInventory;
     private PlayerManager playerManager;
+    private WeaponSlotManager weaponSlotManager;
     private UIManager uiManager;
 
     private Vector2 movementInput;
@@ -38,8 +41,9 @@ public class InputHandler : MonoBehaviour
     void Awake()
     {
         attacking = GetComponent<PlayerAttacking>();
-        inventory = GetComponent<PlayerInventory>();
+        playerInventory = GetComponent<PlayerInventory>();
         playerManager = GetComponent<PlayerManager>();
+        weaponSlotManager = GetComponentInChildren<WeaponSlotManager>();
         uiManager = FindObjectOfType<UIManager>();
     }
 
@@ -58,6 +62,7 @@ public class InputHandler : MonoBehaviour
             inputActions.PlayerActions.A.performed += i => a_input = true;
             inputActions.PlayerActions.Jump.performed += i => jump_input = true;
             inputActions.PlayerActions.Inventory.performed += i => inventory_input = true;
+            inputActions.PlayerActions.Y.performed += i => y_input = true;
         }
 
         inputActions.Enable();
@@ -75,6 +80,7 @@ public class InputHandler : MonoBehaviour
         HandleAttackInput(delta);
         HandleQuickSlotInput();
         HandleInventoryInput();
+        HandleTwoHandWieldInput();
     }
 
     private void MoveInput(float delta)
@@ -113,7 +119,7 @@ public class InputHandler : MonoBehaviour
             if (playerManager.canCombo)
             {
                 comboFlag = true;
-                attacking.HandleWeaponCombo(inventory.rightHandWeapon);
+                attacking.HandleWeaponCombo(playerInventory.rightHandWeapon);
                 comboFlag = false;
             }
             else
@@ -122,7 +128,7 @@ public class InputHandler : MonoBehaviour
                 {
                     return;
                 }
-                attacking.HandleLightAttack(inventory.rightHandWeapon);
+                attacking.HandleLightAttack(playerInventory.rightHandWeapon);
             }
         }
 
@@ -132,7 +138,7 @@ public class InputHandler : MonoBehaviour
             {
                 return;
             }
-            attacking.HandleHeavyAttack(inventory.rightHandWeapon);
+            attacking.HandleHeavyAttack(playerInventory.rightHandWeapon);
         }
     }
 
@@ -140,11 +146,11 @@ public class InputHandler : MonoBehaviour
     {
         if (d_pad_right)
         {
-            inventory.ChangeRightHandWeapon();
+            playerInventory.ChangeRightHandWeapon();
         }
         else if (d_pad_left)
         {
-            inventory.ChangeLeftHandWeapon();
+            playerInventory.ChangeLeftHandWeapon();
         }
     }
 
@@ -164,6 +170,25 @@ public class InputHandler : MonoBehaviour
                 uiManager.CloseAllInventoryWindows();
             }
             uiManager.hudWindow.SetActive(!inventoryFlag);
+        }
+    }
+
+    private void HandleTwoHandWieldInput()
+    {
+        if (y_input)
+        {
+            y_input = false;
+            twoHandWieldFlag = !twoHandWieldFlag;
+
+            if (twoHandWieldFlag)
+            {
+                weaponSlotManager.LoadWeaponOnSlot(playerInventory.rightHandWeapon, WeaponHolderSlot.SlotTypes.rightHand);
+            }
+            else
+            {
+                weaponSlotManager.LoadWeaponOnSlot(playerInventory.rightHandWeapon, WeaponHolderSlot.SlotTypes.rightHand);
+                weaponSlotManager.LoadWeaponOnSlot(playerInventory.leftHandWeapon, WeaponHolderSlot.SlotTypes.leftHand);
+            }
         }
     }
 }

@@ -15,8 +15,12 @@ MonoBehaviour:
   icon: {fileID: 0}
   prefab: {fileID: 9180629704589537710, guid: 5e6b63e3fbf9bb542bb0138c2810a134, type: 3}
   isUnarmed: 1
+  staminaCostLightAttack: 0
+  staminaCostHeavyAttack: 0
   rightHandIdle: Right Arm Empty
   leftHandIdle: Left Arm Empty
+  twoHandedIdle: Both Arms Empty
   oneHandLightAttack1: 
   oneHandLightAttack2: 
+  oneHandLightAttack3: 
   oneHandHeavyAttack1: 

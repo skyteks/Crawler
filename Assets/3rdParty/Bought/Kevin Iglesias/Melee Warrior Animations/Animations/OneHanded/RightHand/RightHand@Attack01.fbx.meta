@@ -458,19 +458,26 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.29715228
-        functionName: ToggleDamageCollider
-        data: R1
+      - time: 0.27694663
+        functionName: DrainStaminaLightAttack
+        data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.38373667
-        functionName: ToggleDamageCollider
-        data: R0
+      - time: 0.29715228
+        functionName: ToggleRightDamageCollider
+        data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
-        intParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.38373667
+        functionName: ToggleRightDamageCollider
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
         messageOptions: 0
       - time: 0.4751108
         functionName: ToggleCombo
@@ -479,15 +486,8 @@ ModelImporter:
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
-      - time: 1
+      - time: 0.85422343
         functionName: ToggleCombo
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.27694663
-        functionName: DrainStaminaLightAttack
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

@@ -15,6 +15,7 @@ public class WeaponItem : Item
     [Header("Idle Animations")]
     public string rightHandIdle;
     public string leftHandIdle;
+    public string twoHandedIdle;
 
     [Header("One Handed Attack Animations")]
     public string oneHandLightAttack1;
@@ -22,6 +23,9 @@ public class WeaponItem : Item
     public string oneHandLightAttack3;
     [Space]
     public string oneHandHeavyAttack1;
+    [Space]
+    public string twoHandLightAttack1;
+    public string twoHandLightAttack2;
 
 #if UNITY_EDITOR
     private void OnValidate()

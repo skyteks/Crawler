@@ -23,6 +23,7 @@ public class AnimatorHandler : MonoBehaviour
 
     public static int hashRightArmEmpty = Animator.StringToHash("Right Arm Empty");
     public static int hashLeftArmEmpty = Animator.StringToHash("Left Arm Empty");
+    public static int hashBothArmsEmpty = Animator.StringToHash("Both Arms Empty");
 
     private PlayerManager playerManager;
     private Animator anim;

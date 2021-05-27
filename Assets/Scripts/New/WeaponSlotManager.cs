@@ -6,6 +6,7 @@ public class WeaponSlotManager : MonoBehaviour
 {
     private WeaponHolderSlot leftHandSlot;
     private WeaponHolderSlot rightHandSlot;
+    private WeaponHolderSlot carryOnBackSlot;
 
     private DamageCollider leftHandDamageCollider;
     private DamageCollider rightHandDamageCollider;
@@ -13,6 +14,7 @@ public class WeaponSlotManager : MonoBehaviour
     private Animator anim;
     private QuickSlotsUI quickSlotsUI;
     private PlayerStats playerStats;
+    private InputHandler inputHandler;
 
     public WeaponItem attackingWeapon { private get; set; }
 
@@ -21,6 +23,7 @@ public class WeaponSlotManager : MonoBehaviour
         anim = GetComponent<Animator>();
         quickSlotsUI = FindObjectOfType<QuickSlotsUI>();
         playerStats = GetComponentInParent<PlayerStats>();
+        inputHandler = GetComponentInParent<InputHandler>();
 
         WeaponHolderSlot[] weaponHolderSlots = GetComponentsInChildren<WeaponHolderSlot>();
         foreach (WeaponHolderSlot slot in weaponHolderSlots)
@@ -33,8 +36,11 @@ public class WeaponSlotManager : MonoBehaviour
                 case WeaponHolderSlot.SlotTypes.rightHand:
                     rightHandSlot = slot;
                     break;
-                default:
+                case WeaponHolderSlot.SlotTypes.carryOnBack:
+                    carryOnBackSlot = slot;
                     break;
+                default:
+                    throw new System.NotImplementedException();
             }
         }
     }
@@ -44,6 +50,7 @@ public class WeaponSlotManager : MonoBehaviour
         switch (slotType)
         {
             case WeaponHolderSlot.SlotTypes.leftHand:
+                leftHandSlot.currentWeaponItem = weaponItem;
                 leftHandSlot.LoadWeaponPrefab(weaponItem);
 
                 if (weaponItem != null)
@@ -56,21 +63,35 @@ public class WeaponSlotManager : MonoBehaviour
                 }
                 break;
             case WeaponHolderSlot.SlotTypes.rightHand:
-                rightHandSlot.LoadWeaponPrefab(weaponItem);
-
-                if (weaponItem != null)
+                if (inputHandler.twoHandWieldFlag)
                 {
-                    anim.CrossFade(weaponItem.rightHandIdle, 0.2f);
+                    carryOnBackSlot.LoadWeaponPrefab(leftHandSlot.currentWeaponItem);
+                    leftHandSlot.UnloadWeapon(true);
+                    anim.CrossFade(weaponItem.twoHandedIdle, 0.2f);
                 }
                 else
                 {
-                    anim.CrossFade(AnimatorHandler.hashRightArmEmpty, 0.2f);
+                    anim.CrossFade(AnimatorHandler.hashBothArmsEmpty, 0.2f);
+
+                    carryOnBackSlot.UnloadWeapon(true);
+
+                    if (weaponItem != null)
+                    {
+                        anim.CrossFade(weaponItem.rightHandIdle, 0.2f);
+                    }
+                    else
+                    {
+                        anim.CrossFade(AnimatorHandler.hashRightArmEmpty, 0.2f);
+                    }
                 }
+                rightHandSlot.currentWeaponItem = weaponItem;
+                rightHandSlot.LoadWeaponPrefab(weaponItem);
                 break;
+            case WeaponHolderSlot.SlotTypes.carryOnBack:
+
             default:
                 break;
         }
-
         quickSlotsUI?.UpdateWeaponQuickslotsUI(slotType, weaponItem);
 
         LoadWeaponDamageCollider(slotType);
@@ -91,41 +112,16 @@ public class WeaponSlotManager : MonoBehaviour
         }
     }
 
-    public void ToggleDamageCollider(string eventInfo)
+    public void ToggleLeftDamageCollider(int eventInfo)
     {
-        //print("ToggleDamageCollider: " + eventInfo);
-        if (eventInfo.Length != 2)
-        {
-            return;
-        }
-        WeaponHolderSlot.SlotTypes side;
-        switch (eventInfo[0])
-        {
-            case 'L':
-            case 'l':
-                side = WeaponHolderSlot.SlotTypes.leftHand;
-                break;
-            case 'R':
-            case 'r':
-                side = WeaponHolderSlot.SlotTypes.rightHand;
-                break;
-            default:
-                throw new System.ArgumentException();
-        }
-        bool toggle;
-        switch (eventInfo[1])
-        {
-            case '0':
-                toggle = false;
-                break;
-            case '1':
-                toggle = true;
-                break;
-            default:
-                throw new System.ArgumentException();
-        }
+        bool toggle = eventInfo > 0;
+        ToggleWeaponDamageCollider(WeaponHolderSlot.SlotTypes.leftHand, toggle);
+    }
 
-        ToggleWeaponDamageCollider(side, toggle);
+    public void ToggleRightDamageCollider(int eventInfo)
+    {
+        bool toggle = eventInfo > 0;
+        ToggleWeaponDamageCollider(WeaponHolderSlot.SlotTypes.rightHand, toggle);
     }
 
     private void ToggleWeaponDamageCollider(WeaponHolderSlot.SlotTypes slotType, bool toggle)
