@@ -29,9 +29,9 @@ public class PlayerManager : MonoBehaviour
 
     void Update()
     {
-        isInteracting = anim.GetBool(AnimatorHandler.hashIsInteracting);
-        canCombo = anim.GetBool(AnimatorHandler.hashCanCombo);
-        anim.SetBool(AnimatorHandler.hashIsAirborne, isAirborne);
+        isInteracting = anim.GetBool(PlayerAnimatorHandler.hashIsInteracting);
+        canCombo = anim.GetBool(PlayerAnimatorHandler.hashCanCombo);
+        anim.SetBool(PlayerAnimatorHandler.hashIsAirborne, isAirborne);
 
         float delta = Time.deltaTime;
 

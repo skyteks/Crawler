@@ -59,7 +59,7 @@ public class WeaponSlotManager : MonoBehaviour
                 }
                 else
                 {
-                    anim.CrossFade(AnimatorHandler.hashLeftArmEmpty, 0.2f);
+                    anim.CrossFade(PlayerAnimatorHandler.hashLeftArmEmpty, 0.2f);
                 }
                 break;
             case WeaponHolderSlot.SlotTypes.rightHand:
@@ -71,7 +71,7 @@ public class WeaponSlotManager : MonoBehaviour
                 }
                 else
                 {
-                    anim.CrossFade(AnimatorHandler.hashBothArmsEmpty, 0.2f);
+                    anim.CrossFade(PlayerAnimatorHandler.hashBothArmsEmpty, 0.2f);
 
                     carryOnBackSlot.UnloadWeapon(true);
 
@@ -81,7 +81,7 @@ public class WeaponSlotManager : MonoBehaviour
                     }
                     else
                     {
-                        anim.CrossFade(AnimatorHandler.hashRightArmEmpty, 0.2f);
+                        anim.CrossFade(PlayerAnimatorHandler.hashRightArmEmpty, 0.2f);
                     }
                 }
                 rightHandSlot.currentWeaponItem = weaponItem;

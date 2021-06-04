@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerAttacking : MonoBehaviour
 {
-    private AnimatorHandler animHandler;
+    private PlayerAnimatorHandler animHandler;
     private InputHandler inputHandler;
     private WeaponSlotManager weaponSlotManager;
 
@@ -12,7 +12,7 @@ public class PlayerAttacking : MonoBehaviour
 
     void Awake()
     {
-        animHandler = GetComponentInChildren<AnimatorHandler>();
+        animHandler = GetComponentInChildren<PlayerAnimatorHandler>();
         inputHandler = GetComponent<InputHandler>();
         weaponSlotManager = GetComponentInChildren<WeaponSlotManager>();
     }
@@ -21,7 +21,7 @@ public class PlayerAttacking : MonoBehaviour
     {
         if (inputHandler.comboFlag)
         {
-            animHandler.SetAnimBool(AnimatorHandler.hashCanCombo, false);
+            animHandler.SetAnimBool(PlayerAnimatorHandler.hashCanCombo, false);
 
             string attack = null;
             if (lastAttack == weapon.oneHandLightAttack1)

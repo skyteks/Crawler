@@ -12,7 +12,7 @@ public class PlayerLocomotion : MonoBehaviour
     [HideInInspector]
     public Transform myTransform;
     [HideInInspector]
-    public AnimatorHandler animHandler;
+    public PlayerAnimatorHandler animHandler;
     [HideInInspector]
     public Rigidbody rigid;
     public GameObject normalCamera;
@@ -45,7 +45,7 @@ public class PlayerLocomotion : MonoBehaviour
         playerManager = GetComponent<PlayerManager>();
         rigid = GetComponent<Rigidbody>();
         inputHandler = GetComponent<InputHandler>();
-        animHandler = GetComponentInChildren<AnimatorHandler>();
+        animHandler = GetComponentInChildren<PlayerAnimatorHandler>();
         cameraObject = Camera.main.transform;
         myTransform = transform;
     }
@@ -148,7 +148,7 @@ public class PlayerLocomotion : MonoBehaviour
 
             if (inputHandler.moveAmount > 0f)
             {
-                animHandler.PlayTargetAnimation(AnimatorHandler.hashRoll, true);
+                animHandler.PlayTargetAnimation(PlayerAnimatorHandler.hashRoll, true);
 
                 moveDirection.y = 0f;
                 Quaternion rollRotation = Quaternion.LookRotation(moveDirection);
@@ -156,7 +156,7 @@ public class PlayerLocomotion : MonoBehaviour
             }
             else
             {
-                animHandler.PlayTargetAnimation(AnimatorHandler.hashBackstep, true);
+                animHandler.PlayTargetAnimation(PlayerAnimatorHandler.hashBackstep, true);
             }
         }
     }
@@ -195,12 +195,12 @@ public class PlayerLocomotion : MonoBehaviour
                 if (inAirTimer > 0.5f)
                 {
                     Debug.Log("You were in the air for " + inAirTimer);
-                    animHandler.PlayTargetAnimation(AnimatorHandler.hashLand, true);
+                    animHandler.PlayTargetAnimation(PlayerAnimatorHandler.hashLand, true);
                     inAirTimer = 0f;
                 }
                 else
                 {
-                    animHandler.PlayTargetAnimation(AnimatorHandler.hashLand, false);
+                    animHandler.PlayTargetAnimation(PlayerAnimatorHandler.hashLand, false);
                     //inAirTimer = 0f;
                 }
 
@@ -218,7 +218,7 @@ public class PlayerLocomotion : MonoBehaviour
             {
                 if (!playerManager.isInteracting)
                 {
-                    animHandler.PlayTargetAnimation(AnimatorHandler.hashFall, true);
+                    animHandler.PlayTargetAnimation(PlayerAnimatorHandler.hashFall, true);
                 }
 
                 rigid.velocity = rigid.velocity.normalized * (movementSpeed / 2f);
@@ -252,7 +252,7 @@ public class PlayerLocomotion : MonoBehaviour
             {
                 moveDirection = cameraObject.forward * inputHandler.vertical;
                 moveDirection += cameraObject.right * inputHandler.horizontal;
-                animHandler.PlayTargetAnimation(AnimatorHandler.hashJump, true);
+                animHandler.PlayTargetAnimation(PlayerAnimatorHandler.hashJump, true);
                 moveDirection.y = 0f;
                 Quaternion jumpRotation = Quaternion.LookRotation(moveDirection);
                 transform.rotation = jumpRotation;

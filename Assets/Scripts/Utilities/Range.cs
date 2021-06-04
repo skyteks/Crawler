@@ -33,6 +33,11 @@ public struct Range : IEquatable<Range>
         return Mathf.Clamp(value, min, max);
     }
 
+    public bool IsInRange(float value)
+    {
+        return value >= min && value <= max;
+    }
+
     public override int GetHashCode()
     {
         var hashCode = -897720056;

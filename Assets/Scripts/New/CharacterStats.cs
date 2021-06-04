@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterStats : MonoBehaviour
+public abstract class CharacterStats : MonoBehaviour
 {
     public int maxHealth;
     [SerializeField, ReadOnly]
@@ -31,11 +31,11 @@ public class CharacterStats : MonoBehaviour
         if (currentHealth <= 0)
         {
             currentHealth = 0;
-            anim.Play(AnimatorHandler.hashDeath1);
+            anim.Play(PlayerAnimatorHandler.hashDeath1);
         }
         else
         {
-            anim.Play(AnimatorHandler.hashDamage1);
+            anim.Play(PlayerAnimatorHandler.hashDamage1);
         }
     }
 }

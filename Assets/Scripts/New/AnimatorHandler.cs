@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
-public class AnimatorHandler : MonoBehaviour
+public abstract class AnimatorHandler : MonoBehaviour
 {
     public static int hashVertical = Animator.StringToHash("vertical");
     public static int hashHorizontal = Animator.StringToHash("horizontal");
@@ -25,75 +25,12 @@ public class AnimatorHandler : MonoBehaviour
     public static int hashLeftArmEmpty = Animator.StringToHash("Left Arm Empty");
     public static int hashBothArmsEmpty = Animator.StringToHash("Both Arms Empty");
 
-    private PlayerManager playerManager;
-    private Animator anim;
-    private InputHandler inputHandler;
-    private PlayerLocomotion locomotion;
-    public bool canRotate;
+    protected Animator anim;
+    public Animator animator { get { return anim; } }
 
-    void OnAnimatorMove()
+    public virtual void Initialize()
     {
-        if (!playerManager.isInteracting)
-        {
-            return;
-        }
-
-        float delta = Time.deltaTime;
-        locomotion.rigid.drag = 0f;
-        Vector3 deltaPosition = anim.deltaPosition;
-        deltaPosition.y = 0f;
-        Vector3 velocity = deltaPosition / delta;
-        locomotion.rigid.velocity = velocity;
-    }
-
-    public void Initialize()
-    {
-        playerManager = GetComponentInParent<PlayerManager>();
         anim = GetComponent<Animator>();
-        inputHandler = GetComponentInParent<InputHandler>();
-        locomotion = GetComponentInParent<PlayerLocomotion>();
-    }
-
-    public void UpdateAnimatorValues(float verticalMovement, float horizontalMovement, bool isSprinting)
-    {
-        float vertical = Movement(verticalMovement);
-        float horizontal = Movement(horizontalMovement);
-
-        if (isSprinting)
-        {
-            vertical = 2f;
-            horizontal = horizontalMovement;
-        }
-
-        anim.SetFloat(hashVertical, vertical, 0.1f, Time.deltaTime);
-        anim.SetFloat(hashHorizontal, horizontal, 0.1f, Time.deltaTime);
-    }
-
-    private float Movement(float movement)
-    {
-        float value = 0f;
-
-        if (movement > 0f && movement < 0.55f)
-        {
-            value = 0.5f;
-        }
-        else if (movement > 0.55f)
-        {
-            value = 1f;
-        }
-        else if (movement < 0f && movement > -0.55f)
-        {
-            value = -0.5f;
-        }
-        else if (movement < -0.55f)
-        {
-            value = -1f;
-        }
-        else
-        {
-            value = 0;
-        }
-        return value;
     }
 
     public void PlayTargetAnimation(string targetAnim, bool isInteracting)
@@ -101,32 +38,5 @@ public class AnimatorHandler : MonoBehaviour
         anim.applyRootMotion = isInteracting;
         anim.SetBool(hashIsInteracting, isInteracting);
         anim.CrossFade(targetAnim, 0.2f);
-    }
-
-    public void PlayTargetAnimation(int targetAnimId, bool isInteracting)
-    {
-        anim.applyRootMotion = isInteracting;
-        anim.SetBool(hashIsInteracting, isInteracting);
-        anim.CrossFade(targetAnimId, 0.2f);
-    }
-
-    public void SetAnimBool(string name, bool value)
-    {
-        anim.SetBool(name, value);
-    }
-
-    public void SetAnimBool(int id, bool value)
-    {
-        anim.SetBool(id, value);
-    }
-
-    public void ToggleCombo(int value)
-    {
-        if (value != 0 && value != 1)
-        {
-            throw new System.ArgumentException();
-        }
-        bool toggle = value == 1;
-        anim.SetBool(hashCanCombo, toggle);
     }
 }

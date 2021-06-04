@@ -17,10 +17,10 @@ public class WeaponPickup : Interactable
     {
         PlayerInventory playerInventory = playerManager.GetComponent<PlayerInventory>();
         PlayerLocomotion playerLocomotion = playerManager.GetComponent<PlayerLocomotion>();
-        AnimatorHandler animatorHandler = playerManager.GetComponentInChildren<AnimatorHandler>();
+        PlayerAnimatorHandler animatorHandler = playerManager.GetComponentInChildren<PlayerAnimatorHandler>();
 
         playerLocomotion.rigid.velocity = Vector3.zero;
-        animatorHandler.PlayTargetAnimation(AnimatorHandler.hashPickUpItem, true);
+        animatorHandler.PlayTargetAnimation(PlayerAnimatorHandler.hashPickUpItem, true);
         playerInventory.weaponsInventory.Add(weapon);
 
         playerManager.itemInteractableGO.SetActive(true);

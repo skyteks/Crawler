@@ -7,7 +7,7 @@ public class PlayerStats : CharacterStats
     public ABarUI healthbar;
     public ABarUI staminaBar;
 
-    private AnimatorHandler animHandler;
+    private PlayerAnimatorHandler animHandler;
 
     public int maxStamina;
     [SerializeField, ReadOnly]
@@ -15,7 +15,7 @@ public class PlayerStats : CharacterStats
 
     void Awake()
     {
-        animHandler = GetComponentInChildren<AnimatorHandler>();
+        animHandler = GetComponentInChildren<PlayerAnimatorHandler>();
     }
 
     protected override void Start()
@@ -40,12 +40,12 @@ public class PlayerStats : CharacterStats
         if (currentHealth <= 0)
         {
             currentHealth = 0;
-            animHandler.PlayTargetAnimation(AnimatorHandler.hashDeath1, true);
+            animHandler.PlayTargetAnimation(PlayerAnimatorHandler.hashDeath1, true);
             //TODO: Handle player death
         }
         else
         {
-            animHandler.PlayTargetAnimation(AnimatorHandler.hashDamage1, true);
+            animHandler.PlayTargetAnimation(PlayerAnimatorHandler.hashDamage1, true);
         }
     }
 
