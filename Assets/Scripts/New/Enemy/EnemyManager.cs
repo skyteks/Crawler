@@ -1,19 +1,29 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyManager : MonoBehaviour
 {
     private EnemyLocomotion locomotion;
     private EnemyAnimatorHandler animatorHandler;
-    public bool isPerformingAction { get; private set; }
+    private EnemyStats stats;
+    public NavMeshAgent agent { get; private set; }
+    public Rigidbody rigid { get; private set; }
 
-    public EnemyAttackAction[] attacks;
-    private EnemyAttackAction currentAttack;
+    public CharacterStats currentTarget;
+    public State currentState;
+    public bool isPerformingAction { get; set; }
+
+    public float distanceFromTarget { get; set; }
+    public float rotationSpeed = 15f;
+    public float maxAttackingRange = 1.5f;
 
     [Header("AI Settings")]
     public float detectionRadius;
     public float detectionAngle = 50f;
+    public float viewableAngle;
 
     public float currentRecoveryTime = 0f;
 
@@ -21,6 +31,15 @@ public class EnemyManager : MonoBehaviour
     {
         locomotion = GetComponent<EnemyLocomotion>();
         animatorHandler = GetComponentInChildren<EnemyAnimatorHandler>();
+        stats = GetComponent<EnemyStats>();
+        agent = GetComponentInChildren<NavMeshAgent>();
+        rigid = GetComponent<Rigidbody>();
+    }
+
+    void Start()
+    {
+        agent.enabled = false;
+        rigid.isKinematic = false;
     }
 
     void Update()
@@ -30,28 +49,25 @@ public class EnemyManager : MonoBehaviour
 
     void FixedUpdate()
     {
-        HandleCurrentAction();
+        HandleStateMachine();
     }
 
-    private void HandleCurrentAction()
+    private void HandleStateMachine()
     {
-        if (locomotion.currentTarget != null)
+        if (currentState != null)
         {
-            locomotion.distanceFromTarget = Vector3.Distance(locomotion.currentTarget.transform.position, transform.position);
-        }
+            State nextState = currentState.Tick(this, stats, animatorHandler);
 
-        if (locomotion.currentTarget == null)
-        {
-            locomotion.HandleDetection();
+            if (nextState != null)
+            {
+                SwitchToNextState(nextState);
+            }
         }
-        else if (locomotion.distanceFromTarget > locomotion.stoppingDistance)
-        {
-            locomotion.HandleMoveToTarget();
-        }
-        else if (locomotion.distanceFromTarget <= locomotion.stoppingDistance)
-        {
-            AttackTarget();
-        }
+    }
+
+    private void SwitchToNextState(State state)
+    {
+        currentState = state;
     }
 
     private void HandleRecoveryTimer()
@@ -69,68 +85,4 @@ public class EnemyManager : MonoBehaviour
             }
         }
     }
-
-    #region Attacks
-
-    private void AttackTarget()
-    {
-        if (isPerformingAction)
-        {
-            return;
-        }
-
-        if (currentAttack == null)
-        {
-            GetNewAttack();
-        }
-        else
-        {
-            isPerformingAction = true;
-            currentRecoveryTime = currentAttack.recoveryTime;
-            animatorHandler.PlayTargetAnimation(currentAttack.actionAnimation, true);
-            currentAttack = null;
-        }
-    }
-
-    private void GetNewAttack()
-    {
-        Vector3 targetsDirection = locomotion.currentTarget.transform.position - transform.position;
-        float viewableAngle = Vector3.Angle(targetsDirection, transform.forward);
-        locomotion.distanceFromTarget = targetsDirection.magnitude;
-
-        List<EnemyAttackAction> possibleAttacks = new List<EnemyAttackAction>(attacks.Length);
-        int maxScore = 0;
-
-        foreach (var attackAction in attacks)
-        {
-            if (attackAction.distanceNeededToAttack.IsInRange(locomotion.distanceFromTarget))
-            {
-                if (viewableAngle <= attackAction.attackAngle * 0.5f)
-                {
-                    maxScore += attackAction.attackScore;
-                    possibleAttacks.Add(attackAction);
-                }
-            }
-        }
-
-        int random = Random.Range(0, maxScore);
-        int tempScore = 0;
-
-        foreach (var attackAction in possibleAttacks)
-        {
-            if (currentAttack != null)
-            {
-                return;
-            }
-
-            tempScore += attackAction.attackScore;
-
-            if (tempScore > random)
-            {
-                currentAttack = attackAction;
-            }
-        }
-    }
-
-    #endregion
 }

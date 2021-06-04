@@ -25,8 +25,7 @@ public abstract class AnimatorHandler : MonoBehaviour
     public static int hashLeftArmEmpty = Animator.StringToHash("Left Arm Empty");
     public static int hashBothArmsEmpty = Animator.StringToHash("Both Arms Empty");
 
-    protected Animator anim;
-    public Animator animator { get { return anim; } }
+    public Animator anim { get; private set; }
 
     public virtual void Initialize()
     {
