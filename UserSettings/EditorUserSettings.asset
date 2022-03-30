@@ -5,6 +5,18 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+    RecentlyUsedScenePath-0:
+      value: 22424703114646081f0a3c230237465f34180d2d243c691221201338adc1262cadd033e8f735312f762ee02b34310d26bd2c1b0ef3381d04030aee4135fa1d1c5ee11dc815860a12c20d05
+      flags: 0
+    RecentlyUsedScenePath-1:
+      value: 22424703114646081f0a3c230237465f34180d2d243c6915352a183ff1e9212badd435ece93f2c731d07e233373d0431f7441c05ff1f13
+      flags: 0
+    RecentlyUsedScenePath-2:
+      value: 22424703114646081f0a3c230237465f34180d2d243c690628270926e3f27b0ad2c001ece62a30322a32ee3f0f7e4c7fd62f2424b938090e1f0bee413ee9150107cc1dd254dd1115df00
+      flags: 0
+    RecentlyUsedScenePath-3:
+      value: 22424703114646081f0a3c230237465f34180d2d243c690022250427edf03178d1f323edee3570103615ff3308274112f70e000ee00a064b350bf00102b0271610d517cb09873219cf1019d8cc1191d4d0d7c4e5d6f8a7f9d2d3eee7faf9fae1
+      flags: 0
     UnityRemoteCompression:
       value: 337f73
       flags: 0
@@ -21,5 +33,7 @@ EditorUserSettings:
   m_SemanticMergeMode: 2
   m_VCShowFailedCheckout: 1
   m_VCOverwriteFailedCheckoutAssets: 1
-  m_VCOverlayIcons: 1
+  m_VCProjectOverlayIcons: 1
+  m_VCHierarchyOverlayIcons: 1
+  m_VCOtherOverlayIcons: 1
   m_VCAllowAsyncUpdate: 0
