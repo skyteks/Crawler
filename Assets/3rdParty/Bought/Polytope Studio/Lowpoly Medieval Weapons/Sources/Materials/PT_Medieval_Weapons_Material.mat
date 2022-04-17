@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PT_Medieval_Weapons_Material
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: d50c8cde2c95f1d43ae0b94621f0abc4, type: 3}
   m_ShaderKeywords: _METALICON_ON _SMOOTHNESSON_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,44 +19,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _COATOFARMSMASK:
         m_Texture: {fileID: 2800000, guid: 9e05572353416ab449d9532718c065eb, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample2:
@@ -76,22 +40,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BumpScale: 1
     - _CEL1POWER: 0.15
     - _CEL1SIZE: 0.1
     - _CEL2POWER: 0.15
     - _CEL2SIZE: 0.4
     - _CEL3POWER: 0.15
     - _CEL3SIZE: 0.8
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
     - _GEMS1SMOOTHNESS: 0.5
     - _GEMS2SMOOTHNESS: 0.4
     - _GEMS3SMOOTHNESS: 0.3
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
     - _LEATHER1SMOOTHNESS: 0.3
     - _LEATHER2SMOOTHNESS: 0.577
     - _LEATHER3SMOOTHNESS: 0.3
@@ -104,31 +61,20 @@ Material:
     - _METAL4METALLIC: 0.65
     - _METAL4SMOOTNESS: 0.7
     - _MetalicOn: 1
-    - _Metallic: 0
-    - _Mode: 0
     - _OCCLUSION: 0.4139509
-    - _OcclusionStrength: 1
     - _PAINT1SMOOTHNESS: 1
     - _PAINT2SMOOTHNESS: 0
     - _PAINT3SMOOTHNESS: 0
-    - _Parallax: 0.02
     - _SmoothnessOn: 1
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _UVSec: 0
     - _WOOD1SMOOTHNESS: 0.432
     - _WOOD2SMOOTHNESS: 0.309
     - _WOOD3SMOOTHNESS: 0.377
-    - _ZWrite: 1
     - __dirty: 0
     m_Colors:
     - _CEL1COLOR: {r: 1, g: 1, b: 1, a: 0}
     - _CEL2COLOR: {r: 1, g: 1, b: 1, a: 0}
     - _CEL3COLOR: {r: 1, g: 1, b: 1, a: 0}
     - _COATOFARMSCOLOR: {r: 1, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.6509434, g: 0.5004895, b: 0.5004895, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FEATHERS1COLOR: {r: 0.3301887, g: 0.1241556, b: 0.04516733, a: 0}
     - _FEATHERS2COLOR: {r: 0.509434, g: 0.4260285, b: 0.1802243, a: 0}
     - _FEATHERS3COLOR: {r: 0.509434, g: 0.25712, b: 0.25712, a: 0}
@@ -151,4 +97,3 @@ Material:
     - _WOOD1COLOR: {r: 0.1981132, g: 0.08345769, b: 0.06261124, a: 0}
     - _WOOD2COLOR: {r: 0.1320755, g: 0.06452555, b: 0.05420079, a: 0}
     - _WOOD3COLOR: {r: 0.1037736, g: 0.07509367, b: 0.04650232, a: 0}
-  m_BuildTextureStacks: []

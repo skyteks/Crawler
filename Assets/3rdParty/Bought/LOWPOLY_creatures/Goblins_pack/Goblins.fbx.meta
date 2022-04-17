@@ -1,0 +1,4301 @@
+fileFormatVersion: 2
+guid: d426f6b0b5c14c140b05580c0a7d933f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arr
+    100002: Arrow
+    100004: Arrow 1
+    100006: Arrow_end
+    100008: Bottom_arm.L
+    100010: Bottom_arm.R
+    100012: Bottom_leg.L
+    100014: Bottom_leg.R
+    100016: Clavicle.L
+    100018: Clavicle.R
+    100020: Elbow_IK.L
+    100022: Elbow_IK.L_end
+    100024: Elbow_IK.R
+    100026: Elbow_IK.R_end
+    100028: finger1_1.L
+    100030: finger1_1.R
+    100032: finger1_2.L
+    100034: finger1_2.L_end
+    100036: finger1_2.R
+    100038: finger1_2.R_end
+    100040: finger2_1.L
+    100042: finger2_1.R
+    100044: finger2_2.L
+    100046: finger2_2.L_end
+    100048: finger2_2.R
+    100050: finger2_2.R_end
+    100052: Foot.L
+    100054: Foot.R
+    100056: Foot_ctrl.L
+    100058: Foot_ctrl.R
+    100060: Foot_IK.L
+    100062: Foot_IK.L_end
+    100064: Foot_IK.R
+    100066: Foot_IK.R_end
+    100068: FootRoll_crtl.L
+    100070: FootRoll_crtl.L_end
+    100072: FootRoll_crtl.R
+    100074: FootRoll_crtl.R_end
+    100076: gbln_arc_eq
+    100078: gbln_sha_eq
+    100080: gbln_war_eq
+    100082: GOBLIN_BASE
+    100084: //RootNode
+    100086: Hand.L
+    100088: Hand.R
+    100090: Hand_IK.L
+    100092: Hand_IK.R
+    100094: Head
+    100096: Heel_roll.L
+    100098: Heel_roll.R
+    100100: Hips_ctrl
+    100102: jaw
+    100104: jaw_end
+    100106: Knee_IK.L
+    100108: Knee_IK.L_end
+    100110: Knee_IK.R
+    100112: Knee_IK.R_end
+    100114: Neck
+    100116: Shoulder.L
+    100118: Shoulder.L_end
+    100120: Shoulder.R
+    100122: Shoulder.R_end
+    100124: spine_1
+    100126: spine_2
+    100128: spine_3
+    100130: Thumb_1.L
+    100132: Thumb_1.R
+    100134: Thumb_2.L
+    100136: Thumb_2.L_end
+    100138: Thumb_2.R
+    100140: Thumb_2.R_end
+    100142: Toe.L
+    100144: Toe.L_end
+    100146: Toe.R
+    100148: Toe.R_end
+    100150: Toe_roll.L
+    100152: Toe_roll.R
+    100154: Upper_arm.L
+    100156: Upper_arm.R
+    100158: Upper_leg.L
+    100160: Upper_leg.R
+    100162: Vis_1
+    100164: Vis_2
+    100166: Vis_2_end
+    100168: Weapon_bone
+    100170: Weapon_bone_end
+    400000: arr
+    400002: Arrow
+    400004: Arrow 1
+    400006: Arrow_end
+    400008: Bottom_arm.L
+    400010: Bottom_arm.R
+    400012: Bottom_leg.L
+    400014: Bottom_leg.R
+    400016: Clavicle.L
+    400018: Clavicle.R
+    400020: Elbow_IK.L
+    400022: Elbow_IK.L_end
+    400024: Elbow_IK.R
+    400026: Elbow_IK.R_end
+    400028: finger1_1.L
+    400030: finger1_1.R
+    400032: finger1_2.L
+    400034: finger1_2.L_end
+    400036: finger1_2.R
+    400038: finger1_2.R_end
+    400040: finger2_1.L
+    400042: finger2_1.R
+    400044: finger2_2.L
+    400046: finger2_2.L_end
+    400048: finger2_2.R
+    400050: finger2_2.R_end
+    400052: Foot.L
+    400054: Foot.R
+    400056: Foot_ctrl.L
+    400058: Foot_ctrl.R
+    400060: Foot_IK.L
+    400062: Foot_IK.L_end
+    400064: Foot_IK.R
+    400066: Foot_IK.R_end
+    400068: FootRoll_crtl.L
+    400070: FootRoll_crtl.L_end
+    400072: FootRoll_crtl.R
+    400074: FootRoll_crtl.R_end
+    400076: gbln_arc_eq
+    400078: gbln_sha_eq
+    400080: gbln_war_eq
+    400082: GOBLIN_BASE
+    400084: //RootNode
+    400086: Hand.L
+    400088: Hand.R
+    400090: Hand_IK.L
+    400092: Hand_IK.R
+    400094: Head
+    400096: Heel_roll.L
+    400098: Heel_roll.R
+    400100: Hips_ctrl
+    400102: jaw
+    400104: jaw_end
+    400106: Knee_IK.L
+    400108: Knee_IK.L_end
+    400110: Knee_IK.R
+    400112: Knee_IK.R_end
+    400114: Neck
+    400116: Shoulder.L
+    400118: Shoulder.L_end
+    400120: Shoulder.R
+    400122: Shoulder.R_end
+    400124: spine_1
+    400126: spine_2
+    400128: spine_3
+    400130: Thumb_1.L
+    400132: Thumb_1.R
+    400134: Thumb_2.L
+    400136: Thumb_2.L_end
+    400138: Thumb_2.R
+    400140: Thumb_2.R_end
+    400142: Toe.L
+    400144: Toe.L_end
+    400146: Toe.R
+    400148: Toe.R_end
+    400150: Toe_roll.L
+    400152: Toe_roll.R
+    400154: Upper_arm.L
+    400156: Upper_arm.R
+    400158: Upper_leg.L
+    400160: Upper_leg.R
+    400162: Vis_1
+    400164: Vis_2
+    400166: Vis_2_end
+    400168: Weapon_bone
+    400170: Weapon_bone_end
+    2300000: arr
+    3300000: arr
+    4300000: arr
+    4300002: gbln_arc_eq
+    4300004: gbln_sha_eq
+    4300006: gbln_war_eq
+    4300008: GOBLIN_BASE
+    7400000: ArmatureAction
+    7400002: Arrow|ArmatureAction
+    7400004: Goblins_walk
+    7400006: Goblins_run
+    7400008: Goblins_idle
+    7400010: Goblins_battle_idle
+    7400012: Goblins_warrior_attack
+    7400014: Goblins_pow_attack
+    7400016: Goblins_cast1
+    7400018: Goblins_cast2
+    7400020: Goblins_shooting
+    7400022: Goblins_power_shot
+    7400024: Goblins_war_def_begin
+    7400026: Goblins_war_def_end
+    7400028: Goblins_sham_arc_def_start
+    7400030: Goblins_sham_arc_def_end
+    7400032: Goblins_sham_arc_hit
+    7400034: Goblins_war_hit
+    7400036: Goblins_war_death
+    7400038: Goblins_sham_arc_death
+    9500000: //RootNode
+    13700000: gbln_arc_eq
+    13700002: gbln_sha_eq
+    13700004: gbln_war_eq
+    13700006: GOBLIN_BASE
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LowPoly
+    second: {fileID: 2100000, guid: 5caedb2d92982ea489243a056d0cb187, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ArmatureAction
+      takeName: ArmatureAction
+      firstFrame: 0
+      lastFrame: 535
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arrow|ArmatureAction
+      takeName: Arrow|ArmatureAction
+      firstFrame: 0
+      lastFrame: 535
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_walk
+      takeName: ArmatureAction
+      firstFrame: 1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_run
+      takeName: ArmatureAction
+      firstFrame: 32
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_idle
+      takeName: ArmatureAction
+      firstFrame: 51
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_battle_idle
+      takeName: ArmatureAction
+      firstFrame: 110
+      lastFrame: 136
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_warrior_attack
+      takeName: ArmatureAction
+      firstFrame: 140
+      lastFrame: 161
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_pow_attack
+      takeName: ArmatureAction
+      firstFrame: 165
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_cast1
+      takeName: ArmatureAction
+      firstFrame: 195
+      lastFrame: 223
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_cast2
+      takeName: ArmatureAction
+      firstFrame: 230
+      lastFrame: 265
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_shooting
+      takeName: ArmatureAction
+      firstFrame: 270
+      lastFrame: 303
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_power_shot
+      takeName: ArmatureAction
+      firstFrame: 310
+      lastFrame: 365
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_war_def_begin
+      takeName: ArmatureAction
+      firstFrame: 370
+      lastFrame: 385
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_war_def_end
+      takeName: ArmatureAction
+      firstFrame: 385
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_sham_arc_def_start
+      takeName: ArmatureAction
+      firstFrame: 405
+      lastFrame: 425
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_sham_arc_def_end
+      takeName: ArmatureAction
+      firstFrame: 426
+      lastFrame: 440
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_sham_arc_hit
+      takeName: ArmatureAction
+      firstFrame: 445
+      lastFrame: 460
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_war_hit
+      takeName: ArmatureAction
+      firstFrame: 465
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_war_death
+      takeName: ArmatureAction
+      firstFrame: 485
+      lastFrame: 510
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblins_sham_arc_death
+      takeName: ArmatureAction
+      firstFrame: 515
+      lastFrame: 535
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arrow
+        weight: 1
+      - path: Arrow/arr
+        weight: 1
+      - path: Arrow/Arrow 1
+        weight: 1
+      - path: Arrow/Arrow 1/Arrow_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Arrow/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Arrow/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Arrow/Hand_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Arrow/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Arrow/Hand_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Arrow/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone/Weapon_bone_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Arrow/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Arrow/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: gbln_arc_eq
+        weight: 1
+      - path: gbln_sha_eq
+        weight: 1
+      - path: gbln_war_eq
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.9999999
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

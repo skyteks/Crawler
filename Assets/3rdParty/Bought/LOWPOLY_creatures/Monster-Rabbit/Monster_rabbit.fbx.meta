@@ -1,0 +1,2399 @@
+fileFormatVersion: 2
+guid: e9322ee3f51c9bd4dbdda2cb43834d65
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arm1.L
+    100002: Arm1.R
+    100004: Arm2.L
+    100006: Arm2.R
+    100008: Arm_Pole.L
+    100010: Arm_Pole.L_end
+    100012: Arm_Pole.R
+    100014: Arm_Pole.R_end
+    100016: Finger1.L
+    100018: Finger1.L_end
+    100020: Finger1.R
+    100022: Finger1.R_end
+    100024: Finger2.L
+    100026: Finger2.L_end
+    100028: Finger2.R
+    100030: Finger2.R_end
+    100032: FingerMid.L
+    100034: FingerMid.R
+    100036: Foot.L
+    100038: Foot.L_end
+    100040: Foot.R
+    100042: Foot.R_end
+    100044: Foot_IK.L
+    100046: Foot_IK.R
+    100048: Hand_IK.L
+    100050: Hand_IK.R
+    100052: Head
+    100054: Horn1.L
+    100056: Horn1.R
+    100058: Horn2.L
+    100060: Horn2.L_end
+    100062: Horn2.R
+    100064: Horn2.R_end
+    100066: Jaw
+    100068: Jaw_end
+    100070: Leg1.L
+    100072: Leg1.R
+    100074: Leg2.L
+    100076: Leg2.R
+    100078: Leg3.L
+    100080: Leg3.R
+    100082: Leg_pole.L
+    100084: Leg_pole.L_end
+    100086: Leg_pole.R
+    100088: Leg_pole.R_end
+    100090: //RootNode
+    100092: Monster_rabbit
+    100094: MR_arma
+    100096: Root
+    100098: Spine1
+    100100: spine2
+    100102: spine3
+    100104: Tail
+    100106: Tail_end
+    400000: Arm1.L
+    400002: Arm1.R
+    400004: Arm2.L
+    400006: Arm2.R
+    400008: Arm_Pole.L
+    400010: Arm_Pole.L_end
+    400012: Arm_Pole.R
+    400014: Arm_Pole.R_end
+    400016: Finger1.L
+    400018: Finger1.L_end
+    400020: Finger1.R
+    400022: Finger1.R_end
+    400024: Finger2.L
+    400026: Finger2.L_end
+    400028: Finger2.R
+    400030: Finger2.R_end
+    400032: FingerMid.L
+    400034: FingerMid.R
+    400036: Foot.L
+    400038: Foot.L_end
+    400040: Foot.R
+    400042: Foot.R_end
+    400044: Foot_IK.L
+    400046: Foot_IK.R
+    400048: Hand_IK.L
+    400050: Hand_IK.R
+    400052: Head
+    400054: Horn1.L
+    400056: Horn1.R
+    400058: Horn2.L
+    400060: Horn2.L_end
+    400062: Horn2.R
+    400064: Horn2.R_end
+    400066: Jaw
+    400068: Jaw_end
+    400070: Leg1.L
+    400072: Leg1.R
+    400074: Leg2.L
+    400076: Leg2.R
+    400078: Leg3.L
+    400080: Leg3.R
+    400082: Leg_pole.L
+    400084: Leg_pole.L_end
+    400086: Leg_pole.R
+    400088: Leg_pole.R_end
+    400090: //RootNode
+    400092: Monster_rabbit
+    400094: MR_arma
+    400096: Root
+    400098: Spine1
+    400100: spine2
+    400102: spine3
+    400104: Tail
+    400106: Tail_end
+    4300000: Monster_rabbit
+    7400000: MR_ArmatureAction
+    7400002: MR_idle
+    7400004: MR_walk
+    7400006: MR_run
+    7400008: MR_idle_battle
+    7400010: MR_attack1
+    7400012: MR_attack2
+    7400014: MR_attack3
+    7400016: MR_def_s
+    7400018: MR_def_e
+    7400020: MR_jump_s
+    7400022: MR_jump_e
+    7400024: MR_hit1
+    7400026: MR_hit2
+    7400028: MR_death1
+    7400030: MR_death2
+    9500000: //RootNode
+    13700000: Monster_rabbit
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LowPoly
+    second: {fileID: 2100000, guid: 5caedb2d92982ea489243a056d0cb187, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: MR_ArmatureAction
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 0
+      lastFrame: 389
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_idle
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_walk
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 70
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_run
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 110
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_idle_battle
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 139
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_attack1
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 160
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_attack2
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 180
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_attack3
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 200
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_def_s
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 240
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_def_e
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 250
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_jump_s
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 260
+      lastFrame: 275
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_jump_e
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 275
+      lastFrame: 292
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_hit1
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 292
+      lastFrame: 306
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_hit2
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 306
+      lastFrame: 320
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_death1
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 320
+      lastFrame: 350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MR_death2
+      takeName: MR_arma|ArmatureAction
+      firstFrame: 360
+      lastFrame: 389
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monster_rabbit
+        weight: 1
+      - path: MR_arma
+        weight: 1
+      - path: MR_arma/Root
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.L/Leg_pole.L/Leg_pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R
+        weight: 1
+      - path: MR_arma/Root/Foot_IK.R/Leg_pole.R/Leg_pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.L/Arm_Pole.L/Arm_Pole.L_end
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R
+        weight: 1
+      - path: MR_arma/Root/Hand_IK.R/Arm_Pole.R/Arm_Pole.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.L/Leg2.L/Leg3.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/Leg1.R/Leg2.R/Leg3.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger1.L/Finger1.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.L/Arm2.L/FingerMid.L/Finger2.L/Finger2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger1.R/Finger1.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/Arm1.R/Arm2.R/FingerMid.R/Finger2.R/Finger2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Head/Jaw/Jaw_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.L/Horn2.L/Horn2.L_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R
+        weight: 1
+      - path: MR_arma/Root/Spine1/spine2/spine3/Horn1.R/Horn2.R/Horn2.R_end
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail
+        weight: 1
+      - path: MR_arma/Root/Spine1/Tail/Tail_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

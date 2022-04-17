@@ -1,0 +1,736 @@
+fileFormatVersion: 2
+guid: ac2491fc9505a2d4297e830a725f90b3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BatArmature
+    100004: calvincle.L
+    100006: calvincle.R
+    100008: f1.L
+    100010: f1.R
+    100012: f2.L
+    100014: f2.L_end
+    100016: f2.R
+    100018: f2.R_end
+    100020: f3.L
+    100022: f3.R
+    100024: f4.L
+    100026: f4.L_end
+    100028: f4.R
+    100030: f4.R_end
+    100032: f5.L
+    100034: f5.L_end
+    100036: f5.R
+    100038: f5.R_end
+    100040: head
+    100042: jaw
+    100044: jaw_end
+    100046: neck
+    100048: Plane.001
+    100050: Root
+    100052: Root_end
+    100054: spine1
+    100056: spine2
+    100058: tail1
+    100060: tail2
+    100062: tail3
+    100064: tail3_end
+    100066: wing1.L
+    100068: wing1.R
+    100070: wing2.L
+    100072: wing2.R
+    100074: wing3.L
+    100076: wing3.L_end
+    100078: wing3.R
+    100080: wing3.R_end
+    400000: //RootNode
+    400002: BatArmature
+    400004: calvincle.L
+    400006: calvincle.R
+    400008: f1.L
+    400010: f1.R
+    400012: f2.L
+    400014: f2.L_end
+    400016: f2.R
+    400018: f2.R_end
+    400020: f3.L
+    400022: f3.R
+    400024: f4.L
+    400026: f4.L_end
+    400028: f4.R
+    400030: f4.R_end
+    400032: f5.L
+    400034: f5.L_end
+    400036: f5.R
+    400038: f5.R_end
+    400040: head
+    400042: jaw
+    400044: jaw_end
+    400046: neck
+    400048: Plane.001
+    400050: Root
+    400052: Root_end
+    400054: spine1
+    400056: spine2
+    400058: tail1
+    400060: tail2
+    400062: tail3
+    400064: tail3_end
+    400066: wing1.L
+    400068: wing1.R
+    400070: wing2.L
+    400072: wing2.R
+    400074: wing3.L
+    400076: wing3.L_end
+    400078: wing3.R
+    400080: wing3.R_end
+    4300000: Plane.001
+    7400000: Bat_attack
+    7400002: Bat_death
+    7400004: Bat_falling
+    7400006: Bat_falling_and_death
+    7400008: Bat_idle
+    9500000: //RootNode
+    13700000: Plane.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LP_mat
+    second: {fileID: 2100000, guid: 5caedb2d92982ea489243a056d0cb187, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bat_attack
+      takeName: BatArmature|attack
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BatArmature
+        weight: 1
+      - path: BatArmature/Root
+        weight: 1
+      - path: BatArmature/Root/Root_end
+        weight: 1
+      - path: BatArmature/spine1
+        weight: 1
+      - path: BatArmature/spine1/spine2
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L/f2.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L/f2.L/f2.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L/f4.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L/f4.L/f4.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f5.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f5.L/f5.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L/wing3.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L/wing3.L/wing3.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R/f2.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R/f2.R/f2.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R/f4.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R/f4.R/f4.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f5.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f5.R/f5.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R/wing3.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R/wing3.R/wing3.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: BatArmature/spine1/tail1
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      - path: Plane.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bat_death
+      takeName: BatArmature|death
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BatArmature
+        weight: 1
+      - path: BatArmature/Root
+        weight: 1
+      - path: BatArmature/Root/Root_end
+        weight: 1
+      - path: BatArmature/spine1
+        weight: 1
+      - path: BatArmature/spine1/spine2
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L/f2.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L/f2.L/f2.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L/f4.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L/f4.L/f4.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f5.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f5.L/f5.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L/wing3.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L/wing3.L/wing3.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R/f2.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R/f2.R/f2.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R/f4.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R/f4.R/f4.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f5.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f5.R/f5.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R/wing3.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R/wing3.R/wing3.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: BatArmature/spine1/tail1
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      - path: Plane.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bat_falling
+      takeName: BatArmature|falling
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BatArmature
+        weight: 1
+      - path: BatArmature/Root
+        weight: 1
+      - path: BatArmature/Root/Root_end
+        weight: 1
+      - path: BatArmature/spine1
+        weight: 1
+      - path: BatArmature/spine1/spine2
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L/f2.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L/f2.L/f2.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L/f4.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L/f4.L/f4.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f5.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f5.L/f5.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L/wing3.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L/wing3.L/wing3.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R/f2.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R/f2.R/f2.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R/f4.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R/f4.R/f4.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f5.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f5.R/f5.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R/wing3.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R/wing3.R/wing3.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: BatArmature/spine1/tail1
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      - path: Plane.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bat_falling_and_death
+      takeName: BatArmature|falling_and_death
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BatArmature
+        weight: 1
+      - path: BatArmature/Root
+        weight: 1
+      - path: BatArmature/Root/Root_end
+        weight: 1
+      - path: BatArmature/spine1
+        weight: 1
+      - path: BatArmature/spine1/spine2
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L/f2.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L/f2.L/f2.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L/f4.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L/f4.L/f4.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f5.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f5.L/f5.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L/wing3.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L/wing3.L/wing3.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R/f2.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R/f2.R/f2.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R/f4.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R/f4.R/f4.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f5.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f5.R/f5.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R/wing3.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R/wing3.R/wing3.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: BatArmature/spine1/tail1
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      - path: Plane.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bat_idle
+      takeName: BatArmature|idle
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BatArmature
+        weight: 1
+      - path: BatArmature/Root
+        weight: 1
+      - path: BatArmature/Root/Root_end
+        weight: 1
+      - path: BatArmature/spine1
+        weight: 1
+      - path: BatArmature/spine1/spine2
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L/f2.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f1.L/f2.L/f2.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L/f4.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f3.L/f4.L/f4.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f5.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/f5.L/f5.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L/wing3.L
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.L/wing1.L/wing2.L/wing3.L/wing3.L_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R/f2.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f1.R/f2.R/f2.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R/f4.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f3.R/f4.R/f4.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f5.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/f5.R/f5.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R/wing3.R
+        weight: 1
+      - path: BatArmature/spine1/spine2/calvincle.R/wing1.R/wing2.R/wing3.R/wing3.R_end
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: BatArmature/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: BatArmature/spine1/tail1
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: BatArmature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      - path: Plane.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.9999999
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

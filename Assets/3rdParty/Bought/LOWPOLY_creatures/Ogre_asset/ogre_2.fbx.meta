@@ -1,0 +1,3680 @@
+fileFormatVersion: 2
+guid: 299e2d2be1da04d4e8b1e239647db0d5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bottom_arm.L
+    100002: Bottom_arm.R
+    100004: Bottom_leg.L
+    100006: Bottom_leg.R
+    100008: Clavicle.L
+    100010: Clavicle.R
+    100012: Elbow_IK.L
+    100014: Elbow_IK.L_end
+    100016: Elbow_IK.R
+    100018: Elbow_IK.R_end
+    100020: finger1_1.L
+    100022: finger1_1.R
+    100024: finger1_2.L
+    100026: finger1_2.L_end
+    100028: finger1_2.R
+    100030: finger1_2.R_end
+    100032: finger2_1.L
+    100034: finger2_1.R
+    100036: finger2_2.L
+    100038: finger2_2.L_end
+    100040: finger2_2.R
+    100042: finger2_2.R_end
+    100044: Foot.L
+    100046: Foot.R
+    100048: Foot_ctrl.L
+    100050: Foot_ctrl.R
+    100052: Foot_IK.L
+    100054: Foot_IK.L_end
+    100056: Foot_IK.R
+    100058: Foot_IK.R_end
+    100060: FootRoll_crtl.L
+    100062: FootRoll_crtl.L_end
+    100064: FootRoll_crtl.R
+    100066: FootRoll_crtl.R_end
+    100068: Hand.L
+    100070: Hand.R
+    100072: Hand_IK.L
+    100074: Hand_IK.R
+    100076: Head
+    100078: Head_end
+    100080: Heel_roll.L
+    100082: Heel_roll.R
+    100084: Hips_ctrl
+    100086: hood_1
+    100088: hood_2
+    100090: hood_3
+    100092: hood_3_end
+    100094: Knee_IK.L
+    100096: Knee_IK.L_end
+    100098: Knee_IK.R
+    100100: Knee_IK.R_end
+    100102: Neck
+    100104: //RootNode
+    100106: Ogre_Armature
+    100108: Ogre_blunt
+    100110: Ogre_body
+    100112: Ogre_hummer
+    100114: Ogre_root
+    100116: Ogre_shaman_eq
+    100118: Ogre_stuff
+    100120: Ogre_warrior_eq
+    100122: puzo
+    100124: puzo_end
+    100126: Shoulder.L
+    100128: Shoulder.L_end
+    100130: Shoulder.R
+    100132: Shoulder.R_end
+    100134: spine_1
+    100136: spine_2
+    100138: spine_3
+    100140: Thumb_1.L
+    100142: Thumb_1.R
+    100144: Thumb_2.L
+    100146: Thumb_2.L_end
+    100148: Thumb_2.R
+    100150: Thumb_2.R_end
+    100152: Toe.L
+    100154: Toe.L_end
+    100156: Toe.R
+    100158: Toe.R_end
+    100160: Toe_roll.L
+    100162: Toe_roll.R
+    100164: Upper_arm.L
+    100166: Upper_arm.R
+    100168: Upper_leg.L
+    100170: Upper_leg.R
+    100172: Vis_1
+    100174: Vis_2
+    100176: Vis_2_end
+    100178: Weapon
+    100180: Weapon_end
+    400000: Bottom_arm.L
+    400002: Bottom_arm.R
+    400004: Bottom_leg.L
+    400006: Bottom_leg.R
+    400008: Clavicle.L
+    400010: Clavicle.R
+    400012: Elbow_IK.L
+    400014: Elbow_IK.L_end
+    400016: Elbow_IK.R
+    400018: Elbow_IK.R_end
+    400020: finger1_1.L
+    400022: finger1_1.R
+    400024: finger1_2.L
+    400026: finger1_2.L_end
+    400028: finger1_2.R
+    400030: finger1_2.R_end
+    400032: finger2_1.L
+    400034: finger2_1.R
+    400036: finger2_2.L
+    400038: finger2_2.L_end
+    400040: finger2_2.R
+    400042: finger2_2.R_end
+    400044: Foot.L
+    400046: Foot.R
+    400048: Foot_ctrl.L
+    400050: Foot_ctrl.R
+    400052: Foot_IK.L
+    400054: Foot_IK.L_end
+    400056: Foot_IK.R
+    400058: Foot_IK.R_end
+    400060: FootRoll_crtl.L
+    400062: FootRoll_crtl.L_end
+    400064: FootRoll_crtl.R
+    400066: FootRoll_crtl.R_end
+    400068: Hand.L
+    400070: Hand.R
+    400072: Hand_IK.L
+    400074: Hand_IK.R
+    400076: Head
+    400078: Head_end
+    400080: Heel_roll.L
+    400082: Heel_roll.R
+    400084: Hips_ctrl
+    400086: hood_1
+    400088: hood_2
+    400090: hood_3
+    400092: hood_3_end
+    400094: Knee_IK.L
+    400096: Knee_IK.L_end
+    400098: Knee_IK.R
+    400100: Knee_IK.R_end
+    400102: Neck
+    400104: //RootNode
+    400106: Ogre_Armature
+    400108: Ogre_blunt
+    400110: Ogre_body
+    400112: Ogre_hummer
+    400114: Ogre_root
+    400116: Ogre_shaman_eq
+    400118: Ogre_stuff
+    400120: Ogre_warrior_eq
+    400122: puzo
+    400124: puzo_end
+    400126: Shoulder.L
+    400128: Shoulder.L_end
+    400130: Shoulder.R
+    400132: Shoulder.R_end
+    400134: spine_1
+    400136: spine_2
+    400138: spine_3
+    400140: Thumb_1.L
+    400142: Thumb_1.R
+    400144: Thumb_2.L
+    400146: Thumb_2.L_end
+    400148: Thumb_2.R
+    400150: Thumb_2.R_end
+    400152: Toe.L
+    400154: Toe.L_end
+    400156: Toe.R
+    400158: Toe.R_end
+    400160: Toe_roll.L
+    400162: Toe_roll.R
+    400164: Upper_arm.L
+    400166: Upper_arm.R
+    400168: Upper_leg.L
+    400170: Upper_leg.R
+    400172: Vis_1
+    400174: Vis_2
+    400176: Vis_2_end
+    400178: Weapon
+    400180: Weapon_end
+    2300000: Ogre_blunt
+    2300002: Ogre_body
+    2300004: Ogre_hummer
+    2300006: Ogre_shaman_eq
+    2300008: Ogre_stuff
+    2300010: Ogre_warrior_eq
+    3300000: Ogre_blunt
+    3300002: Ogre_body
+    3300004: Ogre_hummer
+    3300006: Ogre_shaman_eq
+    3300008: Ogre_stuff
+    3300010: Ogre_warrior_eq
+    4300000: Ogre_shaman_eq
+    4300002: Ogre_warrior_eq
+    4300004: Ogre_body
+    4300006: Ogre_stuff
+    4300008: Ogre_blunt
+    4300010: Ogre_hummer
+    7400000: Ogre_ArmatureAction
+    7400002: Ogre_walk
+    7400004: Ogre_run
+    7400006: Ogre_idle
+    7400008: Ogre_idle_battle
+    7400010: Ogre_attack_1
+    7400012: Ogre_attack_2
+    7400014: Ogre_power_attack
+    7400016: Ogre_cast_1
+    7400018: Ogre_cast_2
+    7400020: Ogre_defence_start
+    7400022: Ogre_defence_end
+    7400024: Ogre_hit_1
+    7400026: Ogre_hit_2
+    7400028: Ogre_death_1
+    7400030: Ogre_death_2
+    9500000: //RootNode
+    13700000: Ogre_blunt
+    13700002: Ogre_body
+    13700004: Ogre_hummer
+    13700006: Ogre_shaman_eq
+    13700008: Ogre_stuff
+    13700010: Ogre_warrior_eq
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LowPoly
+    second: {fileID: 2100000, guid: 5caedb2d92982ea489243a056d0cb187, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Ogre_ArmatureAction
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 0
+      lastFrame: 551
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_walk
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 10
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_run
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 50
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_idle
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 80
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_idle_battle
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 160
+      lastFrame: 184
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_attack_1
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 190
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_attack_2
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 220
+      lastFrame: 245
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_power_attack
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 250
+      lastFrame: 285
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_cast_1
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 290
+      lastFrame: 320
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_cast_2
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 330
+      lastFrame: 390
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_defence_start
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 395
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_defence_end
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 410
+      lastFrame: 420
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_hit_1
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 425
+      lastFrame: 440
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_hit_2
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 445
+      lastFrame: 460
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_death_1
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 470
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ogre_death_2
+      takeName: Ogre_Armature|Ogre_ArmatureAction
+      firstFrame: 520
+      lastFrame: 551
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ogre_Armature
+        weight: 1
+      - path: Ogre_Armature/Ogre_root
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/puzo/puzo_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Shoulder.L/Shoulder.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Shoulder.R/Shoulder.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon/Weapon_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/hood_1/hood_2/hood_3/hood_3_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Head_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2
+        weight: 1
+      - path: Ogre_Armature/Ogre_root/Hips_ctrl/Vis_1/Vis_2/Vis_2_end
+        weight: 1
+      - path: Ogre_blunt
+        weight: 1
+      - path: Ogre_body
+        weight: 1
+      - path: Ogre_hummer
+        weight: 1
+      - path: Ogre_shaman_eq
+        weight: 1
+      - path: Ogre_stuff
+        weight: 1
+      - path: Ogre_warrior_eq
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

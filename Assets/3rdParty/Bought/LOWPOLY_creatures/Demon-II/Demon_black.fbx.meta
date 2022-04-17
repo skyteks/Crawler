@@ -1,0 +1,3702 @@
+fileFormatVersion: 2
+guid: a293bc3a0d7a87d44b493e6eed849ca6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arm_bottom.L
+    100002: arm_bottom.R
+    100004: arm_up.L
+    100006: arm_up.R
+    100008: calvincle.L
+    100010: calvincle.R
+    100012: Demon_arma
+    100014: Demon_Black
+    100016: //RootNode
+    100018: Demon_weapon
+    100020: Demon_weapon_end
+    100022: fing1_base.L
+    100024: fing1_base.R
+    100026: fing1_end.L
+    100028: fing1_end.L_end
+    100030: fing1_end.R
+    100032: fing1_end.R_end
+    100034: fing1_mid.L
+    100036: fing1_mid.R
+    100038: fing2_base.L
+    100040: fing2_base.R
+    100042: fing2_end.L
+    100044: fing2_end.L_end
+    100046: fing2_end.R
+    100048: fing2_end.R_end
+    100050: fing2_mid.L
+    100052: fing2_mid.R
+    100054: fing3_base.L
+    100056: fing3_base.R
+    100058: fing3_end.L
+    100060: fing3_end.L_end
+    100062: fing3_end.R
+    100064: fing3_end.R_end
+    100066: fing3_mid.L
+    100068: fing3_mid.R
+    100070: hand.L
+    100072: hand.R
+    100074: Head
+    100076: hoof.L
+    100078: hoof.L_end
+    100080: hoof.R
+    100082: hoof.R_end
+    100084: IK_arm.L
+    100086: IK_arm.R
+    100088: IK_elbow.L
+    100090: IK_elbow.L_end
+    100092: IK_elbow.R
+    100094: IK_elbow.R_end
+    100096: IK_knee.L
+    100098: IK_knee.L_end
+    100100: IK_knee.R
+    100102: IK_knee.R_end
+    100104: IK_leg.L
+    100106: IK_leg.R
+    100108: jaw
+    100110: jaw_end
+    100112: leg_down.L
+    100114: leg_down.L_end
+    100116: leg_down.R
+    100118: leg_down.R_end
+    100120: leg_mid.L
+    100122: leg_mid.R
+    100124: leg_up.L
+    100126: leg_up.R
+    100128: neck
+    100130: root
+    100132: scythe
+    100134: Spine_Base
+    100136: Spine_mid
+    100138: Spine_up
+    100140: Tail_base
+    100142: tail_end
+    100144: Tail_mid
+    100146: tail_triangle
+    100148: tail_triangle_end
+    100150: thumb_emd.L
+    100152: thumb_emd.L_end
+    100154: thumb_emd.R
+    100156: thumb_emd.R_end
+    100158: thumb_up.L
+    100160: thumb_up.R
+    400000: arm_bottom.L
+    400002: arm_bottom.R
+    400004: arm_up.L
+    400006: arm_up.R
+    400008: calvincle.L
+    400010: calvincle.R
+    400012: Demon_arma
+    400014: Demon_Black
+    400016: //RootNode
+    400018: Demon_weapon
+    400020: Demon_weapon_end
+    400022: fing1_base.L
+    400024: fing1_base.R
+    400026: fing1_end.L
+    400028: fing1_end.L_end
+    400030: fing1_end.R
+    400032: fing1_end.R_end
+    400034: fing1_mid.L
+    400036: fing1_mid.R
+    400038: fing2_base.L
+    400040: fing2_base.R
+    400042: fing2_end.L
+    400044: fing2_end.L_end
+    400046: fing2_end.R
+    400048: fing2_end.R_end
+    400050: fing2_mid.L
+    400052: fing2_mid.R
+    400054: fing3_base.L
+    400056: fing3_base.R
+    400058: fing3_end.L
+    400060: fing3_end.L_end
+    400062: fing3_end.R
+    400064: fing3_end.R_end
+    400066: fing3_mid.L
+    400068: fing3_mid.R
+    400070: hand.L
+    400072: hand.R
+    400074: Head
+    400076: hoof.L
+    400078: hoof.L_end
+    400080: hoof.R
+    400082: hoof.R_end
+    400084: IK_arm.L
+    400086: IK_arm.R
+    400088: IK_elbow.L
+    400090: IK_elbow.L_end
+    400092: IK_elbow.R
+    400094: IK_elbow.R_end
+    400096: IK_knee.L
+    400098: IK_knee.L_end
+    400100: IK_knee.R
+    400102: IK_knee.R_end
+    400104: IK_leg.L
+    400106: IK_leg.R
+    400108: jaw
+    400110: jaw_end
+    400112: leg_down.L
+    400114: leg_down.L_end
+    400116: leg_down.R
+    400118: leg_down.R_end
+    400120: leg_mid.L
+    400122: leg_mid.R
+    400124: leg_up.L
+    400126: leg_up.R
+    400128: neck
+    400130: root
+    400132: scythe
+    400134: Spine_Base
+    400136: Spine_mid
+    400138: Spine_up
+    400140: Tail_base
+    400142: tail_end
+    400144: Tail_mid
+    400146: tail_triangle
+    400148: tail_triangle_end
+    400150: thumb_emd.L
+    400152: thumb_emd.L_end
+    400154: thumb_emd.R
+    400156: thumb_emd.R_end
+    400158: thumb_up.L
+    400160: thumb_up.R
+    4300000: Demon_Black
+    4300002: scythe
+    7400000: Demon2_attack1
+    7400002: Demon2_attack2
+    7400004: Demon2_attack3
+    7400006: Demon2_death1
+    7400008: Demon2_death2
+    7400010: Demon2_defence_end
+    7400012: Demon2_defence_idle
+    7400014: Demon2_defence_start
+    7400016: Demon2_hit1
+    7400018: Demon2_hit2
+    7400020: Demon2_idle
+    7400022: Demon2_Idle_battle
+    7400024: Demon2_Idle_weakness
+    7400026: Demon2_jump
+    7400028: Demon2_look_around
+    7400030: Demon_arma|PoseLib
+    7400032: Demon2_roar
+    7400034: Demon2_run
+    7400036: Demon2_walk
+    9500000: //RootNode
+    13700000: Demon_Black
+    13700002: scythe
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LowPoly
+    second: {fileID: 2100000, guid: 5caedb2d92982ea489243a056d0cb187, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Demon2_attack1
+      takeName: Demon_arma|attack1
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_attack2
+      takeName: Demon_arma|attack2
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_attack3
+      takeName: Demon_arma|attack3
+      firstFrame: 0
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_death1
+      takeName: Demon_arma|death1
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_death2
+      takeName: Demon_arma|death2
+      firstFrame: 0
+      lastFrame: 43
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_defence_end
+      takeName: Demon_arma|defence_end
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_defence_idle
+      takeName: Demon_arma|defence_idle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_defence_start
+      takeName: Demon_arma|defence_start
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_hit1
+      takeName: Demon_arma|hit1
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_hit2
+      takeName: Demon_arma|hit2
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_idle
+      takeName: Demon_arma|Idle
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_Idle_battle
+      takeName: Demon_arma|Idle_battle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_Idle_weakness
+      takeName: Demon_arma|Idle_weakness
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_jump
+      takeName: Demon_arma|jump
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_look_around
+      takeName: Demon_arma|look_around
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_roar
+      takeName: Demon_arma|roar
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_run
+      takeName: Demon_arma|run
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon2_walk
+      takeName: Demon_arma|walk
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon_arma
+        weight: 1
+      - path: Demon_arma/Demon_weapon
+        weight: 1
+      - path: Demon_arma/Demon_weapon/Demon_weapon_end
+        weight: 1
+      - path: Demon_arma/root
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L
+        weight: 1
+      - path: Demon_arma/root/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R
+        weight: 1
+      - path: Demon_arma/root/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/hoof.L/hoof.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L
+        weight: 1
+      - path: Demon_arma/root/IK_leg.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/hoof.R/hoof.R_end
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R
+        weight: 1
+      - path: Demon_arma/root/IK_leg.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.L/leg_mid.L/leg_down.L/leg_down.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/leg_up.R/leg_mid.R/leg_down.R/leg_down.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing1_base.L/fing1_mid.L/fing1_end.L/fing1_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing2_base.L/fing2_mid.L/fing2_end.L/fing2_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/fing3_base.L/fing3_mid.L/fing3_end.L/fing3_end.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.L/arm_up.L/arm_bottom.L/hand.L/thumb_up.L/thumb_emd.L/thumb_emd.L_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing1_base.R/fing1_mid.R/fing1_end.R/fing1_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing2_base.R/fing2_mid.R/fing2_end.R/fing2_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/fing3_base.R/fing3_mid.R/fing3_end.R/fing3_end.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/calvincle.R/arm_up.R/arm_bottom.R/hand.R/thumb_up.R/thumb_emd.R/thumb_emd.R_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Spine_mid/Spine_up/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle
+        weight: 1
+      - path: Demon_arma/root/Spine_Base/Tail_base/Tail_mid/tail_end/tail_triangle/tail_triangle_end
+        weight: 1
+      - path: Demon_Black
+        weight: 1
+      - path: scythe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.9999999
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

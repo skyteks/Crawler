@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Turn_mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Cube
+    m_Weight: 0
+  - m_Path: Cube.001
+    m_Weight: 0
+  - m_Path: Drag_Arma
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/hip.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/hip.L/leg1.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/hip.L/leg1.L/leg2.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/hip.L/leg1.L/leg2.L/leg3.L/foot.L/foot.L_end
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/hip.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/hip.R/leg1.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/hip.R/leg1.R/leg2.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/hip.R/leg1.R/leg2.R/leg3.R/foot.R/foot.R_end
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/neck1
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/neck1/neck2
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/neck1/neck2/neck3
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/neck1/neck2/neck3/head
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/neck1/neck2/neck3/head/jaw
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/neck1/neck2/neck3/head/jaw/jaw_end
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/shoulder.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/shoulder.L/arm.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/fingers.L/fingers.L_end
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/shoulder.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/shoulder.R/arm.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/fingers.R/fingers.R_end
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.L
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.L/wing_arm.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.L/wing_arm.L/wing_fin1base.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.L/wing_arm.L/wing_fin1base.L/wing_fin1end.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.L/wing_arm.L/wing_fin1base.L/wing_fin1end.L/wing_fin1end.L_end
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.L/wing_arm.L/wing_fin2base.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.L/wing_arm.L/wing_fin2base.L/wing_fin2end.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.L/wing_arm.L/wing_fin2base.L/wing_fin2end.L/wing_fin2end.L_end
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.L/wing_arm.L/wing_fin3base.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.L/wing_arm.L/wing_fin3base.L/wing_fin3end.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.L/wing_arm.L/wing_fin3base.L/wing_fin3end.L/wing_fin3end.L_end
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.R
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.R/wing_arm.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.R/wing_arm.R/wing_fin1base.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.R/wing_arm.R/wing_fin1base.R/wing_fin1end.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.R/wing_arm.R/wing_fin1base.R/wing_fin1end.R/wing_fin1end.R_end
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.R/wing_arm.R/wing_fin2base.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.R/wing_arm.R/wing_fin2base.R/wing_fin2end.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.R/wing_arm.R/wing_fin2base.R/wing_fin2end.R/wing_fin2end.R_end
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.R/wing_arm.R/wing_fin3base.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.R/wing_arm.R/wing_fin3base.R/wing_fin3end.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/spine2/wing_base.R/wing_arm.R/wing_fin3base.R/wing_fin3end.R/wing_fin3end.R_end
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_hip/spine1/tail1
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/tail1/tail2
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/tail1/tail2/tail3
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/tail1/tail2/tail3/tail4
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_hip/spine1/tail1/tail2/tail3/tail4/tail5/tail_end/tail_end_end
+    m_Weight: 1
+  - m_Path: Drag_Arma/IK_Leg.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_Leg.L/IK_knee.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_Leg.L/IK_knee.L/IK_knee.L_end
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_Leg.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_Leg.R/IK_knee.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/IK_Leg.R/IK_knee.R/IK_knee.R_end
+    m_Weight: 0
+  - m_Path: Drag_Arma/Root_Bone
+    m_Weight: 0
+  - m_Path: Drag_Arma/Root_Bone/IK_arm.L
+    m_Weight: 1
+  - m_Path: Drag_Arma/Root_Bone/IK_arm.L/IK_elbow.L
+    m_Weight: 1
+  - m_Path: Drag_Arma/Root_Bone/IK_arm.L/IK_elbow.L/IK_elbow.L_end
+    m_Weight: 1
+  - m_Path: Drag_Arma/Root_Bone/IK_arm.R
+    m_Weight: 1
+  - m_Path: Drag_Arma/Root_Bone/IK_arm.R/IK_elbow.R
+    m_Weight: 1
+  - m_Path: Drag_Arma/Root_Bone/IK_arm.R/IK_elbow.R/IK_elbow.R_end
+    m_Weight: 1
+  - m_Path: Drag_Arma/Root_Bone/IK_foot.L
+    m_Weight: 0
+  - m_Path: Drag_Arma/Root_Bone/IK_foot.L/IK_foot.L_end
+    m_Weight: 0
+  - m_Path: Drag_Arma/Root_Bone/IK_foot.R
+    m_Weight: 0
+  - m_Path: Drag_Arma/Root_Bone/IK_foot.R/IK_foot.R_end
+    m_Weight: 0
+  - m_Path: Drag_Arma/Root_Bone/IK_spine
+    m_Weight: 1
+  - m_Path: Drag_Arma/Root_Bone/IK_spine/IK_neck
+    m_Weight: 1
+  - m_Path: Drag_Arma/Root_Bone/IK_spine/IK_neck/IK_neck_end
+    m_Weight: 1
+  - m_Path: Drag_Arma/Root_Bone/IK_spine/IK_wing.L
+    m_Weight: 1
+  - m_Path: Drag_Arma/Root_Bone/IK_spine/IK_wing.L/IK_wing_elbow.L
+    m_Weight: 1
+  - m_Path: Drag_Arma/Root_Bone/IK_spine/IK_wing.L/IK_wing_elbow.L/IK_wing_elbow.L_end
+    m_Weight: 1
+  - m_Path: Drag_Arma/Root_Bone/IK_spine/IK_wing.R
+    m_Weight: 1
+  - m_Path: Drag_Arma/Root_Bone/IK_spine/IK_wing.R/IK_wing_elbow.R
+    m_Weight: 1
+  - m_Path: Drag_Arma/Root_Bone/IK_spine/IK_wing.R/IK_wing_elbow.R/IK_wing_elbow.R_end
+    m_Weight: 1

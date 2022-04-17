@@ -1,0 +1,2749 @@
+fileFormatVersion: 2
+guid: 95e845bd6b177b34e89d68463cd035ce
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: abdome
+    100002: abdome_end
+    100004: arm_IK.L
+    100006: arm_IK.R
+    100008: calvincle.L
+    100010: calvincle.R
+    100012: claw.L
+    100014: claw.L_end
+    100016: claw.R
+    100018: claw.R_end
+    100020: elbow_IK.L
+    100022: elbow_IK.L_end
+    100024: elbow_IK.R
+    100026: elbow_IK.R_end
+    100028: front_knee._IK.L
+    100030: front_knee._IK.L_end
+    100032: front_knee._IK.R
+    100034: front_knee._IK.R_end
+    100036: front_leg_end.L
+    100038: front_leg_end.L_end
+    100040: front_leg_end.R
+    100042: front_leg_end.R_end
+    100044: front_leg_IK.L
+    100046: front_leg_IK.R
+    100048: front_leg_start.L
+    100050: front_leg_start.R
+    100052: head
+    100054: head_IK
+    100056: head_IK_end
+    100058: hood
+    100060: hood_end
+    100062: hood_end_end
+    100064: lower_arm.L
+    100066: lower_arm.R
+    100068: neck
+    100070: Orahnid
+    100072: //RootNode
+    100074: Orahnid_armature
+    100076: Orahnid_root
+    100078: rear_knee_IK.L
+    100080: rear_knee_IK.L_end
+    100082: rear_knee_IK.R
+    100084: rear_knee_IK.R_end
+    100086: rear_leg_end.L
+    100088: rear_leg_end.L_end
+    100090: rear_leg_end.R
+    100092: rear_leg_end.R_end
+    100094: rear_leg_IK.L
+    100096: rear_leg_IK.R
+    100098: rear_leg_start.L
+    100100: rear_leg_start.R
+    100102: Spine1
+    100104: Spine2
+    100106: Spine3
+    100108: upper_arm.L
+    100110: upper_arm.R
+    400000: abdome
+    400002: abdome_end
+    400004: arm_IK.L
+    400006: arm_IK.R
+    400008: calvincle.L
+    400010: calvincle.R
+    400012: claw.L
+    400014: claw.L_end
+    400016: claw.R
+    400018: claw.R_end
+    400020: elbow_IK.L
+    400022: elbow_IK.L_end
+    400024: elbow_IK.R
+    400026: elbow_IK.R_end
+    400028: front_knee._IK.L
+    400030: front_knee._IK.L_end
+    400032: front_knee._IK.R
+    400034: front_knee._IK.R_end
+    400036: front_leg_end.L
+    400038: front_leg_end.L_end
+    400040: front_leg_end.R
+    400042: front_leg_end.R_end
+    400044: front_leg_IK.L
+    400046: front_leg_IK.R
+    400048: front_leg_start.L
+    400050: front_leg_start.R
+    400052: head
+    400054: head_IK
+    400056: head_IK_end
+    400058: hood
+    400060: hood_end
+    400062: hood_end_end
+    400064: lower_arm.L
+    400066: lower_arm.R
+    400068: neck
+    400070: Orahnid
+    400072: //RootNode
+    400074: Orahnid_armature
+    400076: Orahnid_root
+    400078: rear_knee_IK.L
+    400080: rear_knee_IK.L_end
+    400082: rear_knee_IK.R
+    400084: rear_knee_IK.R_end
+    400086: rear_leg_end.L
+    400088: rear_leg_end.L_end
+    400090: rear_leg_end.R
+    400092: rear_leg_end.R_end
+    400094: rear_leg_IK.L
+    400096: rear_leg_IK.R
+    400098: rear_leg_start.L
+    400100: rear_leg_start.R
+    400102: Spine1
+    400104: Spine2
+    400106: Spine3
+    400108: upper_arm.L
+    400110: upper_arm.R
+    4300000: Orahnid
+    7400000: Arahnid_walk
+    7400002: Arahnid_armature|Orahnid_armatureAction
+    7400004: Arahnid_run
+    7400006: Arahnid_idle
+    7400008: Arahnid_battle_idle
+    7400010: Arahnid_attack1
+    7400012: Arahnid_attack2
+    7400014: Arahnid_power_attack
+    7400016: Arahnid_spit
+    7400018: Arahnid_cast
+    7400020: Arahnid_jump_start
+    7400022: Arahnid_jump_end
+    7400024: Arahnid_defence_start
+    7400026: Arahnid_defence_end
+    7400028: Arahnid_hit1
+    7400030: Arahnid_hit2
+    7400032: Arahnid_death1
+    7400034: Arahnid_death2
+    9500000: //RootNode
+    13700000: Orahnid
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LowPoly
+    second: {fileID: 2100000, guid: 5caedb2d92982ea489243a056d0cb187, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Arahnid_armature|Orahnid_armatureAction
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 0
+      lastFrame: 531
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_walk
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 10
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_run
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 50
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_idle
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 90
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_battle_idle
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 170
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_attack1
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 210
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_attack2
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 230
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_power_attack
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 250
+      lastFrame: 285
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_spit
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 285
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_cast
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 300
+      lastFrame: 340
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_jump_start
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 340
+      lastFrame: 368
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_jump_end
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 368
+      lastFrame: 390
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_defence_start
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 390
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_defence_end
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 405
+      lastFrame: 417
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_hit1
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 420
+      lastFrame: 435
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_hit2
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 435
+      lastFrame: 450
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_death1
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 450
+      lastFrame: 475
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arahnid_death2
+      takeName: Orahnid_armature|Orahnid_armatureAction
+      firstFrame: 490
+      lastFrame: 530
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Orahnid
+        weight: 1
+      - path: Orahnid_armature
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.L/front_knee._IK.L/front_knee._IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/front_leg_IK.R/front_knee._IK.R/front_knee._IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/head_IK/head_IK_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.L/rear_knee_IK.L/rear_knee_IK.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/rear_leg_IK.R/rear_knee_IK.R/rear_knee_IK.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/abdome/abdome_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.L/front_leg_end.L/front_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/front_leg_start.R/front_leg_end.R/front_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.L/rear_leg_end.L/rear_leg_end.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/rear_leg_start.R/rear_leg_end.R/rear_leg_end.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.L/upper_arm.L/lower_arm.L/claw.L/claw.L_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/calvincle.R/upper_arm.R/lower_arm.R/claw.R/claw.R_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end
+        weight: 1
+      - path: Orahnid_armature/Orahnid_root/Spine1/Spine2/Spine3/neck/head/hood/hood_end/hood_end_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.9999999
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

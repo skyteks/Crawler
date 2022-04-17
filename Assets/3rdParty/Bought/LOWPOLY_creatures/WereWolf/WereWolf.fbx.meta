@@ -1,0 +1,2943 @@
+fileFormatVersion: 2
+guid: 2434f98b1d07a1442bc209e65200aecd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arm.L
+    100002: arm.R
+    100004: Cube.001
+    100006: ear.L
+    100008: ear.L_end
+    100010: ear.R
+    100012: ear.R_end
+    100014: finger.L
+    100016: finger.L_end
+    100018: finger.R
+    100020: finger.R_end
+    100022: foot.L
+    100024: foot.L_end
+    100026: foot.R
+    100028: foot.R_end
+    100030: forearm.L
+    100032: forearm.R
+    100034: hand.L
+    100036: hand.R
+    100038: head
+    100040: hip.L
+    100042: hip.R
+    100044: hips
+    100046: IK_elbow.L
+    100048: IK_elbow.L_end
+    100050: IK_elbow.R
+    100052: IK_elbow.R_end
+    100054: IK_foot.L
+    100056: IK_foot.R
+    100058: IK_hand.L
+    100060: IK_hand.R
+    100062: IK_knee.L
+    100064: IK_knee.L_end
+    100066: IK_knee.R
+    100068: IK_knee.R_end
+    100070: jaw
+    100072: jaw_end
+    100074: leg_bot.L
+    100076: leg_bot.R
+    100078: leg_mid.L
+    100080: leg_mid.R
+    100082: leg_up.L
+    100084: leg_up.R
+    100086: lips
+    100088: lips_end
+    100090: neck
+    100092: Root_bone
+    100094: shoulder.L
+    100096: shoulder.R
+    100098: spine1
+    100100: spine2
+    100102: tail_end
+    100104: tail_end_end
+    100106: tail_mid
+    100108: tail_root
+    100110: thumb.L
+    100112: thumb.L_end
+    100114: thumb.R
+    100116: thumb.R_end
+    100118: //RootNode
+    100120: WerWolf_arma
+    100122: were_wolf
+    400000: arm.L
+    400002: arm.R
+    400004: Cube.001
+    400006: ear.L
+    400008: ear.L_end
+    400010: ear.R
+    400012: ear.R_end
+    400014: finger.L
+    400016: finger.L_end
+    400018: finger.R
+    400020: finger.R_end
+    400022: foot.L
+    400024: foot.L_end
+    400026: foot.R
+    400028: foot.R_end
+    400030: forearm.L
+    400032: forearm.R
+    400034: hand.L
+    400036: hand.R
+    400038: head
+    400040: hip.L
+    400042: hip.R
+    400044: hips
+    400046: IK_elbow.L
+    400048: IK_elbow.L_end
+    400050: IK_elbow.R
+    400052: IK_elbow.R_end
+    400054: IK_foot.L
+    400056: IK_foot.R
+    400058: IK_hand.L
+    400060: IK_hand.R
+    400062: IK_knee.L
+    400064: IK_knee.L_end
+    400066: IK_knee.R
+    400068: IK_knee.R_end
+    400070: jaw
+    400072: jaw_end
+    400074: leg_bot.L
+    400076: leg_bot.R
+    400078: leg_mid.L
+    400080: leg_mid.R
+    400082: leg_up.L
+    400084: leg_up.R
+    400086: lips
+    400088: lips_end
+    400090: neck
+    400092: Root_bone
+    400094: shoulder.L
+    400096: shoulder.R
+    400098: spine1
+    400100: spine2
+    400102: tail_end
+    400104: tail_end_end
+    400106: tail_mid
+    400108: tail_root
+    400110: thumb.L
+    400112: thumb.L_end
+    400114: thumb.R
+    400116: thumb.R_end
+    400118: //RootNode
+    400120: WerWolf_arma
+    400122: were_wolf
+    4300000: Cube.001
+    4300002: were_wolf
+    7400000: WerWolf_attack1
+    7400002: WerWolf_attack2
+    7400004: WerWolf_attack3
+    7400006: WerWolf_battle
+    7400008: WerWolf_bite
+    7400010: WerWolf_death1
+    7400012: WerWolf_death2
+    7400014: WerWolf_defence
+    7400016: WerWolf_galop
+    7400018: WerWolf_hit1
+    7400020: WerWolf_hit2
+    7400022: WerWolf_howl
+    7400024: WerWolf_idle
+    7400026: WerWolf_jump
+    7400028: WerWolf_ww_run
+    7400030: WerWolf_walk
+    7400032: WerWolf_defence_start
+    7400034: WerWolf_defence_end
+    9500000: //RootNode
+    13700000: Cube.001
+    13700002: were_wolf
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WereWol
+    second: {fileID: 2100000, guid: 5caedb2d92982ea489243a056d0cb187, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WerWolf_attack1
+      takeName: WerWolf_arma|ww_attack1
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_attack2
+      takeName: WerWolf_arma|ww_attack2
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_attack3
+      takeName: WerWolf_arma|ww_attack3
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_battle
+      takeName: WerWolf_arma|ww_battle
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_bite
+      takeName: WerWolf_arma|ww_bite
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_death1
+      takeName: WerWolf_arma|ww_death1
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_death2
+      takeName: WerWolf_arma|ww_death2
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_defence
+      takeName: WerWolf_arma|ww_defence
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_galop
+      takeName: WerWolf_arma|ww_galop
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_hit1
+      takeName: WerWolf_arma|ww_hit1
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_hit2
+      takeName: WerWolf_arma|ww_hit2
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_howl
+      takeName: WerWolf_arma|ww_howl
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_idle
+      takeName: WerWolf_arma|ww_idle
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_jump
+      takeName: WerWolf_arma|ww_jump
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_ww_run
+      takeName: WerWolf_arma|ww_run
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_walk
+      takeName: WerWolf_arma|ww_walk
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_defence_start
+      takeName: WerWolf_arma|ww_defence
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WerWolf_defence_end
+      takeName: WerWolf_arma|ww_defence
+      firstFrame: 15
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: were_wolf
+        weight: 1
+      - path: WerWolf_arma
+        weight: 1
+      - path: WerWolf_arma/Root_bone
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.L/leg_up.L/leg_mid.L/leg_bot.L/foot.L/foot.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/hip.R/leg_up.R/leg_mid.R/leg_bot.R/foot.R/foot.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.L/ear.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/ear.R/ear.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/jaw/jaw_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/neck/head/lips/lips_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/finger.L/finger.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.L/arm.L/forearm.L/hand.L/thumb.L/thumb.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/finger.R/finger.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/spine1/spine2/shoulder.R/arm.R/forearm.R/hand.R/thumb.R/thumb.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/hips/tail_root/tail_mid/tail_end/tail_end_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.L/IK_knee.L/IK_knee.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_foot.R/IK_knee.R/IK_knee.R_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: WerWolf_arma/Root_bone/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.9999999
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

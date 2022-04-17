@@ -1,692 +1,240 @@
 fileFormatVersion: 2
 guid: b6ef2f4d0154b2747860a3332fa05f97
+timeCreated: 1545005355
+licenseType: Store
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: Ankle_L
-  - first:
-      1: 100002
-    second: Ankle_R
-  - first:
-      1: 100004
-    second: Ball_L
-  - first:
-      1: 100006
-    second: Ball_R
-  - first:
-      1: 100008
-    second: Character_Ghost_01
-  - first:
-      1: 100010
-    second: Character_Ghost_02
-  - first:
-      1: 100012
-    second: Character_Goblin_Female
-  - first:
-      1: 100014
-    second: Character_Goblin_Male
-  - first:
-      1: 100016
-    second: Character_Goblin_Shaman
-  - first:
-      1: 100018
-    second: Character_Goblin_WarChief
-  - first:
-      1: 100020
-    second: Character_Goblin_Warrior_Female
-  - first:
-      1: 100022
-    second: Character_Goblin_Warrior_Male
-  - first:
-      1: 100024
-    second: Character_Hero_Knight_Female
-  - first:
-      1: 100026
-    second: Character_Hero_Knight_Male
-  - first:
-      1: 100028
-    second: Character_Rock_Golem
-  - first:
-      1: 100030
-    second: Character_Skeleton_Knight
-  - first:
-      1: 100032
-    second: Character_Skeleton_Slave_01
-  - first:
-      1: 100034
-    second: Character_Skeleton_Soldier_01
-  - first:
-      1: 100036
-    second: Character_Skeleton_Soldier_02
-  - first:
-      1: 100038
-    second: Character_Tormented_Soul
-  - first:
-      1: 100040
-    second: //RootNode
-  - first:
-      1: 100042
-    second: Clavicle_L
-  - first:
-      1: 100044
-    second: Clavicle_R
-  - first:
-      1: 100046
-    second: Elbow_L
-  - first:
-      1: 100048
-    second: Elbow_R
-  - first:
-      1: 100050
-    second: Eyebrows
-  - first:
-      1: 100052
-    second: Eyes
-  - first:
-      1: 100054
-    second: Finger_01
-  - first:
-      1: 100056
-    second: Finger_01 1
-  - first:
-      1: 100058
-    second: Finger_02
-  - first:
-      1: 100060
-    second: Finger_02 1
-  - first:
-      1: 100062
-    second: Finger_03
-  - first:
-      1: 100064
-    second: Finger_03 1
-  - first:
-      1: 100066
-    second: Finger_04
-  - first:
-      1: 100068
-    second: Finger_04 1
-  - first:
-      1: 100070
-    second: Hand_L
-  - first:
-      1: 100072
-    second: Hand_R
-  - first:
-      1: 100074
-    second: Head
-  - first:
-      1: 100076
-    second: Hips
-  - first:
-      1: 100078
-    second: IndexFinger_01
-  - first:
-      1: 100080
-    second: IndexFinger_01 1
-  - first:
-      1: 100082
-    second: IndexFinger_02
-  - first:
-      1: 100084
-    second: IndexFinger_02 1
-  - first:
-      1: 100086
-    second: IndexFinger_03
-  - first:
-      1: 100088
-    second: IndexFinger_03 1
-  - first:
-      1: 100090
-    second: IndexFinger_04
-  - first:
-      1: 100092
-    second: IndexFinger_04 1
-  - first:
-      1: 100094
-    second: LowerLeg_L
-  - first:
-      1: 100096
-    second: LowerLeg_R
-  - first:
-      1: 100098
-    second: Neck
-  - first:
-      1: 100100
-    second: Root
-  - first:
-      1: 100102
-    second: Shoulder_L
-  - first:
-      1: 100104
-    second: Shoulder_R
-  - first:
-      1: 100106
-    second: SM_Item_Bag_Large
-  - first:
-      1: 100108
-    second: SM_Item_Bags
-  - first:
-      1: 100110
-    second: SM_Item_Bones
-  - first:
-      1: 100112
-    second: SM_Item_Goblin_Hair
-  - first:
-      1: 100114
-    second: SM_Item_Goblin_WarBanner
-  - first:
-      1: 100116
-    second: SM_Item_Horn
-  - first:
-      1: 100118
-    second: SM_Item_Mask_01
-  - first:
-      1: 100120
-    second: SM_Item_Mask_02
-  - first:
-      1: 100122
-    second: SM_Item_Shield
-  - first:
-      1: 100124
-    second: SM_Item_Shrooms
-  - first:
-      1: 100126
-    second: SM_Item_Shrunken_Head
-  - first:
-      1: 100128
-    second: SM_Item_Sword
-  - first:
-      1: 100130
-    second: Spine_01
-  - first:
-      1: 100132
-    second: Spine_02
-  - first:
-      1: 100134
-    second: Spine_03
-  - first:
-      1: 100136
-    second: Thumb_01
-  - first:
-      1: 100138
-    second: Thumb_01 1
-  - first:
-      1: 100140
-    second: Thumb_02
-  - first:
-      1: 100142
-    second: Thumb_02 1
-  - first:
-      1: 100144
-    second: Thumb_03
-  - first:
-      1: 100146
-    second: Thumb_03 1
-  - first:
-      1: 100148
-    second: Toes_L
-  - first:
-      1: 100150
-    second: Toes_R
-  - first:
-      1: 100152
-    second: UpperLeg_L
-  - first:
-      1: 100154
-    second: UpperLeg_R
-  - first:
-      4: 400000
-    second: Ankle_L
-  - first:
-      4: 400002
-    second: Ankle_R
-  - first:
-      4: 400004
-    second: Ball_L
-  - first:
-      4: 400006
-    second: Ball_R
-  - first:
-      4: 400008
-    second: Character_Ghost_01
-  - first:
-      4: 400010
-    second: Character_Ghost_02
-  - first:
-      4: 400012
-    second: Character_Goblin_Female
-  - first:
-      4: 400014
-    second: Character_Goblin_Male
-  - first:
-      4: 400016
-    second: Character_Goblin_Shaman
-  - first:
-      4: 400018
-    second: Character_Goblin_WarChief
-  - first:
-      4: 400020
-    second: Character_Goblin_Warrior_Female
-  - first:
-      4: 400022
-    second: Character_Goblin_Warrior_Male
-  - first:
-      4: 400024
-    second: Character_Hero_Knight_Female
-  - first:
-      4: 400026
-    second: Character_Hero_Knight_Male
-  - first:
-      4: 400028
-    second: Character_Rock_Golem
-  - first:
-      4: 400030
-    second: Character_Skeleton_Knight
-  - first:
-      4: 400032
-    second: Character_Skeleton_Slave_01
-  - first:
-      4: 400034
-    second: Character_Skeleton_Soldier_01
-  - first:
-      4: 400036
-    second: Character_Skeleton_Soldier_02
-  - first:
-      4: 400038
-    second: Character_Tormented_Soul
-  - first:
-      4: 400040
-    second: //RootNode
-  - first:
-      4: 400042
-    second: Clavicle_L
-  - first:
-      4: 400044
-    second: Clavicle_R
-  - first:
-      4: 400046
-    second: Elbow_L
-  - first:
-      4: 400048
-    second: Elbow_R
-  - first:
-      4: 400050
-    second: Eyebrows
-  - first:
-      4: 400052
-    second: Eyes
-  - first:
-      4: 400054
-    second: Finger_01
-  - first:
-      4: 400056
-    second: Finger_01 1
-  - first:
-      4: 400058
-    second: Finger_02
-  - first:
-      4: 400060
-    second: Finger_02 1
-  - first:
-      4: 400062
-    second: Finger_03
-  - first:
-      4: 400064
-    second: Finger_03 1
-  - first:
-      4: 400066
-    second: Finger_04
-  - first:
-      4: 400068
-    second: Finger_04 1
-  - first:
-      4: 400070
-    second: Hand_L
-  - first:
-      4: 400072
-    second: Hand_R
-  - first:
-      4: 400074
-    second: Head
-  - first:
-      4: 400076
-    second: Hips
-  - first:
-      4: 400078
-    second: IndexFinger_01
-  - first:
-      4: 400080
-    second: IndexFinger_01 1
-  - first:
-      4: 400082
-    second: IndexFinger_02
-  - first:
-      4: 400084
-    second: IndexFinger_02 1
-  - first:
-      4: 400086
-    second: IndexFinger_03
-  - first:
-      4: 400088
-    second: IndexFinger_03 1
-  - first:
-      4: 400090
-    second: IndexFinger_04
-  - first:
-      4: 400092
-    second: IndexFinger_04 1
-  - first:
-      4: 400094
-    second: LowerLeg_L
-  - first:
-      4: 400096
-    second: LowerLeg_R
-  - first:
-      4: 400098
-    second: Neck
-  - first:
-      4: 400100
-    second: Root
-  - first:
-      4: 400102
-    second: Shoulder_L
-  - first:
-      4: 400104
-    second: Shoulder_R
-  - first:
-      4: 400106
-    second: SM_Item_Bag_Large
-  - first:
-      4: 400108
-    second: SM_Item_Bags
-  - first:
-      4: 400110
-    second: SM_Item_Bones
-  - first:
-      4: 400112
-    second: SM_Item_Goblin_Hair
-  - first:
-      4: 400114
-    second: SM_Item_Goblin_WarBanner
-  - first:
-      4: 400116
-    second: SM_Item_Horn
-  - first:
-      4: 400118
-    second: SM_Item_Mask_01
-  - first:
-      4: 400120
-    second: SM_Item_Mask_02
-  - first:
-      4: 400122
-    second: SM_Item_Shield
-  - first:
-      4: 400124
-    second: SM_Item_Shrooms
-  - first:
-      4: 400126
-    second: SM_Item_Shrunken_Head
-  - first:
-      4: 400128
-    second: SM_Item_Sword
-  - first:
-      4: 400130
-    second: Spine_01
-  - first:
-      4: 400132
-    second: Spine_02
-  - first:
-      4: 400134
-    second: Spine_03
-  - first:
-      4: 400136
-    second: Thumb_01
-  - first:
-      4: 400138
-    second: Thumb_01 1
-  - first:
-      4: 400140
-    second: Thumb_02
-  - first:
-      4: 400142
-    second: Thumb_02 1
-  - first:
-      4: 400144
-    second: Thumb_03
-  - first:
-      4: 400146
-    second: Thumb_03 1
-  - first:
-      4: 400148
-    second: Toes_L
-  - first:
-      4: 400150
-    second: Toes_R
-  - first:
-      4: 400152
-    second: UpperLeg_L
-  - first:
-      4: 400154
-    second: UpperLeg_R
-  - first:
-      23: 2300000
-    second: SM_Item_Bag_Large
-  - first:
-      23: 2300002
-    second: SM_Item_Bags
-  - first:
-      23: 2300004
-    second: SM_Item_Bones
-  - first:
-      23: 2300006
-    second: SM_Item_Goblin_Hair
-  - first:
-      23: 2300008
-    second: SM_Item_Goblin_WarBanner
-  - first:
-      23: 2300010
-    second: SM_Item_Horn
-  - first:
-      23: 2300012
-    second: SM_Item_Mask_01
-  - first:
-      23: 2300014
-    second: SM_Item_Mask_02
-  - first:
-      23: 2300016
-    second: SM_Item_Shield
-  - first:
-      23: 2300018
-    second: SM_Item_Shrooms
-  - first:
-      23: 2300020
-    second: SM_Item_Shrunken_Head
-  - first:
-      23: 2300022
-    second: SM_Item_Sword
-  - first:
-      33: 3300000
-    second: SM_Item_Bag_Large
-  - first:
-      33: 3300002
-    second: SM_Item_Bags
-  - first:
-      33: 3300004
-    second: SM_Item_Bones
-  - first:
-      33: 3300006
-    second: SM_Item_Goblin_Hair
-  - first:
-      33: 3300008
-    second: SM_Item_Goblin_WarBanner
-  - first:
-      33: 3300010
-    second: SM_Item_Horn
-  - first:
-      33: 3300012
-    second: SM_Item_Mask_01
-  - first:
-      33: 3300014
-    second: SM_Item_Mask_02
-  - first:
-      33: 3300016
-    second: SM_Item_Shield
-  - first:
-      33: 3300018
-    second: SM_Item_Shrooms
-  - first:
-      33: 3300020
-    second: SM_Item_Shrunken_Head
-  - first:
-      33: 3300022
-    second: SM_Item_Sword
-  - first:
-      43: 4300000
-    second: SM_Item_Goblin_Hair
-  - first:
-      43: 4300002
-    second: SM_Item_Mask_01
-  - first:
-      43: 4300004
-    second: SM_Item_Mask_02
-  - first:
-      43: 4300006
-    second: SM_Item_Goblin_WarBanner
-  - first:
-      43: 4300008
-    second: SM_Item_Sword
-  - first:
-      43: 4300010
-    second: SM_Item_Shield
-  - first:
-      43: 4300012
-    second: SM_Item_Shrunken_Head
-  - first:
-      43: 4300014
-    second: SM_Item_Bags
-  - first:
-      43: 4300016
-    second: SM_Item_Shrooms
-  - first:
-      43: 4300018
-    second: SM_Item_Horn
-  - first:
-      43: 4300020
-    second: SM_Item_Bones
-  - first:
-      43: 4300022
-    second: SM_Item_Bag_Large
-  - first:
-      43: 4300024
-    second: Character_Goblin_Warrior_Female
-  - first:
-      43: 4300026
-    second: Character_Skeleton_Knight
-  - first:
-      43: 4300028
-    second: Character_Goblin_Female
-  - first:
-      43: 4300030
-    second: Character_Hero_Knight_Female
-  - first:
-      43: 4300032
-    second: Character_Ghost_02
-  - first:
-      43: 4300034
-    second: Character_Goblin_Warrior_Male
-  - first:
-      43: 4300036
-    second: Character_Rock_Golem
-  - first:
-      43: 4300038
-    second: Character_Goblin_Shaman
-  - first:
-      43: 4300040
-    second: Character_Ghost_01
-  - first:
-      43: 4300042
-    second: Character_Tormented_Soul
-  - first:
-      43: 4300044
-    second: Character_Skeleton_Soldier_02
-  - first:
-      43: 4300046
-    second: Character_Goblin_Male
-  - first:
-      43: 4300048
-    second: Character_Hero_Knight_Male
-  - first:
-      43: 4300050
-    second: Character_Skeleton_Slave_01
-  - first:
-      43: 4300052
-    second: Character_Goblin_WarChief
-  - first:
-      43: 4300054
-    second: Character_Skeleton_Soldier_01
-  - first:
-      74: 7400000
-    second: Take 001
-  - first:
-      95: 9500000
-    second: //RootNode
-  - first:
-      137: 13700000
-    second: Character_Ghost_01
-  - first:
-      137: 13700002
-    second: Character_Ghost_02
-  - first:
-      137: 13700004
-    second: Character_Goblin_Female
-  - first:
-      137: 13700006
-    second: Character_Goblin_Male
-  - first:
-      137: 13700008
-    second: Character_Goblin_Shaman
-  - first:
-      137: 13700010
-    second: Character_Goblin_WarChief
-  - first:
-      137: 13700012
-    second: Character_Goblin_Warrior_Female
-  - first:
-      137: 13700014
-    second: Character_Goblin_Warrior_Male
-  - first:
-      137: 13700016
-    second: Character_Hero_Knight_Female
-  - first:
-      137: 13700018
-    second: Character_Hero_Knight_Male
-  - first:
-      137: 13700020
-    second: Character_Rock_Golem
-  - first:
-      137: 13700022
-    second: Character_Skeleton_Knight
-  - first:
-      137: 13700024
-    second: Character_Skeleton_Slave_01
-  - first:
-      137: 13700026
-    second: Character_Skeleton_Soldier_01
-  - first:
-      137: 13700028
-    second: Character_Skeleton_Soldier_02
-  - first:
-      137: 13700030
-    second: Character_Tormented_Soul
-  externalObjects: {}
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ankle_L
+    100002: Ankle_R
+    100004: Ball_L
+    100006: Ball_R
+    100008: Character_Ghost_01
+    100010: Character_Ghost_02
+    100012: Character_Goblin_Female
+    100014: Character_Goblin_Male
+    100016: Character_Goblin_Shaman
+    100018: Character_Goblin_WarChief
+    100020: Character_Goblin_Warrior_Female
+    100022: Character_Goblin_Warrior_Male
+    100024: Character_Hero_Knight_Female
+    100026: Character_Hero_Knight_Male
+    100028: Character_Rock_Golem
+    100030: Character_Skeleton_Knight
+    100032: Character_Skeleton_Slave_01
+    100034: Character_Skeleton_Soldier_01
+    100036: Character_Skeleton_Soldier_02
+    100038: Character_Tormented_Soul
+    100040: //RootNode
+    100042: Clavicle_L
+    100044: Clavicle_R
+    100046: Elbow_L
+    100048: Elbow_R
+    100050: Eyebrows
+    100052: Eyes
+    100054: Finger_01
+    100056: Finger_01 1
+    100058: Finger_02
+    100060: Finger_02 1
+    100062: Finger_03
+    100064: Finger_03 1
+    100066: Finger_04
+    100068: Finger_04 1
+    100070: Hand_L
+    100072: Hand_R
+    100074: Head
+    100076: Hips
+    100078: IndexFinger_01
+    100080: IndexFinger_01 1
+    100082: IndexFinger_02
+    100084: IndexFinger_02 1
+    100086: IndexFinger_03
+    100088: IndexFinger_03 1
+    100090: IndexFinger_04
+    100092: IndexFinger_04 1
+    100094: LowerLeg_L
+    100096: LowerLeg_R
+    100098: Neck
+    100100: Root
+    100102: Shoulder_L
+    100104: Shoulder_R
+    100106: SM_Item_Bag_Large
+    100108: SM_Item_Bags
+    100110: SM_Item_Bones
+    100112: SM_Item_Goblin_Hair
+    100114: SM_Item_Goblin_WarBanner
+    100116: SM_Item_Horn
+    100118: SM_Item_Mask_01
+    100120: SM_Item_Mask_02
+    100122: SM_Item_Shield
+    100124: SM_Item_Shrooms
+    100126: SM_Item_Shrunken_Head
+    100128: SM_Item_Sword
+    100130: Spine_01
+    100132: Spine_02
+    100134: Spine_03
+    100136: Thumb_01
+    100138: Thumb_01 1
+    100140: Thumb_02
+    100142: Thumb_02 1
+    100144: Thumb_03
+    100146: Thumb_03 1
+    100148: Toes_L
+    100150: Toes_R
+    100152: UpperLeg_L
+    100154: UpperLeg_R
+    400000: Ankle_L
+    400002: Ankle_R
+    400004: Ball_L
+    400006: Ball_R
+    400008: Character_Ghost_01
+    400010: Character_Ghost_02
+    400012: Character_Goblin_Female
+    400014: Character_Goblin_Male
+    400016: Character_Goblin_Shaman
+    400018: Character_Goblin_WarChief
+    400020: Character_Goblin_Warrior_Female
+    400022: Character_Goblin_Warrior_Male
+    400024: Character_Hero_Knight_Female
+    400026: Character_Hero_Knight_Male
+    400028: Character_Rock_Golem
+    400030: Character_Skeleton_Knight
+    400032: Character_Skeleton_Slave_01
+    400034: Character_Skeleton_Soldier_01
+    400036: Character_Skeleton_Soldier_02
+    400038: Character_Tormented_Soul
+    400040: //RootNode
+    400042: Clavicle_L
+    400044: Clavicle_R
+    400046: Elbow_L
+    400048: Elbow_R
+    400050: Eyebrows
+    400052: Eyes
+    400054: Finger_01
+    400056: Finger_01 1
+    400058: Finger_02
+    400060: Finger_02 1
+    400062: Finger_03
+    400064: Finger_03 1
+    400066: Finger_04
+    400068: Finger_04 1
+    400070: Hand_L
+    400072: Hand_R
+    400074: Head
+    400076: Hips
+    400078: IndexFinger_01
+    400080: IndexFinger_01 1
+    400082: IndexFinger_02
+    400084: IndexFinger_02 1
+    400086: IndexFinger_03
+    400088: IndexFinger_03 1
+    400090: IndexFinger_04
+    400092: IndexFinger_04 1
+    400094: LowerLeg_L
+    400096: LowerLeg_R
+    400098: Neck
+    400100: Root
+    400102: Shoulder_L
+    400104: Shoulder_R
+    400106: SM_Item_Bag_Large
+    400108: SM_Item_Bags
+    400110: SM_Item_Bones
+    400112: SM_Item_Goblin_Hair
+    400114: SM_Item_Goblin_WarBanner
+    400116: SM_Item_Horn
+    400118: SM_Item_Mask_01
+    400120: SM_Item_Mask_02
+    400122: SM_Item_Shield
+    400124: SM_Item_Shrooms
+    400126: SM_Item_Shrunken_Head
+    400128: SM_Item_Sword
+    400130: Spine_01
+    400132: Spine_02
+    400134: Spine_03
+    400136: Thumb_01
+    400138: Thumb_01 1
+    400140: Thumb_02
+    400142: Thumb_02 1
+    400144: Thumb_03
+    400146: Thumb_03 1
+    400148: Toes_L
+    400150: Toes_R
+    400152: UpperLeg_L
+    400154: UpperLeg_R
+    2300000: SM_Item_Bag_Large
+    2300002: SM_Item_Bags
+    2300004: SM_Item_Bones
+    2300006: SM_Item_Goblin_Hair
+    2300008: SM_Item_Goblin_WarBanner
+    2300010: SM_Item_Horn
+    2300012: SM_Item_Mask_01
+    2300014: SM_Item_Mask_02
+    2300016: SM_Item_Shield
+    2300018: SM_Item_Shrooms
+    2300020: SM_Item_Shrunken_Head
+    2300022: SM_Item_Sword
+    3300000: SM_Item_Bag_Large
+    3300002: SM_Item_Bags
+    3300004: SM_Item_Bones
+    3300006: SM_Item_Goblin_Hair
+    3300008: SM_Item_Goblin_WarBanner
+    3300010: SM_Item_Horn
+    3300012: SM_Item_Mask_01
+    3300014: SM_Item_Mask_02
+    3300016: SM_Item_Shield
+    3300018: SM_Item_Shrooms
+    3300020: SM_Item_Shrunken_Head
+    3300022: SM_Item_Sword
+    4300000: SM_Item_Goblin_Hair
+    4300002: SM_Item_Mask_01
+    4300004: SM_Item_Mask_02
+    4300006: SM_Item_Goblin_WarBanner
+    4300008: SM_Item_Sword
+    4300010: SM_Item_Shield
+    4300012: SM_Item_Shrunken_Head
+    4300014: SM_Item_Bags
+    4300016: SM_Item_Shrooms
+    4300018: SM_Item_Horn
+    4300020: SM_Item_Bones
+    4300022: SM_Item_Bag_Large
+    4300024: Character_Goblin_Warrior_Female
+    4300026: Character_Skeleton_Knight
+    4300028: Character_Goblin_Female
+    4300030: Character_Hero_Knight_Female
+    4300032: Character_Ghost_02
+    4300034: Character_Goblin_Warrior_Male
+    4300036: Character_Rock_Golem
+    4300038: Character_Goblin_Shaman
+    4300040: Character_Ghost_01
+    4300042: Character_Tormented_Soul
+    4300044: Character_Skeleton_Soldier_02
+    4300046: Character_Goblin_Male
+    4300048: Character_Hero_Knight_Male
+    4300050: Character_Skeleton_Slave_01
+    4300052: Character_Goblin_WarChief
+    4300054: Character_Skeleton_Soldier_01
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Character_Ghost_01
+    13700002: Character_Ghost_02
+    13700004: Character_Goblin_Female
+    13700006: Character_Goblin_Male
+    13700008: Character_Goblin_Shaman
+    13700010: Character_Goblin_WarChief
+    13700012: Character_Goblin_Warrior_Female
+    13700014: Character_Goblin_Warrior_Male
+    13700016: Character_Hero_Knight_Female
+    13700018: Character_Hero_Knight_Male
+    13700020: Character_Rock_Golem
+    13700022: Character_Skeleton_Knight
+    13700024: Character_Skeleton_Slave_01
+    13700026: Character_Skeleton_Soldier_01
+    13700028: Character_Skeleton_Soldier_02
+    13700030: Character_Tormented_Soul
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -699,15 +247,12 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 0
   meshes:
@@ -715,45 +260,26 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 0
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 0
     keepQuads: 0
     weldVertices: 0
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: 1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 5
     normalImportMode: 1
     tangentImportMode: 3
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human:
     - boneName: Root
       humanName: Hips
@@ -1473,16 +999,14 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

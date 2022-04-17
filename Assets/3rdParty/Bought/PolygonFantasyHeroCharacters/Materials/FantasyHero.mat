@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: FantasyHero
   m_Shader: {fileID: 4800000, guid: e603b0446c7f2804db0c8dd0fb5c1af0, type: 3}
   m_ShaderKeywords: 
@@ -136,7 +137,7 @@ Material:
     - _Color_Metal_Primary: {r: 0.69803923, g: 0.6509804, b: 0.61960787, a: 0}
     - _Color_Metal_Secondary: {r: 0.3921569, g: 0.4039216, b: 0.41176474, a: 0}
     - _Color_Primary: {r: 0.68235296, g: 0.43921572, b: 0.21960786, a: 0}
-    - _Color_Scar: {r: 0.9294118, g: 0.6862745, b: 0.5921569, a: 0}
+    - _Color_Scar: {r: 1, g: 0.13333344, b: 0, a: 0}
     - _Color_Secondary: {r: 0.2392157, g: 0.2509804, b: 0.18823531, a: 0}
     - _Color_Skin: {r: 1, g: 0.8000001, b: 0.68235296, a: 0}
     - _Color_Stubble: {r: 0.80392164, g: 0.7019608, b: 0.6313726, a: 0}

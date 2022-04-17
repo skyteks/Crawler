@@ -1,0 +1,2394 @@
+fileFormatVersion: 2
+guid: 34f77b57569a72744aa4aab478dd068a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: calvincle.L
+    100002: calvincle.R
+    100004: ear.L
+    100006: ear.L_end
+    100008: ear.R
+    100010: ear.R_end
+    100012: foot.L
+    100014: foot.L_end
+    100016: foot.R
+    100018: foot.R_end
+    100020: forefoot.L
+    100022: forefoot.R
+    100024: foreleg_bottom.L
+    100026: foreleg_bottom.R
+    100028: foreleg_up.L
+    100030: foreleg_up.R
+    100032: Head
+    100034: hind_leg_bottom.L
+    100036: hind_leg_bottom.R
+    100038: hind_leg_middle.L
+    100040: hind_leg_middle.R
+    100042: hind_leg_up.L
+    100044: hind_leg_up.R
+    100046: IK_font_knee.L
+    100048: IK_font_knee.L_end
+    100050: IK_font_knee.R
+    100052: IK_font_knee.R_end
+    100054: IK_front_leg.L
+    100056: IK_front_leg.R
+    100058: IK_rear_heel.L
+    100060: IK_rear_heel.L_end
+    100062: IK_rear_heel.R
+    100064: IK_rear_heel.R_end
+    100066: IK_rear_knee.L
+    100068: IK_rear_knee.L_end
+    100070: IK_rear_knee.R
+    100072: IK_rear_knee.R_end
+    100074: IK_rear_leg.L
+    100076: IK_rear_leg.R
+    100078: jaw
+    100080: jaw_end
+    100082: lips
+    100084: lips_end
+    100086: neck
+    100088: rearleg_foot.L
+    100090: rearleg_foot.L_end
+    100092: rearleg_foot.R
+    100094: rearleg_foot.R_end
+    100096: spine1
+    100098: spine2
+    100100: spine3
+    100102: tail1
+    100104: tail2
+    100106: tail3
+    100108: tail3_end
+    100110: //RootNode
+    100112: Wolf.001
+    100114: Wolf_Armature
+    100116: Wolf
+    400000: calvincle.L
+    400002: calvincle.R
+    400004: ear.L
+    400006: ear.L_end
+    400008: ear.R
+    400010: ear.R_end
+    400012: foot.L
+    400014: foot.L_end
+    400016: foot.R
+    400018: foot.R_end
+    400020: forefoot.L
+    400022: forefoot.R
+    400024: foreleg_bottom.L
+    400026: foreleg_bottom.R
+    400028: foreleg_up.L
+    400030: foreleg_up.R
+    400032: Head
+    400034: hind_leg_bottom.L
+    400036: hind_leg_bottom.R
+    400038: hind_leg_middle.L
+    400040: hind_leg_middle.R
+    400042: hind_leg_up.L
+    400044: hind_leg_up.R
+    400046: IK_font_knee.L
+    400048: IK_font_knee.L_end
+    400050: IK_font_knee.R
+    400052: IK_font_knee.R_end
+    400054: IK_front_leg.L
+    400056: IK_front_leg.R
+    400058: IK_rear_heel.L
+    400060: IK_rear_heel.L_end
+    400062: IK_rear_heel.R
+    400064: IK_rear_heel.R_end
+    400066: IK_rear_knee.L
+    400068: IK_rear_knee.L_end
+    400070: IK_rear_knee.R
+    400072: IK_rear_knee.R_end
+    400074: IK_rear_leg.L
+    400076: IK_rear_leg.R
+    400078: jaw
+    400080: jaw_end
+    400082: lips
+    400084: lips_end
+    400086: neck
+    400088: rearleg_foot.L
+    400090: rearleg_foot.L_end
+    400092: rearleg_foot.R
+    400094: rearleg_foot.R_end
+    400096: spine1
+    400098: spine2
+    400100: spine3
+    400102: tail1
+    400104: tail2
+    400106: tail3
+    400108: tail3_end
+    400110: //RootNode
+    400112: Wolf.001
+    400114: Wolf_Armature
+    400116: Wolf
+    4300000: Wolf.001
+    4300002: Wolf
+    7400000: Wolf_ArmatureAction
+    7400002: Wolf_walk
+    7400004: Wolf_run
+    7400006: Wolf_idle
+    7400008: Wolf_battle_idle
+    7400010: Wolf_attack1
+    7400012: Wolf_attack2
+    7400014: Wolf_power_attack
+    7400016: Wolf_jump_start
+    7400018: Wolf_jump_end
+    7400020: Wolf_howl
+    7400022: Wolf_hit1
+    7400024: Wolf_hit2
+    7400026: Wolf_death1
+    7400028: Wolf_death2
+    9500000: //RootNode
+    13700000: Wolf.001
+    13700002: Wolf
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LowPoly
+    second: {fileID: 2100000, guid: 5caedb2d92982ea489243a056d0cb187, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Wolf_ArmatureAction
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 0
+      lastFrame: 433
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf_walk
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 9
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf_run
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 59
+      lastFrame: 76
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf_idle
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 89
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf_battle_idle
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 169
+      lastFrame: 187
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf_attack1
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 189
+      lastFrame: 209
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf_attack2
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 209
+      lastFrame: 229
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf_power_attack
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 229
+      lastFrame: 259
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf_jump_start
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 259
+      lastFrame: 274
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf_jump_end
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 274
+      lastFrame: 294
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf_howl
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 294
+      lastFrame: 348
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf_hit1
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 349
+      lastFrame: 361
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf_hit2
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 361
+      lastFrame: 373
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf_death1
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 374
+      lastFrame: 399
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf_death2
+      takeName: Wolf_Armature|Wolf_ArmatureAction
+      firstFrame: 409
+      lastFrame: 433
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Wolf
+        weight: 1
+      - path: Wolf_Armature
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.L/IK_font_knee.L/IK_font_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_front_leg.R/IK_font_knee.R/IK_font_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.L/IK_rear_heel.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_heel.R/IK_rear_heel.R_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: Wolf_Armature/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.L/hind_leg_middle.L/hind_leg_bottom.L/rearleg_foot.L/rearleg_foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/hind_leg_up.R/hind_leg_middle.R/hind_leg_bottom.R/rearleg_foot.R/rearleg_foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.L/foreleg_up.L/foreleg_bottom.L/forefoot.L/foot.L/foot.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/calvincle.R/foreleg_up.R/foreleg_bottom.R/forefoot.R/foot.R/foot.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.L/ear.L_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/ear.R/ear.R_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips
+        weight: 1
+      - path: Wolf_Armature/spine1/spine2/spine3/neck/Head/lips/lips_end
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3
+        weight: 1
+      - path: Wolf_Armature/spine1/tail1/tail2/tail3/tail3_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.9999999
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
