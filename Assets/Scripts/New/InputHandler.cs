@@ -20,11 +20,15 @@ public class InputHandler : MonoBehaviour
     public bool d_pad_left;
     public bool d_pad_right;
     public bool inventory_input;
+    public bool lockOn_input;
+    public bool right_stick_left_input;
+    public bool right_stick_right_input;
 
     public bool rollFlag;
     public bool twoHandWieldFlag;
     public bool sprintFlag;
     public bool comboFlag;
+    public bool lockOnFlag;
     public bool inventoryFlag;
     public float rollInputTimer;
 
@@ -32,6 +36,7 @@ public class InputHandler : MonoBehaviour
     private PlayerAttacking attacking;
     private PlayerInventory playerInventory;
     private PlayerManager playerManager;
+    private CameraHandler cameraHandler;
     private WeaponSlotManager weaponSlotManager;
     private UIManager uiManager;
 
@@ -45,6 +50,7 @@ public class InputHandler : MonoBehaviour
         playerManager = GetComponent<PlayerManager>();
         weaponSlotManager = GetComponentInChildren<WeaponSlotManager>();
         uiManager = FindObjectOfType<UIManager>();
+        cameraHandler = FindObjectOfType<CameraHandler>();
     }
 
     void OnEnable()
@@ -63,6 +69,9 @@ public class InputHandler : MonoBehaviour
             inputActions.PlayerActions.Jump.performed += i => jump_input = true;
             inputActions.PlayerActions.Inventory.performed += i => inventory_input = true;
             inputActions.PlayerActions.Y.performed += i => y_input = true;
+            inputActions.PlayerActions.LockOn.performed += i => lockOn_input = true;
+            inputActions.PlayerMovement.SwitchLockOnLeft.performed += i => right_stick_left_input = true;
+            inputActions.PlayerMovement.SwitchLockOnRight.performed += i => right_stick_right_input = true;
         }
 
         inputActions.Enable();
@@ -75,15 +84,16 @@ public class InputHandler : MonoBehaviour
 
     public void TickInput(float delta)
     {
-        MoveInput(delta);
+        HandleMoveInput(delta);
         HandleRollInput(delta);
         HandleAttackInput(delta);
         HandleQuickSlotInput();
         HandleInventoryInput();
+        HandleLockOnInput();
         HandleTwoHandWieldInput();
     }
 
-    private void MoveInput(float delta)
+    private void HandleMoveInput(float delta)
     {
         horizontal = movementInput.x;
         vertical = movementInput.y;
@@ -171,6 +181,53 @@ public class InputHandler : MonoBehaviour
             }
             uiManager.hudWindow.SetActive(!inventoryFlag);
         }
+    }
+
+    private void HandleLockOnInput()
+    {
+        if (lockOn_input)
+        {
+            if (!lockOnFlag)
+            {
+                lockOn_input = false;
+                cameraHandler.HandleLockOn();
+                if (cameraHandler.nearestLockOnTarget != null)
+                {
+                    cameraHandler.currentLockOnTarget = cameraHandler.nearestLockOnTarget;
+                    lockOnFlag = true;
+                }
+            }
+            else
+            {
+                lockOn_input = false;
+                lockOnFlag = false;
+                cameraHandler.ClearLockOnTargets();
+            }
+        }
+
+        if (lockOnFlag)
+        {
+            if (right_stick_left_input)
+            {
+                right_stick_left_input = false;
+                cameraHandler.HandleLockOn();
+                if (cameraHandler.leftLockOnTarget != null)
+                {
+                    cameraHandler.currentLockOnTarget = cameraHandler.leftLockOnTarget;
+                }
+            }
+            else if (right_stick_right_input)
+            {
+                right_stick_right_input = false;
+                cameraHandler.HandleLockOn();
+                if (cameraHandler.rightLockOnTarget != null)
+                {
+                    cameraHandler.currentLockOnTarget = cameraHandler.rightLockOnTarget;
+                }
+            }
+        }
+
+        cameraHandler.SetCameraHeight();
     }
 
     private void HandleTwoHandWieldInput()

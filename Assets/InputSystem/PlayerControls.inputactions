@@ -20,6 +20,22 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Switch Lock On Left",
+                    "type": "Button",
+                    "id": "fe746b52-f2e7-4893-b99d-7b01202eee8e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Switch Lock On Right",
+                    "type": "Button",
+                    "id": "19c754c1-2d50-4232-9161-c83b3c8a9020",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -99,6 +115,72 @@
                     "action": "Camera",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "677ac84f-e514-4e85-8355-d3cf6cd43a03",
+                    "path": "<Gamepad>/rightStick/left",
+                    "interactions": "Tap(pressPoint=1)",
+                    "processors": "AxisDeadzone",
+                    "groups": "",
+                    "action": "Switch Lock On Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7183eeb5-f213-4231-ac37-d7937203d180",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch Lock On Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "90bce714-5cb3-4c17-acad-22086d42253d",
+                    "path": "<Mouse>/forwardButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch Lock On Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "959e30cb-2e63-4ec8-9125-82df04317b8d",
+                    "path": "<Gamepad>/rightStick/right",
+                    "interactions": "Tap(pressPoint=1)",
+                    "processors": "AxisDeadzone",
+                    "groups": "",
+                    "action": "Switch Lock On Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f0937133-4d1d-4625-9867-89eaf08d101d",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch Lock On Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fb7c60c0-494a-415b-9eff-71aa41aa0861",
+                    "path": "<Mouse>/backButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch Lock On Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -134,6 +216,14 @@
                     "name": "A",
                     "type": "Button",
                     "id": "10983efa-6608-43ac-9948-6ba7685dcda5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Lock On",
+                    "type": "Button",
+                    "id": "2c1e5be6-5c26-4497-bb96-839dfb0441c2",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -282,6 +372,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Y",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "47cb0ed4-e4eb-49ac-b815-1df6f54ab8be",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lock On",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "765b66e5-3f03-40a1-bdbf-25ea8426e2eb",
+                    "path": "<Gamepad>/rightStickPress",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lock On",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

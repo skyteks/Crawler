@@ -5,12 +5,11 @@ using UnityEngine;
 public class PlayerLocomotion : MonoBehaviour
 {
     private PlayerManager playerManager;
+    private CameraHandler cameraHandler;
     private Transform cameraObject;
     private InputHandler inputHandler;
     public Vector3 moveDirection;
 
-    [HideInInspector]
-    public Transform myTransform;
     [HideInInspector]
     public PlayerAnimatorHandler animHandler;
     [HideInInspector]
@@ -43,11 +42,11 @@ public class PlayerLocomotion : MonoBehaviour
     void Awake()
     {
         playerManager = GetComponent<PlayerManager>();
+        cameraHandler = FindObjectOfType<CameraHandler>();
         rigid = GetComponent<Rigidbody>();
         inputHandler = GetComponent<InputHandler>();
         animHandler = GetComponentInChildren<PlayerAnimatorHandler>();
         cameraObject = Camera.main.transform;
-        myTransform = transform;
     }
 
     void Start()
@@ -104,7 +103,14 @@ public class PlayerLocomotion : MonoBehaviour
         Vector3 projectedVelocity = Vector3.ProjectOnPlane(moveDirection, normalVector);
         rigid.velocity = projectedVelocity;
 
-        animHandler.UpdateAnimatorValues(inputHandler.moveAmount, 0f, playerManager.isSprinting);
+        if (inputHandler.lockOnFlag && !inputHandler.sprintFlag)
+        {
+            animHandler.UpdateAnimatorValues(inputHandler.vertical, inputHandler.horizontal, playerManager.isSprinting);
+        }
+        else
+        {
+            animHandler.UpdateAnimatorValues(inputHandler.moveAmount, 0f, playerManager.isSprinting);
+        }
 
         if (animHandler.canRotate)
         {
@@ -114,24 +120,58 @@ public class PlayerLocomotion : MonoBehaviour
 
     private void HandleRotation(float delta)
     {
-        Vector3 targetDir = Vector3.zero;
-        float moveOverride = inputHandler.moveAmount;
-
-        targetDir = cameraObject.forward * inputHandler.vertical;
-        targetDir += cameraObject.right * inputHandler.horizontal;
-
-        targetDir.Normalize();
-        targetDir.y = 0f;
-
-        if (targetDir == Vector3.zero)
+        Vector3 targetDirection;
+        if (inputHandler.lockOnFlag && !inputHandler.sprintFlag)
         {
-            targetDir = myTransform.forward;
+            if (inputHandler.sprintFlag || inputHandler.rollFlag)
+            {
+                targetDirection = cameraHandler.cameraTransform.forward * inputHandler.vertical;
+                targetDirection += cameraHandler.cameraTransform.right * inputHandler.horizontal;
+                targetDirection.y = 0f;
+                targetDirection.Normalize();
+
+                if (targetDirection == Vector3.zero)
+                {
+                    targetDirection = transform.forward;
+                }
+
+                Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
+                targetRotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * delta);
+
+                transform.rotation = targetRotation;
+            }
+            else
+            {
+                Vector3 rotationDirection = moveDirection;
+                rotationDirection = cameraHandler.currentLockOnTarget.position - transform.position;
+                rotationDirection.y = 0f;
+                rotationDirection.Normalize();
+
+                Quaternion targetRotation = Quaternion.LookRotation(rotationDirection);
+                targetRotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * delta);
+
+                transform.rotation = targetRotation;
+            }
         }
+        else
+        {
+            float moveOverride = inputHandler.moveAmount;
 
-        Quaternion targetRot = Quaternion.LookRotation(targetDir);
-        targetRot = Quaternion.Slerp(myTransform.rotation, targetRot, rotationSpeed * delta);
+            targetDirection = cameraObject.forward * inputHandler.vertical;
+            targetDirection += cameraObject.right * inputHandler.horizontal;
+            targetDirection.y = 0f;
+            targetDirection.Normalize();
 
-        myTransform.rotation = targetRot;
+            if (targetDirection == Vector3.zero)
+            {
+                targetDirection = transform.forward;
+            }
+
+            Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
+            targetRotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * delta);
+
+            transform.rotation = targetRotation;
+        }
     }
 
     public void HandleRollingAndSprinting(float delta)
