@@ -10,6 +10,8 @@ public abstract class AnimatorHandler : MonoBehaviour
     public static int hashIsInteracting = Animator.StringToHash("isInteracting");
     public static int hashCanCombo = Animator.StringToHash("canCombo");
     public static int hashIsAirborne = Animator.StringToHash("isAirborne");
+    public static int hashIsUsingRightHand = Animator.StringToHash("isUsingRightHand");
+    public static int hashIsUsingLeftHand = Animator.StringToHash("isUsingLeftHand");
 
     public static int hashRoll = Animator.StringToHash("Roll");
     public static int hashBackstep = Animator.StringToHash("Backstep");
@@ -20,6 +22,9 @@ public abstract class AnimatorHandler : MonoBehaviour
     public static int hashDamage1 = Animator.StringToHash("Damage 1");
     public static int hashPickUpItem = Animator.StringToHash("Pick Up Item");
     public static int hashJump = Animator.StringToHash("Jump");
+
+    public static int hashSleep = Animator.StringToHash("Sleep");
+    public static int hashGetUp = Animator.StringToHash("GetUp");
 
     public static int hashRightArmEmpty = Animator.StringToHash("Right Arm Empty");
     public static int hashLeftArmEmpty = Animator.StringToHash("Left Arm Empty");

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
 public class EnemyAnimatorHandler : AnimatorHandler
 {
     private EnemyManager enemyManager;
@@ -20,5 +21,15 @@ public class EnemyAnimatorHandler : AnimatorHandler
         deltaPosition.y = 0f;
         Vector3 velocity = deltaPosition / delta;
         enemyManager.rigid.velocity = velocity;
+    }
+
+    public void ToggleCombo(int eventInfo) ///Animation Event
+    {
+        if (eventInfo != 0 && eventInfo != 1)
+        {
+            throw new System.ArgumentException();
+        }
+        bool toggle = eventInfo > 0;
+        //anim.SetBool(hashCanCombo, toggle);
     }
 }

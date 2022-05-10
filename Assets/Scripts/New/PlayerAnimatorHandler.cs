@@ -92,13 +92,13 @@ public class PlayerAnimatorHandler : AnimatorHandler
         anim.SetBool(id, value);
     }
 
-    public void ToggleCombo(int value)
+    public void ToggleCombo(int eventInfo) ///Animation Event
     {
-        if (value != 0 && value != 1)
+        if (eventInfo != 0 && eventInfo != 1)
         {
             throw new System.ArgumentException();
         }
-        bool toggle = value == 1;
+        bool toggle = eventInfo > 0;
         anim.SetBool(hashCanCombo, toggle);
     }
 }

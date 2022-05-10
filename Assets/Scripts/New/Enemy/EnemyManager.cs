@@ -15,15 +15,14 @@ public class EnemyManager : CharacterManager
     public CharacterStats currentTarget;
     public State currentState;
     public bool isPerformingAction { get; set; }
+    public bool isInteracting { get; set; }
 
-    public float distanceFromTarget { get; set; }
     public float rotationSpeed = 15f;
     public float maxAttackingRange = 1.5f;
 
     [Header("AI Settings")]
     public float detectionRadius;
     public float detectionAngle = 50f;
-    public float viewableAngle;
 
     public float currentRecoveryTime = 0f;
 
@@ -45,6 +44,8 @@ public class EnemyManager : CharacterManager
     void Update()
     {
         HandleRecoveryTimer();
+
+        isInteracting = animatorHandler.anim.GetBool("isInteracting");
     }
 
     void FixedUpdate()

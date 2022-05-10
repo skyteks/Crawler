@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 3558db8e6c045c3418d8e7593f8a88de
 ModelImporter:
-  serializedVersion: 20101
+  serializedVersion: 20200
   internalIDToNameTable:
   - first:
       1: 100000
@@ -466,14 +466,14 @@ ModelImporter:
         intParameter: 0
         messageOptions: 0
       - time: 0.29715228
-        functionName: ToggleRightDamageCollider
+        functionName: ToggleDamageCollider
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.38373667
-        functionName: ToggleRightDamageCollider
+        functionName: ToggleDamageCollider
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
@@ -1429,6 +1429,7 @@ ModelImporter:
   animationType: 3
   humanoidOversampling: 1
   avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

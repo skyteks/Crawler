@@ -7,6 +7,7 @@ public abstract class CharacterStats : MonoBehaviour
     public int maxHealth;
     [SerializeField, ReadOnly]
     protected int currentHealth;
+    public bool isDead => currentHealth <= 0;
 
     private Animator anim;
 
@@ -22,7 +23,7 @@ public abstract class CharacterStats : MonoBehaviour
 
     public virtual void TakeDamage(int damage)
     {
-        if (currentHealth <= 0)
+        if (isDead)
         {
             return;
         }

@@ -38,6 +38,7 @@ public class InputHandler : MonoBehaviour
     private PlayerManager playerManager;
     private CameraHandler cameraHandler;
     private WeaponSlotManager weaponSlotManager;
+    private AnimatorHandler animatorHandler;
     private UIManager uiManager;
 
     private Vector2 movementInput;
@@ -49,6 +50,7 @@ public class InputHandler : MonoBehaviour
         playerInventory = GetComponent<PlayerInventory>();
         playerManager = GetComponent<PlayerManager>();
         weaponSlotManager = GetComponentInChildren<WeaponSlotManager>();
+        animatorHandler = GetComponentInChildren<AnimatorHandler>();
         uiManager = FindObjectOfType<UIManager>();
         cameraHandler = FindObjectOfType<CameraHandler>();
     }
@@ -138,6 +140,7 @@ public class InputHandler : MonoBehaviour
                 {
                     return;
                 }
+                animatorHandler.anim.SetBool(AnimatorHandler.hashIsUsingRightHand, true);
                 attacking.HandleLightAttack(playerInventory.rightHandWeapon);
             }
         }

@@ -29,7 +29,7 @@ public class PlayerStats : CharacterStats
 
     public override void TakeDamage(int damage)
     {
-        if (currentHealth <= 0)
+        if (isDead)
         {
             return;
         }

@@ -10,18 +10,19 @@ public class PursueTargetState : State
     {
         if (enemyManager.isPerformingAction)
         {
+            animatorHandler.anim.SetFloat(AnimatorHandler.hashVertical, 0f, 0.1f, Time.deltaTime);
             return this;
         }
 
         Vector3 targetDirection = enemyManager.currentTarget.transform.position - enemyManager.transform.position;
-        enemyManager.distanceFromTarget = targetDirection.magnitude;
-        float viewableAngle = Vector3.Angle(targetDirection, transform.forward);
+        float distanceFromTarget = targetDirection.magnitude;
+        float viewableAngle = Vector3.Angle(targetDirection, enemyManager.transform.forward);
 
-        if (enemyManager.distanceFromTarget > enemyManager.maxAttackingRange)
+        if (distanceFromTarget > enemyManager.maxAttackingRange)
         {
             animatorHandler.anim.SetFloat(AnimatorHandler.hashVertical, 1f, 0.1f, Time.deltaTime);
         }
-        else if (enemyManager.distanceFromTarget <= enemyManager.maxAttackingRange)
+        else if (distanceFromTarget <= enemyManager.maxAttackingRange)
         {
             animatorHandler.anim.SetFloat(AnimatorHandler.hashVertical, 0f, 0.1f, Time.deltaTime);
         }
@@ -30,7 +31,7 @@ public class PursueTargetState : State
         enemyManager.agent.transform.localPosition = Vector3.zero;
         enemyManager.agent.transform.localRotation = Quaternion.identity;
 
-        if (enemyManager.distanceFromTarget <= enemyManager.maxAttackingRange)
+        if (distanceFromTarget <= enemyManager.maxAttackingRange)
         {
             return combatStanceState;
         }
@@ -64,7 +65,7 @@ public class PursueTargetState : State
             enemyManager.agent.enabled = true;
             enemyManager.agent.SetDestination(enemyManager.currentTarget.transform.position);
             enemyManager.rigid.velocity = targetVelocity;
-            enemyManager.transform.rotation = Quaternion.Slerp(transform.rotation, enemyManager.agent.transform.rotation, enemyManager.rotationSpeed / Time.deltaTime);
+            enemyManager.transform.rotation = Quaternion.Slerp(enemyManager.transform.rotation, enemyManager.agent.transform.rotation, enemyManager.rotationSpeed / Time.deltaTime);
         }
     }
 }

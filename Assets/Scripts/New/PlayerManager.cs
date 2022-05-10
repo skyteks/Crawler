@@ -17,6 +17,8 @@ public class PlayerManager : CharacterManager
     public bool isAirborne;
     public bool isGrounded;
     public bool canCombo;
+    public bool isUsingLeftHand;
+    public bool isUsingRightHand;
 
     void Awake()
     {
@@ -31,10 +33,11 @@ public class PlayerManager : CharacterManager
     {
         isInteracting = anim.GetBool(PlayerAnimatorHandler.hashIsInteracting);
         canCombo = anim.GetBool(PlayerAnimatorHandler.hashCanCombo);
+        anim.SetBool(PlayerAnimatorHandler.hashIsUsingLeftHand, isUsingLeftHand);
+        anim.SetBool(PlayerAnimatorHandler.hashIsUsingRightHand, isUsingRightHand);
         anim.SetBool(PlayerAnimatorHandler.hashIsAirborne, isAirborne);
 
         float delta = Time.deltaTime;
-
         inputHandler.TickInput(delta);
         locomotion.HandleRollingAndSprinting(delta);
         locomotion.HandleJumping();

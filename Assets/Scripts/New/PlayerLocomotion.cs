@@ -15,6 +15,8 @@ public class PlayerLocomotion : MonoBehaviour
     [HideInInspector]
     public Rigidbody rigid;
     public GameObject normalCamera;
+    public CapsuleCollider characterCollider;
+    public CapsuleCollider characterCollisionBlockerCollider;
 
     [Header("Ground & Air Detection")]
     [SerializeField]
@@ -55,6 +57,8 @@ public class PlayerLocomotion : MonoBehaviour
 
         playerManager.isGrounded = true;
         ignoreForGroundCheck = ~(1 << 8 | 1 << 11);
+
+        Physics.IgnoreCollision(characterCollider, characterCollisionBlockerCollider, true);
     }
 
     void OnDrawGizmosSelected()

@@ -12,6 +12,7 @@ public class WeaponSlotManager : MonoBehaviour
     private DamageCollider rightHandDamageCollider;
 
     private Animator anim;
+    private PlayerManager playerManager;
     private QuickSlotsUI quickSlotsUI;
     private PlayerStats playerStats;
     private InputHandler inputHandler;
@@ -21,6 +22,7 @@ public class WeaponSlotManager : MonoBehaviour
     void Awake()
     {
         anim = GetComponent<Animator>();
+        playerManager = GetComponentInParent<PlayerManager>();
         quickSlotsUI = FindObjectOfType<QuickSlotsUI>();
         playerStats = GetComponentInParent<PlayerStats>();
         inputHandler = GetComponentInParent<InputHandler>();
@@ -40,22 +42,22 @@ public class WeaponSlotManager : MonoBehaviour
                     carryOnBackSlot = slot;
                     break;
                 default:
-                    throw new System.NotImplementedException();
+                    throw new System.NotSupportedException();
             }
         }
     }
 
-    public void LoadWeaponOnSlot(WeaponItem weaponItem, WeaponHolderSlot.SlotTypes slotType)
+    public void LoadWeaponOnSlot(WeaponItem weapon, WeaponHolderSlot.SlotTypes slotType)
     {
         switch (slotType)
         {
             case WeaponHolderSlot.SlotTypes.leftHand:
-                leftHandSlot.currentWeaponItem = weaponItem;
-                leftHandSlot.LoadWeaponPrefab(weaponItem);
+                leftHandSlot.currentWeaponItem = weapon;
+                leftHandSlot.LoadWeaponPrefab(weapon);
 
-                if (weaponItem != null)
+                if (weapon != null)
                 {
-                    anim.CrossFade(weaponItem.leftHandIdle, 0.2f);
+                    anim.CrossFade(weapon.leftHandIdle, 0.2f);
                 }
                 else
                 {
@@ -67,7 +69,7 @@ public class WeaponSlotManager : MonoBehaviour
                 {
                     carryOnBackSlot.LoadWeaponPrefab(leftHandSlot.currentWeaponItem);
                     leftHandSlot.UnloadWeapon(true);
-                    anim.CrossFade(weaponItem.twoHandedIdle, 0.2f);
+                    anim.CrossFade(weapon.twoHandedIdle, 0.2f);
                 }
                 else
                 {
@@ -75,24 +77,24 @@ public class WeaponSlotManager : MonoBehaviour
 
                     carryOnBackSlot.UnloadWeapon(true);
 
-                    if (weaponItem != null)
+                    if (weapon != null)
                     {
-                        anim.CrossFade(weaponItem.rightHandIdle, 0.2f);
+                        anim.CrossFade(weapon.rightHandIdle, 0.2f);
                     }
                     else
                     {
                         anim.CrossFade(PlayerAnimatorHandler.hashRightArmEmpty, 0.2f);
                     }
                 }
-                rightHandSlot.currentWeaponItem = weaponItem;
-                rightHandSlot.LoadWeaponPrefab(weaponItem);
+                rightHandSlot.currentWeaponItem = weapon;
+                rightHandSlot.LoadWeaponPrefab(weapon);
                 break;
             case WeaponHolderSlot.SlotTypes.carryOnBack:
 
             default:
                 break;
         }
-        quickSlotsUI?.UpdateWeaponQuickslotsUI(slotType, weaponItem);
+        quickSlotsUI?.UpdateWeaponQuickslotsUI(slotType, weapon);
 
         LoadWeaponDamageCollider(slotType);
     }
@@ -108,45 +110,39 @@ public class WeaponSlotManager : MonoBehaviour
                 rightHandDamageCollider = rightHandSlot.currentWeaponInstance.GetComponentInChildren<DamageCollider>();
                 break;
             default:
-                break;
+                throw new System.NotSupportedException();
         }
     }
 
-    public void ToggleLeftDamageCollider(int eventInfo)
+    public void ToggleDamageCollider(int eventInfo) ///Animation Event
     {
         bool toggle = eventInfo > 0;
-        ToggleWeaponDamageCollider(WeaponHolderSlot.SlotTypes.leftHand, toggle);
-    }
-
-    public void ToggleRightDamageCollider(int eventInfo)
-    {
-        bool toggle = eventInfo > 0;
-        ToggleWeaponDamageCollider(WeaponHolderSlot.SlotTypes.rightHand, toggle);
-    }
-
-    private void ToggleWeaponDamageCollider(WeaponHolderSlot.SlotTypes slotType, bool toggle)
-    {
-        switch (slotType)
+        if (toggle)
         {
-            case WeaponHolderSlot.SlotTypes.leftHand:
+            if (playerManager.isUsingLeftHand)
+            {
                 leftHandDamageCollider.ToggleDamageCollider(toggle);
-                break;
-            case WeaponHolderSlot.SlotTypes.rightHand:
+            }
+            else if (playerManager.isUsingRightHand)
+            {
                 rightHandDamageCollider.ToggleDamageCollider(toggle);
-                break;
-            default:
-                break;
+            }
+        }
+        else
+        {
+            leftHandDamageCollider.ToggleDamageCollider(toggle);
+            rightHandDamageCollider.ToggleDamageCollider(toggle);
 
         }
     }
 
     #region Weapon StaminaDrainage
-    public void DrainStaminaLightAttack()
+    public void DrainStaminaLightAttack() ///Animation Event
     {
         playerStats.TakeStamina(attackingWeapon.staminaCostLightAttack);
     }
 
-    public void DrainStaminaHeavyAttack()
+    public void DrainStaminaHeavyAttack() ///Animation Event
     {
         playerStats.TakeStamina(attackingWeapon.staminaCostHeavyAttack);
     }
