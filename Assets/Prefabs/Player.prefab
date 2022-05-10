@@ -526,6 +526,7 @@ MonoBehaviour:
   canCombo: 0
   isUsingLeftHand: 0
   isUsingRightHand: 0
+  isInvulnerable: 0
 --- !u!114 &751255268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -580,6 +581,7 @@ MonoBehaviour:
   staminaBar: {fileID: 0}
   maxStamina: 200
   currentStamina: 0
+  staminaRegenAmount: 20
 --- !u!1 &7723402187247964062
 GameObject:
   m_ObjectHideFlags: 0

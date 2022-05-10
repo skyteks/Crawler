@@ -8,6 +8,7 @@ public class PlayerManager : CharacterManager
     private Animator anim;
     private CameraHandler cameraHandler;
     private PlayerLocomotion locomotion;
+    private PlayerStats playerStats;
     private InteractableUI interactableUI;
     public GameObject itemInteractableGO;
 
@@ -19,28 +20,33 @@ public class PlayerManager : CharacterManager
     public bool canCombo;
     public bool isUsingLeftHand;
     public bool isUsingRightHand;
+    public bool isInvulnerable;
 
     void Awake()
     {
         inputHandler = GetComponent<InputHandler>();
         anim = GetComponentInChildren<Animator>();
         locomotion = GetComponent<PlayerLocomotion>();
+        playerStats = GetComponent<PlayerStats>();
         cameraHandler = FindObjectOfType<CameraHandler>();
         interactableUI = FindObjectOfType<InteractableUI>();
     }
 
     void Update()
     {
-        isInteracting = anim.GetBool(PlayerAnimatorHandler.hashIsInteracting);
-        canCombo = anim.GetBool(PlayerAnimatorHandler.hashCanCombo);
-        anim.SetBool(PlayerAnimatorHandler.hashIsUsingLeftHand, isUsingLeftHand);
-        anim.SetBool(PlayerAnimatorHandler.hashIsUsingRightHand, isUsingRightHand);
-        anim.SetBool(PlayerAnimatorHandler.hashIsAirborne, isAirborne);
+        isInteracting = anim.GetBool(AnimatorHandler.hashIsInteracting);
+        canCombo = anim.GetBool(AnimatorHandler.hashCanCombo);
+        isUsingLeftHand = anim.GetBool(AnimatorHandler.hashIsUsingLeftHand);
+        isUsingRightHand = anim.GetBool(AnimatorHandler.hashIsUsingRightHand);
+        isInvulnerable = anim.GetBool(AnimatorHandler.hashIsInvulnerable);
+
+        anim.SetBool(AnimatorHandler.hashIsAirborne, isAirborne);
 
         float delta = Time.deltaTime;
         inputHandler.TickInput(delta);
         locomotion.HandleRollingAndSprinting(delta);
         locomotion.HandleJumping();
+        playerStats.RegenerateStamina();
 
         CheckForInteractableObject();
     }

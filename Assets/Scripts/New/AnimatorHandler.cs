@@ -12,6 +12,7 @@ public abstract class AnimatorHandler : MonoBehaviour
     public static int hashIsAirborne = Animator.StringToHash("isAirborne");
     public static int hashIsUsingRightHand = Animator.StringToHash("isUsingRightHand");
     public static int hashIsUsingLeftHand = Animator.StringToHash("isUsingLeftHand");
+    public static int hashIsInvulnerable = Animator.StringToHash("isInvulnerable");
 
     public static int hashRoll = Animator.StringToHash("Roll");
     public static int hashBackstep = Animator.StringToHash("Backstep");

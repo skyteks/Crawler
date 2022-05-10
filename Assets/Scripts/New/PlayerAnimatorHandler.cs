@@ -101,4 +101,14 @@ public class PlayerAnimatorHandler : AnimatorHandler
         bool toggle = eventInfo > 0;
         anim.SetBool(hashCanCombo, toggle);
     }
+
+    public void ToggleIsInvulnerable(int eventInfo) ///Animation Event
+    {
+        if (eventInfo != 0 && eventInfo != 1)
+        {
+            throw new System.ArgumentException();
+        }
+        bool toggle = eventInfo > 0;
+        anim.SetBool(AnimatorHandler.hashIsInvulnerable, toggle);
+    }
 }
