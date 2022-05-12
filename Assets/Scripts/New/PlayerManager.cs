@@ -47,6 +47,7 @@ public class PlayerManager : CharacterManager
         locomotion.HandleRollingAndSprinting(delta);
         locomotion.HandleJumping();
         playerStats.RegenerateStamina();
+        playerStats.RegenerateMana();
 
         CheckForInteractableObject();
     }

@@ -104,10 +104,16 @@ public class WeaponSlotManager : MonoBehaviour
         switch (slotType)
         {
             case WeaponHolderSlot.SlotTypes.leftHand:
-                leftHandDamageCollider = leftHandSlot.currentWeaponInstance.GetComponentInChildren<DamageCollider>();
+                if (leftHandSlot.currentWeaponInstance != null)
+                {
+                    leftHandDamageCollider = leftHandSlot.currentWeaponInstance.GetComponentInChildren<DamageCollider>();
+                }
                 break;
             case WeaponHolderSlot.SlotTypes.rightHand:
-                rightHandDamageCollider = rightHandSlot.currentWeaponInstance.GetComponentInChildren<DamageCollider>();
+                if (rightHandSlot.currentWeaponInstance != null)
+                {
+                    rightHandDamageCollider = rightHandSlot.currentWeaponInstance.GetComponentInChildren<DamageCollider>();
+                }
                 break;
             default:
                 throw new System.NotSupportedException();

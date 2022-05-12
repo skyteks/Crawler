@@ -92,7 +92,7 @@ public class EnemyWeaponSlotManager : MonoBehaviour
     }
 
 
-    #region Weapon StaminaDrainage
+    #region Weapon Stamina Drainage
     public void DrainStaminaLightAttack() ///Animation Event
     {
     }

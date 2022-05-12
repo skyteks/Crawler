@@ -18,7 +18,10 @@ public class EquipmentUISlot : InventoryUISlot
     public override void AddItem(WeaponItem newItem)
     {
         item = newItem;
-        icon.sprite = item.icon;
+        if (item != null)
+        {
+            icon.sprite = item.icon;
+        }
         icon.enabled = true;
 
         placeholderIcon.enabled = false;

@@ -75,7 +75,6 @@ public class CameraHandler : MonoBehaviour
         }
         else
         {
-            float velocity = 0f;
             Vector3 direction = currentLockOnTarget.position - transform.position;
             direction.Normalize();
             direction.y = 0f;

@@ -4,17 +4,58 @@ using UnityEngine;
 
 public class PlayerStats : CharacterStats
 {
+    [System.Serializable]
+    public struct PointsStat
+    {
+        public float max;
+        [SerializeField, ReadOnly]
+        private float current;
+        public float currentValue => current;
+        public float regenAmount;
+        private float regenTimer;
+
+        public void SetToMax()
+        {
+            current = max;
+        }
+
+        public void Change(float addition)
+        {
+            current = Mathf.Clamp(current + addition, 0f, max);
+        }
+
+        public void StartTimer()
+        {
+            regenTimer = 1;
+        }
+
+        public bool Regenerate()
+        {
+            if (regenTimer > 0)
+            {
+                return false;
+            }
+
+            regenTimer = Mathf.Clamp(regenTimer - Time.deltaTime, 0f, 1f);
+
+            if (current < max && regenTimer == 0f)
+            {
+                current = Mathf.Clamp(current + regenAmount * Time.deltaTime, 0f, max);
+                return true;
+            }
+            return false;
+        }
+    }
+
     public ABarUI healthbar;
     public ABarUI staminaBar;
+    public ABarUI manaBar;
 
     private PlayerManager playerManager;
     private PlayerAnimatorHandler animHandler;
 
-    public float maxStamina;
-    [SerializeField, ReadOnly]
-    private float currentStamina;
-    public float staminaRegenAmount = 1f;
-    private float staminaRegenTimer;
+    public PointsStat stamina;
+    public PointsStat mana;
 
     void Awake()
     {
@@ -25,10 +66,12 @@ public class PlayerStats : CharacterStats
     protected override void Start()
     {
         base.Start();
-        currentStamina = maxStamina;
+        stamina.SetToMax();
+        mana.SetToMax();
 
         healthbar?.SetFill(currentHealth, maxHealth);
-        staminaBar?.SetFill(currentStamina, maxStamina);
+        staminaBar?.SetFill(stamina.currentValue, stamina.max);
+        manaBar?.SetFill(mana.currentValue, stamina.max);
     }
 
     public override void TakeDamage(int damage)
@@ -57,28 +100,52 @@ public class PlayerStats : CharacterStats
         }
     }
 
+    public void Heal(int healing)
+    {
+        if (isDead)
+        {
+            return;
+        }
+        currentHealth = Mathf.Clamp(currentHealth + healing, 0, maxHealth);
+
+        healthbar?.SetFill(currentHealth, maxHealth);
+    }
+
     public void TakeStamina(int usage)
     {
-        currentStamina = Mathf.Clamp(currentStamina - usage, 0f, maxStamina);
+        stamina.Change(-usage);
 
-        staminaBar?.SetFill(currentStamina, maxStamina);
+        staminaBar?.SetFill(stamina.currentValue, stamina.max);
+    }
+
+    public void TakeMana(int usage)
+    {
+        mana.Change(-usage);
+
+        manaBar?.SetFill(mana.currentValue, mana.max);
     }
 
     public void RegenerateStamina()
     {
         if (playerManager.isInteracting)
         {
-            staminaRegenTimer = 1;
+            stamina.StartTimer();
         }
-        else
+        else if (stamina.Regenerate())
         {
-            staminaRegenTimer = Mathf.Clamp(staminaRegenTimer - Time.deltaTime, 0f, 1f);
+            staminaBar.SetFill(stamina.currentValue, stamina.max);
+        }
+    }
 
-            if (currentStamina < maxStamina && staminaRegenTimer == 0f)
-            {
-                currentStamina = Mathf.Clamp(currentStamina + staminaRegenAmount * Time.deltaTime, 0f, maxStamina);
-                staminaBar.SetFill(currentStamina, maxStamina);
-            }
+    public void RegenerateMana()
+    {
+        if (playerManager.isInteracting)
+        {
+            mana.StartTimer();
+        }
+        else if (mana.Regenerate())
+        {
+            manaBar.SetFill(mana.currentValue, mana.max);
         }
     }
 }

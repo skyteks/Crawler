@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 789110789273707439d2adedd4f76cf8, type: 3}
+  m_Name: Crystall Staff
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 959a04c604ce85f4ebcf587a4f26477d, type: 3}
+  prefab: {fileID: 7712721761968107594, guid: d508a1053888a2345b5a7574e21848ec, type: 3}
+  isUnarmed: 0
+  weaponType: 1
+  staminaCostLightAttack: 10
+  staminaCostHeavyAttack: 35
+  rightHandIdle: Right Arm Idle
+  leftHandIdle: Left Arm Idle
+  twoHandedIdle: Both Arms Idle
+  oneHandLightAttack1: 
+  oneHandLightAttack2: 
+  oneHandLightAttack3: 
+  oneHandHeavyAttack1: 
+  twoHandLightAttack1: 
+  twoHandLightAttack2: 

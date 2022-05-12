@@ -10,6 +10,10 @@ public class QuickSlotsUI : MonoBehaviour
 
     public void UpdateWeaponQuickslotsUI(WeaponHolderSlot.SlotTypes slotType, WeaponItem weapon)
     {
+        if (weapon == null)
+        {
+            return;
+        }
         switch (slotType)
         {
             case WeaponHolderSlot.SlotTypes.leftHand:

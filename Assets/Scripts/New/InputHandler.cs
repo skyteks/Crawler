@@ -46,9 +46,9 @@ public class InputHandler : MonoBehaviour
 
     void Awake()
     {
-        attacking = GetComponent<PlayerAttacking>();
         playerInventory = GetComponent<PlayerInventory>();
         playerManager = GetComponent<PlayerManager>();
+        attacking = GetComponentInChildren<PlayerAttacking>();
         weaponSlotManager = GetComponentInChildren<WeaponSlotManager>();
         animatorHandler = GetComponentInChildren<AnimatorHandler>();
         uiManager = FindObjectOfType<UIManager>();
@@ -128,21 +128,7 @@ public class InputHandler : MonoBehaviour
     {
         if (rb_input)
         {
-            if (playerManager.canCombo)
-            {
-                comboFlag = true;
-                attacking.HandleWeaponCombo(playerInventory.rightHandWeapon);
-                comboFlag = false;
-            }
-            else
-            {
-                if (playerManager.isInteracting || playerManager.canCombo)
-                {
-                    return;
-                }
-                animatorHandler.anim.SetBool(AnimatorHandler.hashIsUsingRightHand, true);
-                attacking.HandleLightAttack(playerInventory.rightHandWeapon);
-            }
+            attacking.HandleRBAction();
         }
 
         if (rt_input)

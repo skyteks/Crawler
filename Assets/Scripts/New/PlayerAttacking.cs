@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class PlayerAttacking : MonoBehaviour
 {
-    private PlayerAnimatorHandler animHandler;
+    private PlayerAnimatorHandler animatorHandler;
+    private PlayerManager playerManager;
+    private PlayerStats stats;
+    private PlayerInventory inventory;
     private InputHandler inputHandler;
     private WeaponSlotManager weaponSlotManager;
 
@@ -12,16 +15,20 @@ public class PlayerAttacking : MonoBehaviour
 
     void Awake()
     {
-        animHandler = GetComponentInChildren<PlayerAnimatorHandler>();
-        inputHandler = GetComponent<InputHandler>();
-        weaponSlotManager = GetComponentInChildren<WeaponSlotManager>();
+        playerManager = GetComponentInParent<PlayerManager>();
+        stats = GetComponentInParent<PlayerStats>();
+        inventory = GetComponentInParent<PlayerInventory>();
+        inputHandler = GetComponentInParent<InputHandler>();
+
+        animatorHandler = GetComponent<PlayerAnimatorHandler>();
+        weaponSlotManager = GetComponent<WeaponSlotManager>();
     }
 
     public void HandleWeaponCombo(WeaponItem weapon)
     {
         if (inputHandler.comboFlag)
         {
-            animHandler.SetAnimBool(PlayerAnimatorHandler.hashCanCombo, false);
+            animatorHandler.SetAnimBool(AnimatorHandler.hashCanCombo, false);
 
             string attack = null;
             if (lastAttack == weapon.oneHandLightAttack1)
@@ -41,7 +48,7 @@ public class PlayerAttacking : MonoBehaviour
             {
                 throw new System.NullReferenceException();
             }
-            animHandler.PlayTargetAnimation(attack, true);
+            animatorHandler.PlayTargetAnimation(attack, true);
             lastAttack = attack;
         }
     }
@@ -59,7 +66,7 @@ public class PlayerAttacking : MonoBehaviour
         {
             attack = weapon.oneHandLightAttack1;
         }
-        animHandler.PlayTargetAnimation(attack, true);
+        animatorHandler.PlayTargetAnimation(attack, true);
         lastAttack = attack;
     }
 
@@ -77,7 +84,73 @@ public class PlayerAttacking : MonoBehaviour
         {
             attack = weapon.oneHandHeavyAttack1;
         }
-        animHandler.PlayTargetAnimation(attack, true);
+        animatorHandler.PlayTargetAnimation(attack, true);
         lastAttack = attack;
+    }
+
+    public void HandleRBAction()
+    {
+        switch (inventory.rightHandWeapon.weaponType)
+        {
+            case WeaponItem.WeaponType.Meele:
+                PerformRBMeleeAction();
+                break;
+            case WeaponItem.WeaponType.Spell:
+                PerformRBSpellAction(inventory.rightHandWeapon);
+                break;
+            default:
+                throw new System.NotImplementedException();
+        }
+
+    }
+
+    #region Attack Actions
+
+    private void PerformRBMeleeAction()
+    {
+        if (playerManager.canCombo)
+        {
+            inputHandler.comboFlag = true;
+            HandleWeaponCombo(inventory.rightHandWeapon);
+            inputHandler.comboFlag = false;
+        }
+        else
+        {
+            if (playerManager.isInteracting || playerManager.canCombo)
+            {
+                return;
+            }
+            animatorHandler.anim.SetBool(AnimatorHandler.hashIsUsingRightHand, true);
+            HandleLightAttack(inventory.rightHandWeapon);
+        }
+    }
+
+    private void PerformRBSpellAction(WeaponItem weapon)
+    {
+        if (playerManager.isInteracting)
+        {
+            return;
+        }
+        if (weapon.weaponType == WeaponItem.WeaponType.Spell)
+        {
+            if (inventory.currentSpell != null && inventory.currentSpell.weaponType == WeaponItem.WeaponType.Spell)
+            {
+                if (stats.mana.currentValue >= inventory.currentSpell.manaCost)
+                {
+                    inventory.currentSpell.AttemptCastSpell(animatorHandler, stats);
+                }
+                else
+                {
+                    //SHRUG
+                }
+            }
+        }
+    }
+
+    #endregion
+
+    private void SuccessfullyCastSpell() /// Animator Event
+    {
+        inventory.currentSpell.SuccessfullyCastSpell(animatorHandler, stats);
     }
 }
