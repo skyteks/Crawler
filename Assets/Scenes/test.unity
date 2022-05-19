@@ -1116,6 +1116,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 87870a35da56f844d9ae79acac972f3d, type: 2}
     - target: {fileID: 5653424434980434739, guid: e4bdc869cfd311948a25077796e72c14, type: 3}
+      propertyPath: expBar
+      value: 
+      objectReference: {fileID: 5208901261892682000}
+    - target: {fileID: 5653424434980434739, guid: e4bdc869cfd311948a25077796e72c14, type: 3}
       propertyPath: manaBar
       value: 
       objectReference: {fileID: 5208901261892681997}
@@ -7884,6 +7888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  expDropped: 10
 --- !u!33 &3183280852450337732
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8193,30 +8198,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 750144383119667543, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750144383119667543, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750144383119667543, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750144383119667543, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750144383119667543, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750144383119667543, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 750144384698331441, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -8305,30 +8286,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 750144385009935394, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750144385009935394, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750144385009935394, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750144385009935394, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750144385009935394, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750144385009935394, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
 --- !u!114 &5208901261892681997 stripped
@@ -8362,6 +8319,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 651951cae6d47404c80e33c3bd4f3684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5208901261892682000 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3757593443323681354, guid: 92b398a1217fa5c4993a8e1d17c53d69, type: 3}
+  m_PrefabInstance: {fileID: 5208901261892681996}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfe23d2584a9dd5489378606fb9a37a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &6473867631912225678

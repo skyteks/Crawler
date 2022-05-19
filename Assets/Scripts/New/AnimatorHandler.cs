@@ -62,4 +62,6 @@ public abstract class AnimatorHandler : MonoBehaviour
     }
 
     public abstract void TakeSpecialDamage(); ///Animation Event
+
+    public abstract void DropStuffOnDeath(); ///Animation Event
 }

@@ -50,4 +50,14 @@ public class EnemyAnimatorHandler : AnimatorHandler
         stats.TakeDamage(enemyManager.pendingSpecialAttackDamage, true);
         enemyManager.pendingSpecialAttackDamage = 0;
     }
+
+    public override void DropStuffOnDeath() ///Animation Event
+    {
+        PlayerStats playerStats = FindObjectOfType<PlayerStats>();
+
+        if (playerStats != null)
+        {
+            playerStats.AddExp(stats.expDropped);
+        }
+    }
 }

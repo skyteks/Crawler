@@ -50,15 +50,18 @@ public class PlayerStats : CharacterStats
     public ABarUI healthbar;
     public ABarUI staminaBar;
     public ABarUI manaBar;
+    public ABarUI expBar;
 
     private PlayerManager playerManager;
     private PlayerAnimatorHandler animHandler;
 
     public PointsStat stamina;
     public PointsStat mana;
+    public int currentExp;
 
-    void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         playerManager = GetComponent<PlayerManager>();
         animHandler = GetComponentInChildren<PlayerAnimatorHandler>();
     }
@@ -152,5 +155,11 @@ public class PlayerStats : CharacterStats
         {
             manaBar.SetFill(mana.currentValue, mana.max);
         }
+    }
+
+    public void AddExp(int exp)
+    {
+        currentExp += exp;
+        expBar?.SetFill(currentExp, float.NaN);
     }
 }

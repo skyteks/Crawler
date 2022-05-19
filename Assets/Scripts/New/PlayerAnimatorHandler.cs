@@ -121,4 +121,8 @@ public class PlayerAnimatorHandler : AnimatorHandler
         stats.TakeDamage(playerManager.pendingSpecialAttackDamage, true);
         playerManager.pendingSpecialAttackDamage = 0;
     }
+
+    public override void DropStuffOnDeath()
+    {
+    }
 }

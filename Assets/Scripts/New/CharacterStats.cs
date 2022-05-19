@@ -9,11 +9,11 @@ public abstract class CharacterStats : MonoBehaviour
     protected int currentHealth;
     public bool isDead => currentHealth <= 0;
 
-    private Animator anim;
+    protected AnimatorHandler animatorHandler;
 
-    void Awake()
+    protected virtual void Awake()
     {
-        anim = GetComponentInChildren<Animator>();
+        animatorHandler = GetComponentInChildren<AnimatorHandler>();
     }
 
     protected virtual void Start()
@@ -31,18 +31,23 @@ public abstract class CharacterStats : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            currentHealth = 0;
-            if (!noAnim)
-            {
-                anim.Play(PlayerAnimatorHandler.hashDeath1);
-            }
+            HandleDeath(noAnim);
         }
         else
         {
             if (!noAnim)
             {
-                anim.Play(PlayerAnimatorHandler.hashDamage1);
+                animatorHandler.PlayTargetAnimation(AnimatorHandler.hashDamage1, true);
             }
+        }
+    }
+
+    protected virtual void HandleDeath(bool noAnim = false)
+    {
+        currentHealth = 0;
+        if (!noAnim)
+        {
+            animatorHandler.PlayTargetAnimation(AnimatorHandler.hashDeath1, true);
         }
     }
 }
