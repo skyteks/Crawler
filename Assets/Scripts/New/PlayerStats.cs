@@ -74,7 +74,7 @@ public class PlayerStats : CharacterStats
         manaBar?.SetFill(mana.currentValue, stamina.max);
     }
 
-    public override void TakeDamage(int damage)
+    public override void TakeDamage(int damage, bool noAnim = false)
     {
         if (playerManager.isInvulnerable)
         {
@@ -91,12 +91,17 @@ public class PlayerStats : CharacterStats
         if (currentHealth <= 0)
         {
             currentHealth = 0;
-            animHandler.PlayTargetAnimation(AnimatorHandler.hashDeath1, true);
-            //TODO: Handle player death
+            if (!noAnim)
+            {
+                animHandler.PlayTargetAnimation(AnimatorHandler.hashDeath1, true);
+            }
         }
         else
         {
-            animHandler.PlayTargetAnimation(AnimatorHandler.hashDamage1, true);
+            if (!noAnim)
+            {
+                animHandler.PlayTargetAnimation(AnimatorHandler.hashDamage1, true);
+            }
         }
     }
 

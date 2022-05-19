@@ -6,11 +6,13 @@ using UnityEngine;
 public class EnemyAnimatorHandler : AnimatorHandler
 {
     private EnemyManager enemyManager;
+    private EnemyStats stats;
 
     void Awake()
     {
         Initialize();
         enemyManager = GetComponentInParent<EnemyManager>();
+        stats = GetComponentInParent<EnemyStats>();
     }
 
     void OnAnimatorMove()
@@ -30,6 +32,22 @@ public class EnemyAnimatorHandler : AnimatorHandler
             throw new System.ArgumentException();
         }
         bool toggle = eventInfo > 0;
-        //anim.SetBool(hashCanCombo, toggle);
+        anim.SetBool(hashCanCombo, toggle);
+    }
+
+    public void ToggleCanRotate(int eventInfo) ///Animation Event
+    {
+        if (eventInfo != 0 && eventInfo != 1)
+        {
+            throw new System.ArgumentException();
+        }
+        bool toggle = eventInfo > 0;
+        anim.SetBool(hashCanRotate, toggle);
+    }
+
+    public override void TakeSpecialDamage() ///Animation Event
+    {
+        stats.TakeDamage(enemyManager.pendingSpecialAttackDamage, true);
+        enemyManager.pendingSpecialAttackDamage = 0;
     }
 }

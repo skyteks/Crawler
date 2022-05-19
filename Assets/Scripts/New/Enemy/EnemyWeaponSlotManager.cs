@@ -88,9 +88,15 @@ public class EnemyWeaponSlotManager : MonoBehaviour
     public void ToggleDamageCollider(int eventInfo) ///Animation Event
     {
         bool toggle = eventInfo > 0;
-        rightHandDamageCollider.ToggleDamageCollider(toggle);
+        if (rightHandDamageCollider != null)
+        {
+            rightHandDamageCollider.ToggleDamageCollider(toggle);
+        }
+        else
+        {
+            Debug.LogError("rightHandDamageCollider == NULL");
+        }
     }
-
 
     #region Weapon Stamina Drainage
     public void DrainStaminaLightAttack() ///Animation Event

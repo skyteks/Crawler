@@ -29,10 +29,12 @@ public class EnemyManager : CharacterManager
     void Awake()
     {
         locomotion = GetComponent<EnemyLocomotion>();
-        animatorHandler = GetComponentInChildren<EnemyAnimatorHandler>();
         stats = GetComponent<EnemyStats>();
-        agent = GetComponentInChildren<NavMeshAgent>();
         rigid = GetComponent<Rigidbody>();
+
+        animatorHandler = GetComponentInChildren<EnemyAnimatorHandler>();
+        agent = GetComponentInChildren<NavMeshAgent>();
+        backStabTrigger = GetComponentInChildren<BackStabTrigger>();
     }
 
     void Start()
@@ -45,7 +47,8 @@ public class EnemyManager : CharacterManager
     {
         HandleRecoveryTimer();
 
-        isInteracting = animatorHandler.anim.GetBool("isInteracting");
+        isInteracting = animatorHandler.anim.GetBool(AnimatorHandler.hashIsInteracting);
+        animatorHandler.anim.SetBool(AnimatorHandler.hashIsDead, stats.isDead);
     }
 
     void FixedUpdate()

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WeaponPickup : Interactable
 {
@@ -20,11 +21,11 @@ public class WeaponPickup : Interactable
         PlayerAnimatorHandler animatorHandler = playerManager.GetComponentInChildren<PlayerAnimatorHandler>();
 
         playerLocomotion.rigid.velocity = Vector3.zero;
-        animatorHandler.PlayTargetAnimation(PlayerAnimatorHandler.hashPickUpItem, true);
+        animatorHandler.PlayTargetAnimation(AnimatorHandler.hashPickUpItem, true);
         playerInventory.weaponsInventory.Add(weapon);
 
         playerManager.itemInteractableGO.SetActive(true);
-        playerManager.itemInteractableGO.GetComponentInChildren<UnityEngine.UI.Text>().text = weapon.name;
+        playerManager.itemInteractableGO.GetComponentInChildren<Text>().text = weapon.name;
 
         Destroy(gameObject);
     }

@@ -8,7 +8,8 @@ public class PlayerManager : CharacterManager
     private Animator anim;
     private CameraHandler cameraHandler;
     private PlayerLocomotion locomotion;
-    private PlayerStats playerStats;
+    private PlayerStats stats;
+    private PlayerAnimatorHandler animatorHandler;
     private InteractableUI interactableUI;
     public GameObject itemInteractableGO;
 
@@ -25,9 +26,13 @@ public class PlayerManager : CharacterManager
     void Awake()
     {
         inputHandler = GetComponent<InputHandler>();
-        anim = GetComponentInChildren<Animator>();
         locomotion = GetComponent<PlayerLocomotion>();
-        playerStats = GetComponent<PlayerStats>();
+        stats = GetComponent<PlayerStats>();
+
+        anim = GetComponentInChildren<Animator>();
+        animatorHandler = GetComponentInChildren<PlayerAnimatorHandler>();
+        backStabTrigger = GetComponentInChildren<BackStabTrigger>();
+
         cameraHandler = FindObjectOfType<CameraHandler>();
         interactableUI = FindObjectOfType<InteractableUI>();
     }
@@ -39,15 +44,17 @@ public class PlayerManager : CharacterManager
         isUsingLeftHand = anim.GetBool(AnimatorHandler.hashIsUsingLeftHand);
         isUsingRightHand = anim.GetBool(AnimatorHandler.hashIsUsingRightHand);
         isInvulnerable = anim.GetBool(AnimatorHandler.hashIsInvulnerable);
+        animatorHandler.canRotate = anim.GetBool(AnimatorHandler.hashCanRotate);
 
         anim.SetBool(AnimatorHandler.hashIsAirborne, isAirborne);
+        anim.SetBool(AnimatorHandler.hashIsDead, stats.isDead);
 
         float delta = Time.deltaTime;
         inputHandler.TickInput(delta);
         locomotion.HandleRollingAndSprinting(delta);
         locomotion.HandleJumping();
-        playerStats.RegenerateStamina();
-        playerStats.RegenerateMana();
+        stats.RegenerateStamina();
+        stats.RegenerateMana();
 
         CheckForInteractableObject();
     }
@@ -57,6 +64,7 @@ public class PlayerManager : CharacterManager
         float delta = Time.fixedDeltaTime;
         locomotion.HandleMovement(delta);
         locomotion.HandleFalling(delta, locomotion.moveDirection);
+        locomotion.HandleRotation(delta);
     }
 
     void LateUpdate()
@@ -85,6 +93,8 @@ public class PlayerManager : CharacterManager
         }
     }
 
+    #region Player Interactions
+
     public void CheckForInteractableObject()
     {
         RaycastHit hit;
@@ -112,4 +122,13 @@ public class PlayerManager : CharacterManager
             }
         }
     }
+
+    public void OpenChestInteraction(Transform playerStandpoint)
+    {
+        locomotion.rigid.velocity = Vector3.zero;
+        transform.position = playerStandpoint.position;
+        animatorHandler.PlayTargetAnimation(AnimatorHandler.hashOpenChest, true);
+    }
+
+    #endregion
 }

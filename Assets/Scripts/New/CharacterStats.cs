@@ -21,22 +21,28 @@ public abstract class CharacterStats : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    public virtual void TakeDamage(int damage)
+    public virtual void TakeDamage(int damage, bool noAnim = false)
     {
         if (isDead)
         {
             return;
         }
         currentHealth = Mathf.Clamp(currentHealth - damage, 0, maxHealth);
-        
+
         if (currentHealth <= 0)
         {
             currentHealth = 0;
-            anim.Play(PlayerAnimatorHandler.hashDeath1);
+            if (!noAnim)
+            {
+                anim.Play(PlayerAnimatorHandler.hashDeath1);
+            }
         }
         else
         {
-            anim.Play(PlayerAnimatorHandler.hashDamage1);
+            if (!noAnim)
+            {
+                anim.Play(PlayerAnimatorHandler.hashDamage1);
+            }
         }
     }
 }

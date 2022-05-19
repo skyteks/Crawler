@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class DamageCollider : MonoBehaviour
 {
-    public int curWepDmg = 1;
+    public int currentWeaponDamage;
 
     private Collider damageCollider;
 
@@ -21,7 +21,7 @@ public class DamageCollider : MonoBehaviour
         CharacterStats stats = other.GetComponent<CharacterStats>();
         if (stats != null)
         {
-            stats.TakeDamage(curWepDmg);
+            stats.TakeDamage(currentWeaponDamage);
         }
     }
 

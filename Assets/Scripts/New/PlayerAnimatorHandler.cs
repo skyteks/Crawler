@@ -6,9 +6,9 @@ using UnityEngine;
 public class PlayerAnimatorHandler : AnimatorHandler
 {
     private PlayerManager playerManager;
+    private PlayerStats stats;
     private InputHandler inputHandler;
     private PlayerLocomotion locomotion;
-    public bool canRotate;
 
     void OnAnimatorMove()
     {
@@ -29,6 +29,7 @@ public class PlayerAnimatorHandler : AnimatorHandler
     {
         base.Initialize();
         playerManager = GetComponentInParent<PlayerManager>();
+        stats = GetComponentInParent<PlayerStats>();
         inputHandler = GetComponentInParent<InputHandler>();
         locomotion = GetComponentInParent<PlayerLocomotion>();
     }
@@ -75,13 +76,6 @@ public class PlayerAnimatorHandler : AnimatorHandler
         return value;
     }
 
-    public void PlayTargetAnimation(int targetAnimId, bool isInteracting)
-    {
-        anim.applyRootMotion = isInteracting;
-        anim.SetBool(hashIsInteracting, isInteracting);
-        anim.CrossFade(targetAnimId, 0.2f);
-    }
-
     public void SetAnimBool(string name, bool value)
     {
         anim.SetBool(name, value);
@@ -109,6 +103,22 @@ public class PlayerAnimatorHandler : AnimatorHandler
             throw new System.ArgumentException();
         }
         bool toggle = eventInfo > 0;
-        anim.SetBool(AnimatorHandler.hashIsInvulnerable, toggle);
+        anim.SetBool(hashIsInvulnerable, toggle);
+    }
+
+    public void ToggleCanRotate(int eventInfo) ///Animation Event
+    {
+        if (eventInfo != 0 && eventInfo != 1)
+        {
+            throw new System.ArgumentException();
+        }
+        bool toggle = eventInfo > 0;
+        anim.SetBool(hashCanRotate, toggle);
+    }
+
+    public override void TakeSpecialDamage()
+    {
+        stats.TakeDamage(playerManager.pendingSpecialAttackDamage, true);
+        playerManager.pendingSpecialAttackDamage = 0;
     }
 }

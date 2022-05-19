@@ -8,11 +8,12 @@ public class WeaponSlotManager : MonoBehaviour
     private WeaponHolderSlot rightHandSlot;
     private WeaponHolderSlot carryOnBackSlot;
 
-    private DamageCollider leftHandDamageCollider;
-    private DamageCollider rightHandDamageCollider;
+    public DamageCollider leftHandDamageCollider;
+    public DamageCollider rightHandDamageCollider;
 
     private Animator anim;
     private PlayerManager playerManager;
+    private PlayerInventory inventory;
     private QuickSlotsUI quickSlotsUI;
     private PlayerStats playerStats;
     private InputHandler inputHandler;
@@ -23,6 +24,7 @@ public class WeaponSlotManager : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         playerManager = GetComponentInParent<PlayerManager>();
+        inventory = GetComponentInParent<PlayerInventory>();
         quickSlotsUI = FindObjectOfType<QuickSlotsUI>();
         playerStats = GetComponentInParent<PlayerStats>();
         inputHandler = GetComponentInParent<InputHandler>();
@@ -107,12 +109,14 @@ public class WeaponSlotManager : MonoBehaviour
                 if (leftHandSlot.currentWeaponInstance != null)
                 {
                     leftHandDamageCollider = leftHandSlot.currentWeaponInstance.GetComponentInChildren<DamageCollider>();
+                    leftHandDamageCollider.currentWeaponDamage = inventory.leftHandWeapon.baseDamage;
                 }
                 break;
             case WeaponHolderSlot.SlotTypes.rightHand:
                 if (rightHandSlot.currentWeaponInstance != null)
                 {
                     rightHandDamageCollider = rightHandSlot.currentWeaponInstance.GetComponentInChildren<DamageCollider>();
+                    rightHandDamageCollider.currentWeaponDamage = inventory.rightHandWeapon.baseDamage;
                 }
                 break;
             default:
@@ -136,9 +140,14 @@ public class WeaponSlotManager : MonoBehaviour
         }
         else
         {
-            leftHandDamageCollider.ToggleDamageCollider(toggle);
-            rightHandDamageCollider.ToggleDamageCollider(toggle);
-
+            if (leftHandDamageCollider != null)
+            {
+                leftHandDamageCollider.ToggleDamageCollider(toggle);
+            }
+            if (rightHandDamageCollider != null)
+            {
+                rightHandDamageCollider.ToggleDamageCollider(toggle);
+            }
         }
     }
 

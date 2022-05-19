@@ -5,6 +5,10 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Items/WeaponItem")]
 public class WeaponItem : Item
 {
+    [Header("Damage")]
+    public int baseDamage = 25;
+    public int criticalDamageMultiplier = 2;
+
     [Header("Stamina Costs")]
     public int staminaCostLightAttack;
     public int staminaCostHeavyAttack;

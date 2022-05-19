@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerAttacking : MonoBehaviour
 {
+    public float backStabDistance = 1f;
+
     private PlayerAnimatorHandler animatorHandler;
     private PlayerManager playerManager;
     private PlayerStats stats;
@@ -12,6 +14,7 @@ public class PlayerAttacking : MonoBehaviour
     private WeaponSlotManager weaponSlotManager;
 
     private string lastAttack;
+    private LayerMask backStabLayer;
 
     void Awake()
     {
@@ -22,10 +25,17 @@ public class PlayerAttacking : MonoBehaviour
 
         animatorHandler = GetComponent<PlayerAnimatorHandler>();
         weaponSlotManager = GetComponent<WeaponSlotManager>();
+
+        backStabLayer = new LayerMask().ToNothing().Add(LayerMask.NameToLayer("BackStab"));
     }
 
     public void HandleWeaponCombo(WeaponItem weapon)
     {
+        if (stats.stamina.currentValue <= 0f)
+        {
+            return;
+        }
+
         if (inputHandler.comboFlag)
         {
             animatorHandler.SetAnimBool(AnimatorHandler.hashCanCombo, false);
@@ -55,6 +65,11 @@ public class PlayerAttacking : MonoBehaviour
 
     public void HandleLightAttack(WeaponItem weapon)
     {
+        if (stats.stamina.currentValue <= 0f)
+        {
+            return;
+        }
+
         weaponSlotManager.attackingWeapon = weapon;
         string attack;
 
@@ -72,6 +87,11 @@ public class PlayerAttacking : MonoBehaviour
 
     public void HandleHeavyAttack(WeaponItem weapon)
     {
+        if (stats.stamina.currentValue <= 0f)
+        {
+            return;
+        }
+
         weaponSlotManager.attackingWeapon = weapon;
         string attack;
 
@@ -143,6 +163,41 @@ public class PlayerAttacking : MonoBehaviour
                 {
                     //SHRUG
                 }
+            }
+        }
+    }
+
+    public void PerformBackStabOrRiposte()
+    {
+        if (stats.stamina.currentValue <= 0f)
+        {
+            return;
+        }
+
+        RaycastHit hit;
+        if (Physics.Raycast(inputHandler.specialAttackRayCastStartPoint.position, transform.forward, out hit, backStabDistance, backStabLayer))
+        {
+
+            CharacterManager enemyCharacterManager = hit.transform.GetComponentInParent<CharacterManager>();
+            DamageCollider rightHandWeapon = weaponSlotManager.rightHandDamageCollider;
+
+            if (enemyCharacterManager != null)
+            {
+                Debug.DrawRay(inputHandler.specialAttackRayCastStartPoint.position, transform.forward, Color.yellow, 1f);
+
+                playerManager.transform.position = enemyCharacterManager.backStabTrigger.backStabberStandpoint.position;
+                Vector3 rotationDirection = hit.transform.position - playerManager.transform.position;
+                rotationDirection.y = 0;
+                rotationDirection.Normalize();
+                Quaternion targetRotation = Quaternion.LookRotation(rotationDirection);
+                targetRotation = Quaternion.Slerp(playerManager.transform.rotation, targetRotation, Time.deltaTime * 100f);
+                playerManager.transform.rotation = targetRotation;
+
+                int specialDamage = inventory.rightHandWeapon.criticalDamageMultiplier * rightHandWeapon.currentWeaponDamage;
+                enemyCharacterManager.pendingSpecialAttackDamage = specialDamage;
+
+                animatorHandler.PlayTargetAnimation(AnimatorHandler.hashDoBackStab, true);
+                enemyCharacterManager.GetComponentInChildren<EnemyAnimatorHandler>().PlayTargetAnimation(AnimatorHandler.hashGetBackStabbed, true);
             }
         }
     }
